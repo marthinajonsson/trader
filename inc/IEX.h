@@ -7,29 +7,26 @@
 
 #include <json/json.h>
 #include <curl/curl.h>
+#include <locale> //std::locale, std::isdigit
+#include <string>
+#include <cassert>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <boost/algorithm/string.hpp>
 
 #define IEX_ENDPOINT "https://api.iextrading.com/1.0"
 
 namespace IEX {
 
-    void sendRequest(Json::Value &jsonData, const std::string url);
+    void sendHttpGetRequest(Json::Value &jsonData, const std::string url);
     void parseSymbolData(const Json::Value &, std::vector<std::string> &);
-
+    void parseArgData(const Json::Value &IEXdata, std::vector<std::string> &argVec, std::string &&arg);
     bool isValidSymbol(const std::string &);
     std::vector<std::string> getSymbolList();
 
-
-    namespace stock{
-
-        namespace symbol {
-
-        }
-
-        namespace market{
-            Json::Value today_earnings;
-
-        }
-
+    namespace stock {
+        Json::Value company(const std::string &symbol);
     }
 }
 

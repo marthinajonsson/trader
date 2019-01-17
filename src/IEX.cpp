@@ -10,28 +10,7 @@
 #include <assert.h>
 #include <algorithm>
 #include <memory>
-
-
-std::vector<std::string> IEX::getSymbolList()
-{
-    Json::Value jsonData;
-    std::string url(IEX_ENDPOINT);
-    std::vector<std::string> symbolList;
-    url += "/ref-data/symbols";
-    IEX::sendRequest(jsonData, url);
-    assert(jsonData.isArray()); //Crash if not an array
-    parseSymbolData(jsonData, symbolList);
-    return symbolList;
-
-}
-
-bool IEX::isValidSymbol(const std::string &symbol)
-{
-    std::vector<std::string> symbolList = getSymbolList();
-    std::string symbolCopy = symbol;
-    boost::to_upper(symbolCopy);
-    return std::find(symbolList.begin(), symbolList.end(), symbolCopy) != symbolList.end();
-}
+#include <iostream>
 
 std::size_t callback(const char* in, std::size_t size, std::size_t num, std::string* out)
 {
@@ -40,7 +19,36 @@ std::size_t callback(const char* in, std::size_t size, std::size_t num, std::str
     return totalBytes;
 }
 
-void IEX::sendRequest(Json::Value &jsonData, const std::string url)
+
+
+void IEX::parseSymbolData(const Json::Value &IEXdata, std::vector<std::string> &symbolVec)
+{
+    int i = 0;
+    //Step through JSON file until the end is reached
+    while(i < IEXdata.size()) {
+        symbolVec.push_back(IEXdata[i]["symbol"].asString());
+        i++;
+    }
+}
+
+void IEX::parseArgData(const Json::Value &IEXdata, std::vector<std::string> &argVec, std::string &&arg)
+{
+    for( Json::Value::const_iterator outer = IEXdata.begin() ; outer != IEXdata.end() ; outer++ )
+    {
+        auto val = *outer;
+        auto key = outer.key();
+        auto valtype = val.type();
+        auto name = outer.name();
+
+        if(valtype == Json::ValueType::stringValue) {
+            std::cout << val << std::endl;
+        }
+    }
+
+}
+
+
+void IEX::sendHttpGetRequest(Json::Value &jsonData, const std::string url)
 {
     CURL* curl = curl_easy_init();
 
@@ -57,17 +65,47 @@ void IEX::sendRequest(Json::Value &jsonData, const std::string url)
     curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &httpCode);
     curl_easy_cleanup(curl);
 
-    Json::Reader jsonReader;
-    bool result = jsonReader.parse(*httpData, jsonData);
+    Json::CharReaderBuilder builder;
+    Json::CharReader * reader = builder.newCharReader();
+    std::string errors;
+
+    bool result = reader->parse(httpData.get()->c_str(), httpData->end().base(), &jsonData, &errors);
+
+    delete reader;
     assert(result);
 }
 
-void IEX::parseSymbolData(const Json::Value &IEXdata, std::vector<std::string> &symbolVec)
+std::vector<std::string> IEX::getSymbolList()
 {
-    int i = 0;
-    //Step through JSON file until the end is reached
-    while(i < IEXdata.size()) {
-        symbolVec.push_back(IEXdata[i]["symbol"].asString());
-        i++;
+    Json::Value jsonData;
+    std::string url(IEX_ENDPOINT);
+    std::vector<std::string> symbolList;
+    url += "/ref-data/symbols";
+    IEX::sendHttpGetRequest(jsonData, url);
+    assert(jsonData.isArray());
+    parseSymbolData(jsonData, symbolList);
+    return symbolList;
+}
+
+bool IEX::isValidSymbol(const std::string &symbol)
+{
+    std::vector<std::string> symbolList = getSymbolList();
+    std::string symbolCopy = symbol;
+    boost::to_upper(symbolCopy);
+    return std::find(symbolList.begin(), symbolList.end(), symbolCopy) != symbolList.end();
+}
+
+Json::Value IEX::stock::company(const std::string &symbol)
+{
+    Json::Value jsonData;
+
+    if(!isValidSymbol(symbol)){
+        std::cout << "Invalid Symbol! I am returning an uninitialized JSON object!";
+        return jsonData;
     }
+
+    std::string url(IEX_ENDPOINT);
+    url += "/stock/"+symbol+"/company";
+    IEX::sendHttpGetRequest(jsonData, url);
+    return jsonData;
 }

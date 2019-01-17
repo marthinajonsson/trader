@@ -5,6 +5,9 @@ set(CMAKE_CXX_STANDARD 17)
 
 include_directories(inc)
 include_directories(src)
+include_directories(external/gtest/googlemock)
+
+find_package(OpenSSL)
 
 set(externals
         ${CMAKE_CURRENT_LIST_DIR}/external/IEX/GetSetClearTA.cpp
@@ -20,12 +23,19 @@ set(externals
 
 set(headers
         ${CMAKE_CURRENT_LIST_DIR}/inc/IEX.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/ifc/ICommand.h inc/Command.h)
+        ${CMAKE_CURRENT_LIST_DIR}/inc/ifc/ICommand.h inc/Command.h inc/StockInfo.h)
 
 set(sources
         ${CMAKE_CURRENT_LIST_DIR}/src/IEX.cpp)
 
+enable_testing()
+add_subdirectory(external/gtest/googlemock)
+
+
 add_executable(trader main.cpp ${sources} ${headers})
+
+
 target_link_libraries(trader jsoncpp)
+target_link_libraries(trader gmock_main)
 target_link_libraries(trader curl)
 target_link_libraries(trader /usr/share/boost-build)
