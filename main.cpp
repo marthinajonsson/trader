@@ -3,18 +3,14 @@
 
 int main() {
 
-    Json::Value jsonData = IEX::stock::company("aapl");
-    for( Json::Value::const_iterator outer = jsonData.begin() ; outer != jsonData.end() ; outer++ )
-    {
-        auto keytype = outer.key().type();
-        auto val = *outer;
-        auto valtype = val.type();
-        std::cout << outer.key() << ": " << *outer << std::endl;
-    }
-    std::vector<std::string> list;
-    IEX::parseArgData(jsonData, list, "issueType");
+    Json::Value jsonData = IEX::stock::quote("aapl");
 
-  //  std::cout << list.front() << std::endl;
+    std::vector<std::string> list;
+    IEX::parseData(jsonData, list);
+
+    for (const auto &s : list) {
+        std::cout << s << std::endl;
+    }
 
     return 0;
 }

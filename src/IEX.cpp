@@ -31,20 +31,32 @@ void IEX::parseSymbolData(const Json::Value &IEXdata, std::vector<std::string> &
     }
 }
 
+void IEX::parseData(const Json::Value &IEXdata, std::vector<std::string> &argVec) {
+
+    for (Json::Value::const_iterator it=IEXdata.begin(); it!=IEXdata.end(); ++it) {
+        std::string data = it.key().asString() + ':' + it->asString();
+
+        argVec.emplace_back(data);
+    }
+}
+
 void IEX::parseArgData(const Json::Value &IEXdata, std::vector<std::string> &argVec, std::string &&arg)
 {
-    for( Json::Value::const_iterator outer = IEXdata.begin() ; outer != IEXdata.end() ; outer++ )
-    {
-        auto val = *outer;
-        auto key = outer.key();
-        auto valtype = val.type();
-        auto name = outer.name();
-
-        if(valtype == Json::ValueType::stringValue) {
-            std::cout << val << std::endl;
-        }
+   if(!IEXdata.isMember(arg)){
+        std::cout << "Key doesn't exists" << std::endl;
+        return;
     }
 
+    auto val = IEXdata[arg];
+    if(val.isArray()) {
+        for(const auto &v : val) {
+            argVec.emplace_back(v.asString());
+        }
+    }
+    else {
+        argVec.emplace_back(val.asString());
+
+    }
 }
 
 
@@ -93,19 +105,4 @@ bool IEX::isValidSymbol(const std::string &symbol)
     std::string symbolCopy = symbol;
     boost::to_upper(symbolCopy);
     return std::find(symbolList.begin(), symbolList.end(), symbolCopy) != symbolList.end();
-}
-
-Json::Value IEX::stock::company(const std::string &symbol)
-{
-    Json::Value jsonData;
-
-    if(!isValidSymbol(symbol)){
-        std::cout << "Invalid Symbol! I am returning an uninitialized JSON object!";
-        return jsonData;
-    }
-
-    std::string url(IEX_ENDPOINT);
-    url += "/stock/"+symbol+"/company";
-    IEX::sendHttpGetRequest(jsonData, url);
-    return jsonData;
 }

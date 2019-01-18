@@ -26,7 +26,7 @@ set(headers
         ${CMAKE_CURRENT_LIST_DIR}/inc/ifc/ICommand.h inc/Command.h inc/StockInfo.h)
 
 set(sources
-        ${CMAKE_CURRENT_LIST_DIR}/src/IEX.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/src/IEX.cpp src/IEXStock.cpp)
 
 enable_testing()
 add_subdirectory(external/gtest/googlemock)
