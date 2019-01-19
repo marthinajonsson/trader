@@ -20,16 +20,15 @@ std::size_t callback(const char* in, std::size_t size, std::size_t num, std::str
 }
 
 
-
-void IEX::parseSymbolData(const Json::Value &IEXdata, std::vector<std::string> &symbolVec)
+bool IEX::isValidSymbol(const std::string &symbol)
 {
-    int i = 0;
-    //Step through JSON file until the end is reached
-    while(i < IEXdata.size()) {
-        symbolVec.push_back(IEXdata[i]["symbol"].asString());
-        i++;
-    }
+    std::vector<std::string> symbolList = IEX::ref::symbols();
+    std::string symbolCopy = symbol;
+    boost::to_upper(symbolCopy);
+    return std::find(symbolList.begin(), symbolList.end(), symbolCopy) != symbolList.end();
 }
+
+
 
 void IEX::parseData(const Json::Value &IEXdata, std::vector<std::string> &argVec) {
 
@@ -85,24 +84,4 @@ void IEX::sendHttpGetRequest(Json::Value &jsonData, const std::string url)
 
     delete reader;
     assert(result);
-}
-
-std::vector<std::string> IEX::getSymbolList()
-{
-    Json::Value jsonData;
-    std::string url(IEX_ENDPOINT);
-    std::vector<std::string> symbolList;
-    url += "/ref-data/symbols";
-    IEX::sendHttpGetRequest(jsonData, url);
-    assert(jsonData.isArray());
-    parseSymbolData(jsonData, symbolList);
-    return symbolList;
-}
-
-bool IEX::isValidSymbol(const std::string &symbol)
-{
-    std::vector<std::string> symbolList = getSymbolList();
-    std::string symbolCopy = symbol;
-    boost::to_upper(symbolCopy);
-    return std::find(symbolList.begin(), symbolList.end(), symbolCopy) != symbolList.end();
 }

@@ -20,11 +20,15 @@
 namespace IEX {
 
     void sendHttpGetRequest(Json::Value &jsonData, const std::string url);
-    void parseSymbolData(const Json::Value &, std::vector<std::string> &);
     void parseData(const Json::Value &IEXdata, std::vector<std::string> &argVec);
     void parseArgData(const Json::Value &IEXdata, std::vector<std::string> &argVec, std::string &&arg);
+
     bool isValidSymbol(const std::string &);
-    std::vector<std::string> getSymbolList();
+
+    namespace ref {
+        void parseSymbolData(const Json::Value &, std::vector<std::string> &);
+        std::vector<std::string> symbols();
+    }
 
     namespace stock {
         Json::Value company(const std::string &symbol);
