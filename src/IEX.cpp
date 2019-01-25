@@ -68,6 +68,13 @@ void IEX::sendHttpGetRequest(Json::Value &jsonData, const std::string url)
     curl_easy_setopt(curl, CURLOPT_TIMEOUT, 10);
     curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
 
+
+    curl_easy_setopt(curl, CURLOPT_RTSP_TRANSPORT, true);
+    curl_easy_setopt(curl, CURLOPT_HEADER, false);
+    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, false);
+    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, false);
+
+
     long int httpCode(0);
     std::unique_ptr<std::string> httpData(new std::string());
     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, callback);
@@ -82,6 +89,9 @@ void IEX::sendHttpGetRequest(Json::Value &jsonData, const std::string url)
 
     bool result = reader->parse(httpData.get()->c_str(), httpData->end().base(), &jsonData, &errors);
 
+    if(!result) {
+        std::cout << "False request" << std::endl;
+    }
     delete reader;
-    assert(result);
+
 }
