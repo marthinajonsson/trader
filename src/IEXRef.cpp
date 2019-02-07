@@ -15,7 +15,7 @@ void IEX::ref::parseSymbolData(const Json::Value &IEXdata, std::vector<std::stri
     }
 }
 
-std::vector<std::string> IEX::ref::symbols()
+std::vector<std::string> IEX::ref::availableSymbols()
 {
     Json::Value jsonData;
     std::string url(IEX_ENDPOINT);

@@ -27,7 +27,7 @@ namespace IEX {
 
     namespace ref {
         void parseSymbolData(const Json::Value &, std::vector<std::string> &);
-        std::vector<std::string> symbols();
+        std::vector<std::string> avaliableSymbols();
     }
 
     namespace stock {

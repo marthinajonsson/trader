@@ -23,10 +23,13 @@ set(externals
 
 set(headers
         ${CMAKE_CURRENT_LIST_DIR}/inc/IEX.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/ifc/ICommand.h inc/Command.h inc/StockInfo.h)
+        ${CMAKE_CURRENT_LIST_DIR}/inc/StockInfo.h
+        ${CMAKE_CURRENT_LIST_DIR}/inc/Util.h)
 
 set(sources
-        ${CMAKE_CURRENT_LIST_DIR}/src/IEX.cpp src/IEXStock.cpp src/IEXRef.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/src/IEX.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/IEXStock.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/IEXRef.cpp unittest/HTMLRequestTest.cpp)
 
 enable_testing()
 add_subdirectory(external/gtest/googlemock)
