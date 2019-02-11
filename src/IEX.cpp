@@ -20,16 +20,6 @@ std::size_t callback(const char* in, std::size_t size, std::size_t num, std::str
 }
 
 
-bool IEX::isValidSymbol(const std::string &symbol)
-{
-    std::vector<std::string> symbolList = IEX::ref::symbols();
-    std::string symbolCopy = symbol;
-    boost::to_upper(symbolCopy);
-    return std::find(symbolList.begin(), symbolList.end(), symbolCopy) != symbolList.end();
-}
-
-
-
 void IEX::parseData(const Json::Value &IEXdata, std::vector<std::string> &argVec) {
 
     for (Json::Value::const_iterator it=IEXdata.begin(); it!=IEXdata.end(); ++it) {
@@ -58,6 +48,14 @@ void IEX::parseArgData(const Json::Value &IEXdata, std::vector<std::string> &arg
     }
 }
 
+bool IEX::isValidSymbol(const std::string &symbol)
+{
+    std::vector<std::string> symbolList = IEX::ref::getSymbolList();
+    std::string symbolCopy = symbol;
+    boost::to_upper(symbolCopy);
+    return std::find(symbolList.begin(), symbolList.end(), symbolCopy) != symbolList.end();
+}
+
 
 void IEX::sendHttpGetRequest(Json::Value &jsonData, const std::string url)
 {
@@ -67,13 +65,6 @@ void IEX::sendHttpGetRequest(Json::Value &jsonData, const std::string url)
     curl_easy_setopt(curl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
     curl_easy_setopt(curl, CURLOPT_TIMEOUT, 10);
     curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
-
-
-    curl_easy_setopt(curl, CURLOPT_RTSP_TRANSPORT, true);
-    curl_easy_setopt(curl, CURLOPT_HEADER, false);
-    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, false);
-    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, false);
-
 
     long int httpCode(0);
     std::unique_ptr<std::string> httpData(new std::string());

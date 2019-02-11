@@ -1,0 +1,802 @@
+[
+	{
+		"companyName" : "Agilent Technologies Inc.",
+		"symbol" : "A"
+	},
+	{
+		"companyName" : "Alcoa Corporation",
+		"symbol" : "AA"
+	},
+	{
+		"companyName" : "Perth Mint Physical Gold",
+		"symbol" : "AAAU"
+	},
+	{
+		"companyName" : "Altaba Inc.",
+		"symbol" : "AABA"
+	},
+	{
+		"companyName" : "AAC Holdings Inc.",
+		"symbol" : "AAC"
+	},
+	{
+		"companyName" : "AdvisorShares Dorsey Wright ADR",
+		"symbol" : "AADR"
+	},
+	{
+		"companyName" : "American Airlines Group Inc.",
+		"symbol" : "AAL"
+	},
+	{
+		"companyName" : "Altisource Asset Management Corp Com",
+		"symbol" : "AAMC"
+	},
+	{
+		"companyName" : "Atlantic American Corporation",
+		"symbol" : "AAME"
+	},
+	{
+		"companyName" : "Aaron's Inc.",
+		"symbol" : "AAN"
+	},
+	{
+		"companyName" : "Applied Optoelectronics Inc.",
+		"symbol" : "AAOI"
+	},
+	{
+		"companyName" : "AAON Inc.",
+		"symbol" : "AAON"
+	},
+	{
+		"companyName" : "Advance Auto Parts Inc W/I",
+		"symbol" : "AAP"
+	},
+	{
+		"companyName" : "Apple Inc.",
+		"symbol" : "AAPL"
+	},
+	{
+		"companyName" : "American Assets Trust Inc.",
+		"symbol" : "AAT"
+	},
+	{
+		"companyName" : "Almaden Minerals Ltd.",
+		"symbol" : "AAU"
+	},
+	{
+		"companyName" : "Atlas Air Worldwide Holdings",
+		"symbol" : "AAWW"
+	},
+	{
+		"companyName" : "iShares MSCI All Country Asia ex Japan Index Fund",
+		"symbol" : "AAXJ"
+	},
+	{
+		"companyName" : "Axon Enterprise Inc.",
+		"symbol" : "AAXN"
+	},
+	{
+		"companyName" : "AllianceBernstein Holding L.P. Units",
+		"symbol" : "AB"
+	},
+	{
+		"companyName" : "ABB Ltd",
+		"symbol" : "ABB"
+	},
+	{
+		"companyName" : "AbbVie Inc.",
+		"symbol" : "ABBV"
+	},
+	{
+		"companyName" : "AmerisourceBergen Corporation",
+		"symbol" : "ABC"
+	},
+	{
+		"companyName" : "Ameris Bancorp",
+		"symbol" : "ABCB"
+	},
+	{
+		"companyName" : "Alcentra Capital Corp.",
+		"symbol" : "ABDC"
+	},
+	{
+		"companyName" : "Abeona Therapeutics Inc.",
+		"symbol" : "ABEO"
+	},
+	{
+		"companyName" : "",
+		"symbol" : "ABEOW"
+	},
+	{
+		"companyName" : "Ambev S.A. American Depositary Shares (Each representing 1)",
+		"symbol" : "ABEV"
+	},
+	{
+		"companyName" : "Asbury Automotive Group Inc",
+		"symbol" : "ABG"
+	},
+	{
+		"companyName" : "Ability Inc.",
+		"symbol" : "ABIL"
+	},
+	{
+		"companyName" : "ARCA biopharma Inc.",
+		"symbol" : "ABIO"
+	},
+	{
+		"companyName" : "ABM Industries Incorporated",
+		"symbol" : "ABM"
+	},
+	{
+		"companyName" : "ABIOMED Inc.",
+		"symbol" : "ABMD"
+	},
+	{
+		"companyName" : "Arbor Realty Trust",
+		"symbol" : "ABR"
+	},
+	{
+		"companyName" : "Arbor Realty Trust Preferred Series A",
+		"symbol" : "ABR-A"
+	},
+	{
+		"companyName" : "Arbor Realty Trust Cumulative Redeemable Preferred Series B",
+		"symbol" : "ABR-B"
+	},
+	{
+		"companyName" : "Arbor Realty Trust Cumulative Redeemable Preferred Series C",
+		"symbol" : "ABR-C"
+	},
+	{
+		"companyName" : "Abbott Laboratories",
+		"symbol" : "ABT"
+	},
+	{
+		"companyName" : "Allegiance Bancshares Inc.",
+		"symbol" : "ABTX"
+	},
+	{
+		"companyName" : "Arbutus Biopharma Corporation",
+		"symbol" : "ABUS"
+	},
+	{
+		"companyName" : "Associated Capital Group Inc.",
+		"symbol" : "AC"
+	},
+	{
+		"companyName" : "Arcosa Inc.",
+		"symbol" : "ACA"
+	},
+	{
+		"companyName" : "ACADIA Pharmaceuticals Inc.",
+		"symbol" : "ACAD"
+	},
+	{
+		"companyName" : "Aurora Cannabis Inc.",
+		"symbol" : "ACB"
+	},
+	{
+		"companyName" : "Atlantic Capital Bancshares Inc.",
+		"symbol" : "ACBI"
+	},
+	{
+		"companyName" : "American Campus Communities Inc",
+		"symbol" : "ACC"
+	},
+	{
+		"companyName" : "Acco Brands Corporation",
+		"symbol" : "ACCO"
+	},
+	{
+		"companyName" : "Acer Therapeutics Inc.",
+		"symbol" : "ACER"
+	},
+	{
+		"companyName" : "ALPS Clean Energy",
+		"symbol" : "ACES"
+	},
+	{
+		"companyName" : "Aceto Corporation",
+		"symbol" : "ACET"
+	},
+	{
+		"companyName" : "Arch Capital Group Ltd.",
+		"symbol" : "ACGL"
+	},
+	{
+		"companyName" : "Arch Capital Group Ltd. Depositary Shares Each Representing 1/1000th Interest in a Share of5.45% Non-Cumulative Preferred Shares Series F",
+		"symbol" : "ACGLO"
+	},
+	{
+		"companyName" : "Arch Capital Group Ltd. Depositary Shares Representing Interest in 5.25% Non-Cumulative Preferred Series E Shrs",
+		"symbol" : "ACGLP"
+	},
+	{
+		"companyName" : "Aluminum Corporation of China Limited American Depositary Shares",
+		"symbol" : "ACH"
+	},
+	{
+		"companyName" : "Acadia Healthcare Company Inc.",
+		"symbol" : "ACHC"
+	},
+	{
+		"companyName" : "Achillion Pharmaceuticals Inc.",
+		"symbol" : "ACHN"
+	},
+	{
+		"companyName" : "Achieve Life Sciences Inc.",
+		"symbol" : "ACHV"
+	},
+	{
+		"companyName" : "Acacia Communications Inc.",
+		"symbol" : "ACIA"
+	},
+	{
+		"companyName" : "SPDR MSCI ACWI IMI",
+		"symbol" : "ACIM"
+	},
+	{
+		"companyName" : "AC Immune SA",
+		"symbol" : "ACIU"
+	},
+	{
+		"companyName" : "ACI Worldwide Inc.",
+		"symbol" : "ACIW"
+	},
+	{
+		"companyName" : "Axcelis Technologies Inc.",
+		"symbol" : "ACLS"
+	},
+	{
+		"companyName" : "AECOM",
+		"symbol" : "ACM"
+	},
+	{
+		"companyName" : "ACM Research Inc.",
+		"symbol" : "ACMR"
+	},
+	{
+		"companyName" : "Accenture plc Class A (Ireland)",
+		"symbol" : "ACN"
+	},
+	{
+		"companyName" : "ACNB Corporation",
+		"symbol" : "ACNB"
+	},
+	{
+		"companyName" : "Acorda Therapeutics Inc.",
+		"symbol" : "ACOR"
+	},
+	{
+		"companyName" : "Aberdeen Income Credit Strategies Fund",
+		"symbol" : "ACP"
+	},
+	{
+		"companyName" : "Ares Commercial Real Estate Corporation",
+		"symbol" : "ACRE"
+	},
+	{
+		"companyName" : "Aclaris Therapeutics Inc.",
+		"symbol" : "ACRS"
+	},
+	{
+		"companyName" : "AcelRx Pharmaceuticals Inc.",
+		"symbol" : "ACRX"
+	},
+	{
+		"companyName" : "Xtrackers MSCI ACWI ex USA ESG Leaders Equity",
+		"symbol" : "ACSG"
+	},
+	{
+		"companyName" : "American Customer Satisfaction",
+		"symbol" : "ACSI"
+	},
+	{
+		"companyName" : "Acasti Pharma Inc.",
+		"symbol" : "ACST"
+	},
+	{
+		"companyName" : "AdvisorShares Vice ETF",
+		"symbol" : "ACT"
+	},
+	{
+		"companyName" : "Acacia Research Corporation",
+		"symbol" : "ACTG"
+	},
+	{
+		"companyName" : "Acme United Corporation.",
+		"symbol" : "ACU"
+	},
+	{
+		"companyName" : "AllianzGI Diversified Income & Convertible Fund of Beneficial Interest",
+		"symbol" : "ACV"
+	},
+	{
+		"companyName" : "iShares Edge MSCI Multifactor Global",
+		"symbol" : "ACWF"
+	},
+	{
+		"companyName" : "iShares MSCI ACWI Index Fund",
+		"symbol" : "ACWI"
+	},
+	{
+		"companyName" : "iShares Edge MSCI Min Vol Global",
+		"symbol" : "ACWV"
+	},
+	{
+		"companyName" : "iShares MSCI ACWI ex US Index Fund",
+		"symbol" : "ACWX"
+	},
+	{
+		"companyName" : "AeroCentury Corp.",
+		"symbol" : "ACY"
+	},
+	{
+		"companyName" : "Adaptimmune Therapeutics plc",
+		"symbol" : "ADAP"
+	},
+	{
+		"companyName" : "Adobe Inc.",
+		"symbol" : "ADBE"
+	},
+	{
+		"companyName" : "Agree Realty Corporation",
+		"symbol" : "ADC"
+	},
+	{
+		"companyName" : "Advanced Emissions Solutions Inc.",
+		"symbol" : "ADES"
+	},
+	{
+		"companyName" : "Analog Devices Inc.",
+		"symbol" : "ADI"
+	},
+	{
+		"companyName" : "Adial Pharmaceuticals Inc",
+		"symbol" : "ADIL"
+	},
+	{
+		"companyName" : "Adial Pharmaceuticals Inc Warrant",
+		"symbol" : "ADILW"
+	},
+	{
+		"companyName" : "Archer-Daniels-Midland Company",
+		"symbol" : "ADM"
+	},
+	{
+		"companyName" : "ADMA Biologics Inc",
+		"symbol" : "ADMA"
+	},
+	{
+		"companyName" : "Adamis Pharmaceuticals Corporation",
+		"symbol" : "ADMP"
+	},
+	{
+		"companyName" : "Adamas Pharmaceuticals Inc.",
+		"symbol" : "ADMS"
+	},
+	{
+		"companyName" : "Adient plc",
+		"symbol" : "ADNT"
+	},
+	{
+		"companyName" : "ADOMANI Inc.",
+		"symbol" : "ADOM"
+	},
+	{
+		"companyName" : "Automatic Data Processing Inc.",
+		"symbol" : "ADP"
+	},
+	{
+		"companyName" : "Invesco BLDRS Asia 50 ADR Index Fund",
+		"symbol" : "ADRA"
+	},
+	{
+		"companyName" : "Invesco BLDRS Developed Markets 100 ADR Index Fund",
+		"symbol" : "ADRD"
+	},
+	{
+		"companyName" : "Invesco BLDRS Emerging Markets 50 ADR Index Fund",
+		"symbol" : "ADRE"
+	},
+	{
+		"companyName" : "Aduro Biotech Inc.",
+		"symbol" : "ADRO"
+	},
+	{
+		"companyName" : "Invesco BLDRS Europe Select ADR Index Fund",
+		"symbol" : "ADRU"
+	},
+	{
+		"companyName" : "Alliance Data Systems Corporation",
+		"symbol" : "ADS"
+	},
+	{
+		"companyName" : "Autodesk Inc.",
+		"symbol" : "ADSK"
+	},
+	{
+		"companyName" : "Advanced Disposal Services Inc.",
+		"symbol" : "ADSW"
+	},
+	{
+		"companyName" : "ADT Inc.",
+		"symbol" : "ADT"
+	},
+	{
+		"companyName" : "ADTRAN Inc.",
+		"symbol" : "ADTN"
+	},
+	{
+		"companyName" : "Addus HomeCare Corporation",
+		"symbol" : "ADUS"
+	},
+	{
+		"companyName" : "Adverum Biotechnologies Inc.",
+		"symbol" : "ADVM"
+	},
+	{
+		"companyName" : "Adams Diversified Equity Fund Inc.",
+		"symbol" : "ADX"
+	},
+	{
+		"companyName" : "Advaxis Inc.",
+		"symbol" : "ADXS"
+	},
+	{
+		"companyName" : "Adams Resources & Energy Inc.",
+		"symbol" : "AE"
+	},
+	{
+		"companyName" : "AEGON N.V. Perp. Cap. Secs. Floating Rate (Netherlands)",
+		"symbol" : "AEB"
+	},
+	{
+		"companyName" : "AEGON N.V. Perp. Cap. Securities (Netherlands)",
+		"symbol" : "AED"
+	},
+	{
+		"companyName" : "Ameren Corporation",
+		"symbol" : "AEE"
+	},
+	{
+		"companyName" : "Aberdeen Emerging Markets Equity Income Fund Inc.",
+		"symbol" : "AEF"
+	},
+	{
+		"companyName" : "AEGON N.V.",
+		"symbol" : "AEG"
+	},
+	{
+		"companyName" : "Aegion Corp",
+		"symbol" : "AEGN"
+	},
+	{
+		"companyName" : "AEGON N.V. Perp. Cap Secs.",
+		"symbol" : "AEH"
+	},
+	{
+		"companyName" : "Aehr Test Systems",
+		"symbol" : "AEHR"
+	},
+	{
+		"companyName" : "Advanced Energy Industries Inc.",
+		"symbol" : "AEIS"
+	},
+	{
+		"companyName" : "American Equity Investment Life Holding Company",
+		"symbol" : "AEL"
+	},
+	{
+		"companyName" : "Agnico Eagle Mines Limited",
+		"symbol" : "AEM"
+	},
+	{
+		"companyName" : "Aethlon Medical Inc.",
+		"symbol" : "AEMD"
+	},
+	{
+		"companyName" : "American Eagle Outfitters Inc.",
+		"symbol" : "AEO"
+	},
+	{
+		"companyName" : "American Electric Power Company Inc.",
+		"symbol" : "AEP"
+	},
+	{
+		"companyName" : "AerCap Holdings N.V.",
+		"symbol" : "AER"
+	},
+	{
+		"companyName" : "Aerie Pharmaceuticals Inc.",
+		"symbol" : "AERI"
+	},
+	{
+		"companyName" : "The AES Corporation",
+		"symbol" : "AES"
+	},
+	{
+		"companyName" : "American Electric Technologies Inc.",
+		"symbol" : "AETI"
+	},
+	{
+		"companyName" : "ADDvantage Technologies Group Inc.",
+		"symbol" : "AEY"
+	},
+	{
+		"companyName" : "AudioEye Inc.",
+		"symbol" : "AEYE"
+	},
+	{
+		"companyName" : "Aeterna Zentaris Inc.",
+		"symbol" : "AEZS"
+	},
+	{
+		"companyName" : "AllianceBernstein National Municipal Income Fund Inc",
+		"symbol" : "AFB"
+	},
+	{
+		"companyName" : "Allied Capital Corporation 6.875% Notes due April 15 2047",
+		"symbol" : "AFC"
+	},
+	{
+		"companyName" : "American Financial Group Inc.",
+		"symbol" : "AFG"
+	},
+	{
+		"companyName" : "",
+		"symbol" : "AFGE"
+	},
+	{
+		"companyName" : "",
+		"symbol" : "AFGH"
+	},
+	{
+		"companyName" : "Atlas Financial Holdings Inc.",
+		"symbol" : "AFH"
+	},
+	{
+		"companyName" : "Atlas Financial Holdings Inc. 6.625% Senior Unsecured Notes Due 2022",
+		"symbol" : "AFHBL"
+	},
+	{
+		"companyName" : "Armstrong Flooring Inc.",
+		"symbol" : "AFI"
+	},
+	{
+		"companyName" : "Anfield Universal Fixed Income",
+		"symbol" : "AFIF"
+	},
+	{
+		"companyName" : "American Finance Trust Inc.",
+		"symbol" : "AFIN"
+	},
+	{
+		"companyName" : "VanEck Vectors-Africa Index",
+		"symbol" : "AFK"
+	},
+	{
+		"companyName" : "AFLAC Incorporated",
+		"symbol" : "AFL"
+	},
+	{
+		"companyName" : "Affimed N.V.",
+		"symbol" : "AFMD"
+	},
+	{
+		"companyName" : "Apollo Senior Floating Rate Fund Inc.",
+		"symbol" : "AFT"
+	},
+	{
+		"companyName" : "CSOP FTSE China A50",
+		"symbol" : "AFTY"
+	},
+	{
+		"companyName" : "First Majestic Silver Corp. (Canada)",
+		"symbol" : "AG"
+	},
+	{
+		"companyName" : "AGCO Corporation",
+		"symbol" : "AGCO"
+	},
+	{
+		"companyName" : "Aberdeen Global Dynamic Dividend Fund",
+		"symbol" : "AGD"
+	},
+	{
+		"companyName" : "AgeX Therapeutics Inc.",
+		"symbol" : "AGE"
+	},
+	{
+		"companyName" : "Agenus Inc.",
+		"symbol" : "AGEN"
+	},
+	{
+		"companyName" : "DB Agriculture Long ETN due April 1 2038",
+		"symbol" : "AGF"
+	},
+	{
+		"companyName" : "AgroFresh Solutions Inc.",
+		"symbol" : "AGFS"
+	},
+	{
+		"companyName" : "AgroFresh Solutions Inc. Warrants",
+		"symbol" : "AGFSW"
+	},
+	{
+		"companyName" : "iShares Core U.S. Aggregate Bond",
+		"symbol" : "AGG"
+	},
+	{
+		"companyName" : "IQ Enhanced Core Bond U.S.",
+		"symbol" : "AGGE"
+	},
+	{
+		"companyName" : "IQ Enhanced Core Plus Bond U.S.",
+		"symbol" : "AGGP"
+	},
+	{
+		"companyName" : "WisdomTree Yield Enhanced U.S. Aggregate Bond Fund",
+		"symbol" : "AGGY"
+	},
+	{
+		"companyName" : "Alamos Gold Inc. Class A",
+		"symbol" : "AGI"
+	},
+	{
+		"companyName" : "Agios Pharmaceuticals Inc.",
+		"symbol" : "AGIO"
+	},
+	{
+		"companyName" : "Aeglea BioTherapeutics Inc.",
+		"symbol" : "AGLE"
+	},
+	{
+		"companyName" : "Federal Agricultural Mortgage Corporation",
+		"symbol" : "AGM"
+	},
+	{
+		"companyName" : "Federal Agricultural Mortgage Corporation 5.875% Non-CUmulative Preferred Stock Series A",
+		"symbol" : "AGM-A"
+	},
+	{
+		"companyName" : "Federal Agricultural Mortgage Corporation Non Cumulative Preferred Stock Series B",
+		"symbol" : "AGM-B"
+	},
+	{
+		"companyName" : "Federal Agricultural Mortgage Corporation Preferred Series C Fixed to Fltg",
+		"symbol" : "AGM-C"
+	},
+	{
+		"companyName" : "Federal Agricultural Mortgage Corporation",
+		"symbol" : "AGM.A"
+	},
+	{
+		"companyName" : "AGM Group Holdings Inc.",
+		"symbol" : "AGMH"
+	},
+	{
+		"companyName" : "Allergan plc",
+		"symbol" : "AGN"
+	},
+	{
+		"companyName" : "AGNC Investment Corp.",
+		"symbol" : "AGNC"
+	},
+	{
+		"companyName" : "AGNC Investment Corp. Depositary Shares representing 1/1000th Series B Preferred Stock",
+		"symbol" : "AGNCB"
+	},
+	{
+		"companyName" : "AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 7.00% Series C Fixed-To-Floating Rate Cumulative Redeemable Preferre",
+		"symbol" : "AGNCN"
+	},
+	{
+		"companyName" : "WisdomTree Barclays Negative Duration U.S. Aggregate Bond Fund",
+		"symbol" : "AGND"
+	},
+	{
+		"companyName" : "Assured Guaranty Ltd.",
+		"symbol" : "AGO"
+	},
+	{
+		"companyName" : "Assured Guaranty Ltd.",
+		"symbol" : "AGO-B"
+	},
+	{
+		"companyName" : "Assured Guaranty Ltd.",
+		"symbol" : "AGO-E"
+	},
+	{
+		"companyName" : "Assured Guaranty Ltd.",
+		"symbol" : "AGO-F"
+	},
+	{
+		"companyName" : "ProShares Ultra Silver",
+		"symbol" : "AGQ"
+	},
+	{
+		"companyName" : "Avangrid Inc.",
+		"symbol" : "AGR"
+	},
+	{
+		"companyName" : "Adecoagro S.A.",
+		"symbol" : "AGRO"
+	},
+	{
+		"companyName" : "Agile Therapeutics Inc.",
+		"symbol" : "AGRX"
+	},
+	{
+		"companyName" : "PlayAGS Inc.",
+		"symbol" : "AGS"
+	},
+	{
+		"companyName" : "iShares MSCI Argentina and Global Exposure",
+		"symbol" : "AGT"
+	},
+	{
+		"companyName" : "Applied Genetic Technologies Corporation",
+		"symbol" : "AGTC"
+	},
+	{
+		"companyName" : "Argan Inc.",
+		"symbol" : "AGX"
+	},
+	{
+		"companyName" : "Agilysys Inc.",
+		"symbol" : "AGYS"
+	},
+	{
+		"companyName" : "iShares Agency Bond",
+		"symbol" : "AGZ"
+	},
+	{
+		"companyName" : "WisdomTree Interest Rate Hedged U.S. Aggregate Bond Fund",
+		"symbol" : "AGZD"
+	},
+	{
+		"companyName" : "A.H. Belo Corporation (TX)",
+		"symbol" : "AHC"
+	},
+	{
+		"companyName" : "Armada Hoffler Properties Inc.",
+		"symbol" : "AHH"
+	},
+	{
+		"companyName" : "Aspen Insurance Holdings Limited",
+		"symbol" : "AHL"
+	},
+	{
+		"companyName" : "Aspen Insurance Holdings Limited 5.95% Fixed-to-Floating Rate Perpetual Non-Cumulative Preference Shares",
+		"symbol" : "AHL-C"
+	},
+	{
+		"companyName" : "Aspen Insurance Holdings Limited 5.625% Perpetual Non-Cumulative Preference Shares",
+		"symbol" : "AHL-D"
+	},
+	{
+		"companyName" : "Allied Healthcare Products Inc.",
+		"symbol" : "AHPI"
+	},
+	{
+		"companyName" : "Ashford Hospitality Trust Inc",
+		"symbol" : "AHT"
+	},
+	{
+		"companyName" : "Ashford Hospitality Trust Inc 8.45% Series D Cumulative Preferred Stock",
+		"symbol" : "AHT-D"
+	},
+	{
+		"companyName" : "Ashford Hospitality Trust Inc 7.375% Series F Cumulative Preferred Stock",
+		"symbol" : "AHT-F"
+	},
+	{
+		"companyName" : "Ashford Hospitality Trust Inc 7.375% Series G Cumulative Preferred Stock",
+		"symbol" : "AHT-G"
+	},
+	{
+		"companyName" : "Ashford Hospitality Trust Inc 7.50% Series H Cumulative Preferred Stock",
+		"symbol" : "AHT-H"
+	}
+]

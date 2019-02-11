@@ -1,17 +1,34 @@
 #include <iostream>
-#include "IEX.h"
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <include/gmock/gmock.h>
 
-int main() {
+#include "StockInfo.h"
+#include "TestStartup.h"
 
-    Json::Value jsonData = IEX::stock::quote("aapl");
 
-    std::vector<std::string> list;
-    IEX::parseData(jsonData, list);
+int main(int argc, char** argv) {
 
-    for (const auto &s : list) {
-        std::cout << s << std::endl;
-    }
+    StockInfo stock;
 
+    //    ::testing::InitGoogleMock(&argc, argv);
+    //    return RUN_ALL_TESTS();
+
+//    InputParser input(argc, argv);
+//
+//    bool help = input.cmdOptionExists("-h");
+//    if (help){
+//        std::cout << "Run all unittests: \n" << "./trader -t gtest " << std::endl;
+//        std::cout << "Run specific unittests: \n" << "./trader -t gtest -f <val>";
+//        std::cout << "\t <val> => request" << std::endl;
+//    }
+//    const std::string &option = input.getCmdOption("-t");
+//
+//    if(option.find("gtest") != std::string::npos) {
+//        std::cout << "Test mode\n" << std::endl;
+//        StartGoogleTest(input, argc ,argv);
+//    }
     return 0;
 }
 

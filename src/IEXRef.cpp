@@ -8,14 +8,14 @@
 void IEX::ref::parseSymbolData(const Json::Value &IEXdata, std::vector<std::string> &symbolVec)
 {
     int i = 0;
-    //Step through JSON file until the end is reached
     while(i < IEXdata.size()) {
         symbolVec.push_back(IEXdata[i]["symbol"].asString());
         i++;
     }
 }
 
-std::vector<std::string> IEX::ref::availableSymbols()
+
+std::vector<std::string> IEX::ref::getSymbolList()
 {
     Json::Value jsonData;
     std::string url(IEX_ENDPOINT);

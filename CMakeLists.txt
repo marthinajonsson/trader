@@ -5,31 +5,24 @@ set(CMAKE_CXX_STANDARD 17)
 
 include_directories(inc)
 include_directories(src)
+include_directories(unittest)
 include_directories(external/gtest/googlemock)
 
 find_package(OpenSSL)
 
-set(externals
-        ${CMAKE_CURRENT_LIST_DIR}/external/IEX/GetSetClearTA.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/external/IEX/IEX.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/external/IEX/IEX.h
-        ${CMAKE_CURRENT_LIST_DIR}/external/IEX/JSONdata.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/external/IEX/JSONdata.h
-        ${CMAKE_CURRENT_LIST_DIR}/external/IEX/main.h
-
-        ${CMAKE_CURRENT_LIST_DIR}/external/IEX/TechnicalAnalysis.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/external/IEX/TechnicalAnalysis.h
-        )
-
 set(headers
         ${CMAKE_CURRENT_LIST_DIR}/inc/IEX.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/StockInfo.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/Util.h)
+        ${CMAKE_CURRENT_LIST_DIR}/inc/Util.h
+        ${CMAKE_CURRENT_LIST_DIR}/inc/InputParser.h
+        ${CMAKE_CURRENT_LIST_DIR}/unittest/TestStartup.h)
 
 set(sources
         ${CMAKE_CURRENT_LIST_DIR}/src/IEX.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/IEXStock.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/IEXRef.cpp unittest/HTMLRequestTest.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/src/IEXRef.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/unittest/RequestTest.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp)
 
 enable_testing()
 add_subdirectory(external/gtest/googlemock)

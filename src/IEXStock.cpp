@@ -13,11 +13,6 @@ Json::Value IEX::stock::company(const std::string &symbol)
 {
     Json::Value jsonData;
 
-    if(!isValidSymbol(symbol)){
-        std::cout << "Invalid Symbol! I am returning an uninitialized JSON object!";
-        return jsonData;
-    }
-
     std::string url(IEX_ENDPOINT);
     url += "/stock/"+symbol+"/company";
     IEX::sendHttpGetRequest(jsonData, url);
