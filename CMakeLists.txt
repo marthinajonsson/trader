@@ -7,6 +7,7 @@ include_directories(inc)
 include_directories(src)
 include_directories(unittest)
 include_directories(external/gtest/googlemock)
+include_directories(../../thirdlibs/ta-lib/include)
 
 find_package(OpenSSL)
 
@@ -15,7 +16,7 @@ set(headers
         ${CMAKE_CURRENT_LIST_DIR}/inc/StockInfo.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/Util.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/InputParser.h
-        ${CMAKE_CURRENT_LIST_DIR}/unittest/TestStartup.h)
+        ${CMAKE_CURRENT_LIST_DIR}/unittest/TestStartup.h inc/AlgoContext.h inc/TaLib.h inc/WebSocket.h)
 
 set(sources
         ${CMAKE_CURRENT_LIST_DIR}/src/IEX.cpp
@@ -34,4 +35,5 @@ add_executable(trader main.cpp ${sources} ${headers})
 target_link_libraries(trader jsoncpp)
 target_link_libraries(trader gmock_main)
 target_link_libraries(trader curl)
-target_link_libraries(trader /usr/share/boost-build)
+target_link_libraries(trader ta-lib)
+target_link_libraries(trader boost-build)

@@ -14,6 +14,14 @@ void IEX::ref::parseSymbolData(const Json::Value &IEXdata, std::vector<std::stri
     }
 }
 
+Json::Value IEX::ref::dividend(const std::string &symbol)
+{
+    Json::Value jsonData;
+    std::string url(IEX_ENDPOINT);
+    url += "/ref-data/daily-list/dividends";
+    IEX::sendHttpGetRequest(jsonData, url);
+    return jsonData;
+}
 
 std::vector<std::string> IEX::ref::getSymbolList()
 {

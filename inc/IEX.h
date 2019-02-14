@@ -19,7 +19,7 @@
 
 namespace IEX {
 
-    void sendHttpGetRequest(Json::Value &jsonData, const std::string url);
+    void sendHttpGetRequest(Json::Value &jsonData, const std::string &url);
     void parseData(const Json::Value &IEXdata, std::vector<std::string> &argVec);
     void parseArgData(const Json::Value &IEXdata, std::vector<std::string> &argVec, std::string &&arg);
 
@@ -28,13 +28,28 @@ namespace IEX {
     namespace ref {
         void parseSymbolData(const Json::Value &, std::vector<std::string> &);
         std::vector<std::string> getSymbolList();
+        Json::Value dividend(const std::string &symbol);
     }
 
     namespace stock {
         Json::Value company(const std::string &symbol);
         Json::Value quote(const std::string &symbol);
         Json::Value earnings(const std::string &symbol);
+        Json::Value chart(const std::string &symbol);
+        Json::Value news(const std::string &symbol);
+    }
 
+    /*
+     * Web sockets event socket.io
+     * system event - subscribe??
+     * */
+    namespace market {
+
+        Json::Value tops(const std::string &symbol);
+        Json::Value last(const std::string &symbol);
+        Json::Value hist(const std::string &symbol);
+        Json::Value deep(const std::string &symbol);
+        Json::Value book(const std::string &symbol);
     }
 }
 

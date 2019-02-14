@@ -19,6 +19,28 @@ Json::Value IEX::stock::company(const std::string &symbol)
     return jsonData;
 }
 
+Json::Value IEX::stock::chart(const std::string &symbol) {
+
+    Json::Value jsonData;
+
+    std::string url(IEX_ENDPOINT);
+    url += "/stock/"+symbol+"/chart/3m";
+    IEX::sendHttpGetRequest(jsonData, url);
+    return jsonData;
+}
+
+
+Json::Value IEX::stock::news(const std::string &symbol) {
+
+    Json::Value jsonData;
+
+    std::string url(IEX_ENDPOINT);
+    url += "/stock/"+symbol+"/news";
+    IEX::sendHttpGetRequest(jsonData, url);
+    return jsonData;
+}
+
+
 Json::Value IEX::stock::quote(const std::string &symbol) {
 
     Json::Value jsonData;

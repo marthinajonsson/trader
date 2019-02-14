@@ -57,7 +57,7 @@ bool IEX::isValidSymbol(const std::string &symbol)
 }
 
 
-void IEX::sendHttpGetRequest(Json::Value &jsonData, const std::string url)
+void IEX::sendHttpGetRequest(Json::Value &jsonData, const std::string &url)
 {
     CURL* curl = curl_easy_init();
 

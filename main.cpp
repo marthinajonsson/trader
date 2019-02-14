@@ -6,12 +6,18 @@
 
 #include "StockInfo.h"
 #include "TestStartup.h"
-
+#include "AlgoContext.h"
 
 int main(int argc, char** argv) {
 
-    StockInfo stock;
+    AlgoContext context("talib");
+    context.createPipeline();
 
+
+
+
+//    StockInfo stock;
+//
     //    ::testing::InitGoogleMock(&argc, argv);
     //    return RUN_ALL_TESTS();
 
