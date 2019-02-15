@@ -6,18 +6,26 @@
 #define TRADER_TALIB_H
 
 #include <ta_libc.h>
+#include "Exceptions.h"
 
-class TechnicalInvest {
-public:
-    TechnicalInvest() = default;
-    ~TechnicalInvest() = default;
+//
+//namespace TA {
 
-private:
-};
+    class TechnicalInvest {
+    public:
+        TechnicalInvest() {
+            TA_Initialize();
+        };
 
-static TA_RetCode set(){
+        ~TechnicalInvest() {
+            TA_Shutdown();
+        };
 
-    return TA_RetCode::TA_BAD_OBJECT;
-}
+        void errorHandler(TA_RetCode &retCode) const;
 
+
+
+    private:
+    };
+//};
 #endif //TRADER_TALIB_H

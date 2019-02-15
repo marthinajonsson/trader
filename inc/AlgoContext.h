@@ -5,9 +5,11 @@
 #ifndef TRADER_ALGOCONTEXT_H
 #define TRADER_ALGOCONTEXT_H
 
+#include "json/json.h"
+#include "IEX.h"
+
 #include <functional>
 #include <string>
-#include <IEX.h>
 #include <map>
 
 const std::string MEAN_REVERSION = "mean_reversion"; /* what goes up must come down */
@@ -23,15 +25,14 @@ public:
     }
     ~AlgoContext() = default;
 
-    void createPipeline() {
+    void create() {
         using std::placeholders::_1;
 
         std::function<Json::Value(const std::string&)> func = std::bind(&IEX::stock::company, _1);
-        installPipeline("1", func);
+        addToContext("1", func);
 
-        func = std::bind(&IEX::stock::earnings, _1);
-        installPipeline("2", func);
-
+        func = std::bind(&IEX::stock::chart, _1);
+        addToContext("2", func);
 
         // read historical data
         // calculate mean or similar
@@ -39,20 +40,23 @@ public:
         // log and report
     }
 
-    std::map<std::string, std::function<Json::Value(const std::string&)>> getPipeline() {
-        return pipeline;
+    void run() {
+        for( auto const& [key, val] : context ) {
+            std::cout << key << std::endl;
+            std::cout << "********************************" << std::endl;
+            std::cout << val("AAPL") << std::endl;
+        }
     }
-
 
 private:
     std::string name;
     std::vector<std::string> list;
-    std::map<std::string, std::function<Json::Value(const std::string&)>> pipeline;
+    std::map<std::string, std::function<Json::Value(const std::string&)>> context;
 
     template<typename ftor>
-    void installPipeline(std::string name, ftor && handler)
+    void addToContext(std::string name, ftor && handler)
     {
-        pipeline.insert({
+        context.insert({
                                    std::move(name),
                                    std::forward<ftor>(handler)
                            });

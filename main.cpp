@@ -2,24 +2,29 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-#include <include/gmock/gmock.h>
 
-#include "StockInfo.h"
-#include "TestStartup.h"
-#include "AlgoContext.h"
+#include "main.h"
+
 
 int main(int argc, char** argv) {
 
     AlgoContext context("talib");
-    context.createPipeline();
+    context.create();
+    context.run();
 
+    AlgoContext context2("momentum");
+    context2.create();
+    context2.run();
+
+
+    return 0;
 
 
 
 //    StockInfo stock;
 //
-    //    ::testing::InitGoogleMock(&argc, argv);
-    //    return RUN_ALL_TESTS();
+        ::testing::InitGoogleMock(&argc, argv);
+        return RUN_ALL_TESTS();
 
 //    InputParser input(argc, argv);
 //

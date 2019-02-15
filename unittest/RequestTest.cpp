@@ -41,6 +41,39 @@ TEST_F(RequestTest, company) {
     auto symbols = IEX::ref::getSymbolList();
     std::string symbol = symbols.at(8);
     auto jsonData = IEX::stock::company(symbol);
+    std::vector<std::string> argVec;
+    IEX::parseArgData(jsonData, argVec, "CEO");
+
+
+    auto found = std::find(argVec.begin(), argVec.end(), "Hilton H. Howell");
+    ASSERT_TRUE(found != argVec.end());
+}
+
+TEST_F(RequestTest, chart) {
+    auto jsonData = IEX::stock::chart("AAPL");
     std::cout << jsonData << std::endl;
-    ASSERT_TRUE(1==1);
+}
+
+
+TEST_F(RequestTest, news) {
+    auto jsonData = IEX::stock::news("AAPL");
+    std::cout << jsonData << std::endl;
+}
+
+
+TEST_F(RequestTest, quote) {
+    auto jsonData = IEX::stock::quote("AAPL");
+    std::cout << jsonData << std::endl;
+}
+
+
+TEST_F(RequestTest, earnings) {
+    auto jsonData = IEX::stock::earnings("AAPL");
+    std::cout << jsonData << std::endl;
+}
+
+
+TEST_F(RequestTest, dividend) {
+    auto jsonData = IEX::ref::dividend("AAPL");
+    std::cout << jsonData << std::endl;
 }

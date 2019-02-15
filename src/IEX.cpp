@@ -3,14 +3,8 @@
 //
 
 #include "IEX.h"
+#include "main.h"
 
-
-#include <boost/algorithm/string.hpp>
-#include <vector>
-#include <assert.h>
-#include <algorithm>
-#include <memory>
-#include <iostream>
 
 std::size_t callback(const char* in, std::size_t size, std::size_t num, std::string* out)
 {
@@ -43,7 +37,8 @@ void IEX::parseArgData(const Json::Value &IEXdata, std::vector<std::string> &arg
         }
     }
     else {
-        argVec.emplace_back(val.asString());
+        std::string result = val.asString();
+        argVec.emplace_back(result);
 
     }
 }
