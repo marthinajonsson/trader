@@ -8,8 +8,7 @@
 #include <include/gmock/gmock.h>
 #include "StockInfo.h"
 #include "TestStartup.h"
-#include "AlgoContext.h"
+#include "ActiveAlgorithm.h"
 #include "Exceptions.h"
-#include "WebSocket.h"
 #include "IEX.h"
 #endif //TRADER_MAIN_H

@@ -5,26 +5,22 @@
 
 #include "main.h"
 
+using namespace Trader;
 
 int main(int argc, char** argv) {
+    ActiveAlgorithm active;
+    active.registerWork(MEAN_REVERSION);
 
-    AlgoContext context("talib");
-    context.create();
-    context.run();
-
-    AlgoContext context2("momentum");
-    context2.create();
-    context2.run();
 
 
     return 0;
-
-
-
+//
+//
+//
 //    StockInfo stock;
 //
-        ::testing::InitGoogleMock(&argc, argv);
-        return RUN_ALL_TESTS();
+//        ::testing::InitGoogleMock(&argc, argv);
+//        return RUN_ALL_TESTS();
 
 //    InputParser input(argc, argv);
 //
@@ -40,6 +36,7 @@ int main(int argc, char** argv) {
 //        std::cout << "Test mode\n" << std::endl;
 //        StartGoogleTest(input, argc ,argv);
 //    }
+
     return 0;
 }
 

@@ -15,5 +15,17 @@ public:
     TaLibImplException(const int error, const char *msg) :  std::logic_error(msg) { };
 };
 
+class MeanRevImplException : public std::logic_error
+{
+public:
+    MeanRevImplException(const int error, const char* msg) : std::logic_error(msg) { };
+};
+
+class SentimentImplException : public std::logic_error
+{
+public:
+    SentimentImplException(const int error, const char* msg) : std::logic_error(msg) { };
+};
+
 
 #endif //TRADER_EXCEPTIONS_H

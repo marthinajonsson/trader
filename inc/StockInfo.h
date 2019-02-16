@@ -38,15 +38,17 @@ private:
 
     void loadLists() {
         Json::Value root;
+        int counter = 1;
         root = root["list"];
         auto symbols = IEX::ref::getSymbolList();
-        symbols.resize(200);
         for(const std::string & s : symbols) {
             Json::Value data;
             fullname = IEX::stock::company(s)["companyName"].asString();
             data["companyName"] = fullname;
             data["symbol"] = s;
             root.append(data);
+            std::cout << counter << " ";
+            counter++;
         }
         writeJSON(root);
     }

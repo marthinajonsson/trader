@@ -8,24 +8,19 @@
 #include <ta_libc.h>
 #include "Exceptions.h"
 
-//
-//namespace TA {
-
-    class TechnicalInvest {
-    public:
-        TechnicalInvest() {
-            TA_Initialize();
-        };
-
-        ~TechnicalInvest() {
-            TA_Shutdown();
-        };
-
-        void errorHandler(TA_RetCode &retCode) const;
-
-
-
-    private:
+class TechnicalInvest {
+public:
+    TechnicalInvest() {
+        TA_Initialize();
     };
-//};
+
+    ~TechnicalInvest() {
+        TA_Shutdown();
+    };
+
+    void errorHandler(TA_RetCode &retCode) const;
+
+private:
+};
+
 #endif //TRADER_TALIB_H
