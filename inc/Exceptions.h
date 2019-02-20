@@ -9,10 +9,17 @@
 #include <iostream>
 #include <string>
 
-class TaLibImplException : public std::logic_error
+
+enum RETcode{
+    SUCCESS = 0,
+    ERROR = -1
+};
+
+
+class DeepLearningImplException : public std::logic_error
 {
 public:
-    TaLibImplException(const int error, const char *msg) :  std::logic_error(msg) { };
+    DeepLearningImplException(const int error, const char *msg) :  std::logic_error(msg) { };
 };
 
 class MeanRevImplException : public std::logic_error

@@ -22,9 +22,7 @@ namespace Trader {
 
 
 /*! \class ActiveAlgorithm
- *  \implements ActiveObject
- *  \namespace Trader
- *  \todo finish
+ *  \implements ActiveObject pattern
  *  \brief Used by all algorithms
  */
     class ActiveAlgorithm {

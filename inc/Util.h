@@ -13,7 +13,8 @@ static const std::string MEAN_REVERSION = "mean_reversion"; /* what goes up must
 static const std::string SENTIMENT = "sentiment"; /* buy the rumor, sell the news*/
 static const std::string MOMENTUM = "momentum"; /* the trend is your friend */
 static const std::string SEASONALITY = "seasonality"; /* sell in May and go away */
-static const std::string TALIB = "talib"; /* ta-lib */
+static const std::string DEEP_LEARNING = "deeplearning"; /* ta-lib */
+
 
 template<typename T>
 void vec_emblace_back(std::vector<T>& vector, const T& element) {

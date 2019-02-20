@@ -55,7 +55,7 @@ set(headers
         ${CMAKE_CURRENT_LIST_DIR}/unittest/TestStartup.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/ActiveAlgorithm.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/AlgoQueue.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/TaLib.h
+        ${CMAKE_CURRENT_LIST_DIR}/inc/DeepLearning.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/Exceptions.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/main.h inc/AlgoDispatcher.h inc/MeanReversion.h)
 
@@ -63,7 +63,7 @@ set(sources
         ${CMAKE_CURRENT_LIST_DIR}/src/IEX.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/IEXStock.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/IEXRef.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/TaLib.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/DeepLearning.cpp
         ${CMAKE_CURRENT_LIST_DIR}/unittest/RequestTest.cpp
         ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp src/MeanReversion.cpp)
 
