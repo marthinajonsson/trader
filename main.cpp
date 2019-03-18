@@ -1,17 +1,31 @@
+
+#include <ta-lib/ta_common.h>
+
 #include <iostream>
 #include <vector>
 #include <string>
 #include <algorithm>
-
 #include "main.h"
 
 using namespace Trader;
 
 int main(int argc, char** argv) {
-    ActiveAlgorithm active;
-    active.registerWork(MEAN_REVERSION);
 
 
+
+    TA_RetCode ret = TA_Initialize();
+
+    if(ret != TA_RetCode::TA_SUCCESS) {
+        std::cerr << "Cannot initialize TA-Lib (%d)!\n" << ret << std::endl;
+        return -1;
+    }
+//    ActiveAlgorithm active;
+//    active.registerWork(MEAN_REVERSION);
+
+    TA_Shutdown();
+
+
+    Json::Value jsonData = IEX::stock::quote("AAPL");
 
     return 0;
 //

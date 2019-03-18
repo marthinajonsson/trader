@@ -3,6 +3,7 @@
 //
 
 #include "MeanReversion.h"
+#include "IEX.h"
 
 std::mutex single;
 static MeanReversion *instance;
@@ -16,7 +17,59 @@ MeanReversion& MeanReversion::getInstance()
     return *instance;
 }
 
+
+/*
+ * {
+	"avgTotalVolume" : 25778006,
+	"calculationPrice" : "tops",
+	"change" : 2.1200000000000001,
+	"changePercent" : 0.011390000000000001,
+	"close" : 186.12,
+	"closeTime" : 1552680000497,
+	"companyName" : "Apple Inc.",
+	"delayedPrice" : 187.88,
+	"delayedPriceTime" : 1552919887568,
+	"extendedChange" : 0,
+	"extendedChangePercent" : 0,
+	"extendedPrice" : 188.24000000000001,
+	"extendedPriceTime" : 1552920788987,
+	"high" : 188.38999999999999,
+	"iexAskPrice" : 188.24000000000001,
+	"iexAskSize" : 100,
+	"iexBidPrice" : 187.81999999999999,
+	"iexBidSize" : 100,
+	"iexLastUpdated" : 1552920788987,
+	"iexMarketPercent" : 0.02034,
+	"iexRealtimePrice" : 188.24000000000001,
+	"iexRealtimeSize" : 100,
+	"iexVolume" : 186614,
+	"latestPrice" : 188.24000000000001,
+	"latestSource" : "IEX real time price",
+	"latestTime" : "10:53:08 AM",
+	"latestUpdate" : 1552920788987,
+	"latestVolume" : 9174730,
+	"low" : 185.78999999999999,
+	"marketCap" : 887604307200,
+	"open" : 185.90000000000001,
+	"openTime" : 1552915800947,
+	"peRatio" : 15.859999999999999,
+	"previousClose" : 186.12,
+	"primaryExchange" : "Nasdaq Global Select",
+	"sector" : "Technology",
+	"symbol" : "AAPL",
+	"week52High" : 233.47,
+	"week52Low" : 142,
+	"ytdChange" : 0.19501687644479501
+}
+ */
 void MeanReversion::run() {
+
+    TA_RetCode result;
+
+    auto data = IEX::stock::quote("AAPL");
+    std::string prevClose = data["previousClose"].asString();
+
+    //result = TA_RSI();
 
 
 }
