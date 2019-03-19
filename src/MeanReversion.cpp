@@ -61,11 +61,14 @@ MeanReversion& MeanReversion::getInstance()
 	"week52Low" : 142,
 	"ytdChange" : 0.19501687644479501
 }
+ All HTTP request endpoints support a filter parameter to return a subset of data. Pass a comma-delimited list of field names to filter. Field names are case-sensitive and are found in the Reference section of each endpoint.
+
+Example: ?filter=symbol,volume,lastSalePrice will return only the three fields specified.
  */
 void MeanReversion::run() {
 
     TA_RetCode result;
-
+    //testing
     auto data = IEX::stock::quote("AAPL");
     std::string prevClose = data["previousClose"].asString();
 

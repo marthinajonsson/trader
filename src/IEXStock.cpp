@@ -15,6 +15,7 @@ Json::Value IEX::stock::company(const std::string &symbol)
 
     std::string url(IEX_ENDPOINT);
     url += "/stock/"+symbol+"/company";
+    std::cout << "url: " << url << std::endl;
     IEX::sendHttpGetRequest(jsonData, url);
     return jsonData;
 }

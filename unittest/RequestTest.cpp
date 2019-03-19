@@ -35,8 +35,13 @@ TEST_F(RequestTest, invalidSymbol) {
     ASSERT_FALSE(exists);
 }
 
-
 TEST_F(RequestTest, company) {
+
+    auto jsonData = IEX::stock::company("aapl");
+    std::cout << jsonData << std::endl;
+}
+
+TEST_F(RequestTest, company2) {
 
     auto symbols = IEX::ref::getSymbolList();
     std::string symbol = symbols.at(8);

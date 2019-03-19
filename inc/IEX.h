@@ -15,11 +15,11 @@
 #include <algorithm>
 #include <boost/algorithm/string.hpp>
 
-#define IEX_ENDPOINT "https://api.iextrading.com/1.0"
+const std::string IEX_ENDPOINT = "https://sandbox.iexapis.com/beta"; // "https://cloud.iexapis.com/beta" //"https://api.iextrading.com/1.0"
 
 namespace IEX {
 
-    void sendHttpGetRequest(Json::Value &jsonData, const std::string &url);
+    void sendHttpGetRequest(Json::Value &jsonData, std::string &url);
     void parseData(const Json::Value &IEXdata, std::vector<std::string> &argVec);
     void parseArgData(const Json::Value &IEXdata, std::vector<std::string> &argVec, std::string &&arg);
 
@@ -39,10 +39,6 @@ namespace IEX {
         Json::Value news(const std::string &symbol);
     }
 
-    /*
-     * Web sockets event socket.io
-     * system event - subscribe??
-     * */
     namespace market {
 
         Json::Value tops(const std::string &symbol);

@@ -6,13 +6,14 @@
 #include "main.h"
 
 
-std::size_t callback(const char* in, std::size_t size, std::size_t num, std::string* out)
-{
-    const std::size_t totalBytes(size * num);
-    out->append(in, totalBytes);
-    return totalBytes;
-}
 
+namespace {
+    std::size_t callback(const char *in, std::size_t size, std::size_t num, std::string *out) {
+        const std::size_t totalBytes(size * num);
+        out->append(in, totalBytes);
+        return totalBytes;
+    }
+}
 
 void IEX::parseData(const Json::Value &IEXdata, std::vector<std::string> &argVec) {
 
@@ -52,8 +53,15 @@ bool IEX::isValidSymbol(const std::string &symbol)
 }
 
 
-void IEX::sendHttpGetRequest(Json::Value &jsonData, const std::string &url)
+void IEX::sendHttpGetRequest(Json::Value &jsonData, std::string &url)
 {
+    Json::Value JSONconfig;
+    std::ifstream config("../data/config.json", std::ifstream::binary);
+    config >> JSONconfig;
+    config.close();
+    std::string token = JSONconfig["token"].asString();
+    url += token;
+
     CURL* curl = curl_easy_init();
 
     curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
@@ -76,7 +84,7 @@ void IEX::sendHttpGetRequest(Json::Value &jsonData, const std::string &url)
     bool result = reader->parse(httpData.get()->c_str(), httpData->end().base(), &jsonData, &errors);
 
     if(!result) {
-        std::cout << "False request" << std::endl;
+        std::cout << "False curl request: " << url << std::endl;
     }
     delete reader;
 
