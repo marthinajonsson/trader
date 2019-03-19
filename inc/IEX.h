@@ -27,7 +27,10 @@ namespace IEX {
 
     namespace ref {
         void parseSymbolData(const Json::Value &, std::vector<std::string> &);
+        void parseSymbolDataByArg(const Json::Value &, std::vector<std::string> &, const std::string &);
         std::vector<std::string> getSymbolList();
+        std::vector<std::string> getRegionList();
+        std::vector<std::string> getSymbolListByRegion(std::string &&region);
         Json::Value dividend(const std::string &symbol);
     }
 

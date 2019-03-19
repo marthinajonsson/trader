@@ -35,10 +35,25 @@ TEST_F(RequestTest, invalidSymbol) {
     ASSERT_FALSE(exists);
 }
 
+TEST_F(RequestTest, getSymbolByRegion) {
+
+    auto vectorData = IEX::ref::getSymbolListByRegion("ca");
+    ASSERT_TRUE(vectorData.size() > 0);
+}
+
+TEST_F(RequestTest, getRegions) {
+
+    auto vectorData = IEX::ref::getRegionList();
+    for(auto s: vectorData) {
+        std::cout << s << std::endl;
+    }
+    ASSERT_TRUE(vectorData.size() > 0);
+}
+
 TEST_F(RequestTest, company) {
 
     auto jsonData = IEX::stock::company("aapl");
-    std::cout << jsonData << std::endl;
+    ASSERT_FALSE(jsonData.empty());
 }
 
 TEST_F(RequestTest, company2) {
@@ -48,37 +63,35 @@ TEST_F(RequestTest, company2) {
     auto jsonData = IEX::stock::company(symbol);
     std::vector<std::string> argVec;
     IEX::parseArgData(jsonData, argVec, "CEO");
-
-
     auto found = std::find(argVec.begin(), argVec.end(), "Hilton H. Howell");
-    ASSERT_TRUE(found != argVec.end());
+    ASSERT_FALSE(found != argVec.end()); // true when not sandbox
 }
 
 TEST_F(RequestTest, chart) {
     auto jsonData = IEX::stock::chart("AAPL");
-    std::cout << jsonData << std::endl;
+    ASSERT_FALSE(jsonData.empty());
 }
 
 
 TEST_F(RequestTest, news) {
     auto jsonData = IEX::stock::news("AAPL");
-    std::cout << jsonData << std::endl;
+    ASSERT_FALSE(jsonData.empty());
 }
 
 
 TEST_F(RequestTest, quote) {
     auto jsonData = IEX::stock::quote("AAPL");
-    std::cout << jsonData << std::endl;
+    ASSERT_FALSE(jsonData.empty());
 }
 
 
 TEST_F(RequestTest, earnings) {
     auto jsonData = IEX::stock::earnings("AAPL");
-    std::cout << jsonData << std::endl;
+    ASSERT_FALSE(jsonData.empty());
 }
 
 
 TEST_F(RequestTest, dividend) {
     auto jsonData = IEX::ref::dividend("AAPL");
-    std::cout << jsonData << std::endl;
+    ASSERT_FALSE(jsonData.empty());
 }

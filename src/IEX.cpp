@@ -56,12 +56,19 @@ bool IEX::isValidSymbol(const std::string &symbol)
 void IEX::sendHttpGetRequest(Json::Value &jsonData, std::string &url)
 {
     Json::Value JSONconfig;
+    std::string token;
     std::ifstream config("../data/config.json", std::ifstream::binary);
-    config >> JSONconfig;
-    config.close();
-    std::string token = JSONconfig["token"].asString();
-    url += token;
+    if(!config.is_open()) {
+        std::cerr << "token is missing, could not find config.json" << std::endl;
+        return;
+    }
+    else {
+        config >> JSONconfig;
+        config.close();
+        token = JSONconfig["token"].asString();
+    }
 
+    url += token;
     CURL* curl = curl_easy_init();
 
     curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
