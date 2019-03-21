@@ -38,8 +38,9 @@ namespace IEX {
         Json::Value company(const std::string &symbol);
         Json::Value quote(const std::string &symbol);
         Json::Value earnings(const std::string &symbol);
-        Json::Value chart(const std::string &symbol);
+        Json::Value chart(const std::string &symbol, const std::string& range);
         Json::Value news(const std::string &symbol);
+        Json::Value ohlc(const std::string &symbol);
     }
 
     namespace market {

@@ -68,7 +68,7 @@ TEST_F(RequestTest, company2) {
 }
 
 TEST_F(RequestTest, chart) {
-    auto jsonData = IEX::stock::chart("AAPL");
+    auto jsonData = IEX::stock::chart("AAPL", "6m");
     ASSERT_FALSE(jsonData.empty());
 }
 
