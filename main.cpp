@@ -9,7 +9,9 @@
 using namespace Trader;
 
 int main(int argc, char** argv) {
+
     Feeder feed;
+
     feed.fetchByKey("NVDA", "price");
     feed.fetchByKey("MSFT", "pe");
     feed.fetchByKey("NVDA", "price");

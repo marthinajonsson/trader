@@ -15,7 +15,7 @@
 #include <algorithm>
 #include <boost/algorithm/string.hpp>
 
-const std::string IEX_ENDPOINT = "https://cloud.iexapis.com/stable"; // "https://cloud.iexapis.com/beta" //"https://api.iextrading.com/1.0"
+const std::string IEX_ENDPOINT = "https://sandbox.iexapis.com"; // "https://cloud.iexapis.com/beta" //"https://api.iextrading.com/1.0"
 
 namespace IEX {
 

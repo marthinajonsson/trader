@@ -23,7 +23,8 @@ public:
         if (itr != this->tokens.end() && ++itr != this->tokens.end()) {
             return *itr;
         }
-        return "";
+        static std::string empty;
+        return empty;
     }
 
     bool cmdOptionExists(const std::string &option) const{
