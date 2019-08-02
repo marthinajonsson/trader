@@ -27,14 +27,14 @@ void IEX::parseData(const Json::Value &IEXdata, std::vector<std::string> &argVec
 
 void IEX::parseArgData(const Json::Value &IEXdata, std::vector<std::string> &argVec, std::string &&arg)
 {
-   if(!IEXdata.isMember(arg)){
+   if (!IEXdata.isMember(arg)) {
         std::cout << "Key doesn't exists" << std::endl;
         return;
     }
 
     auto val = IEXdata[arg];
-    if(val.isArray()) {
-        for(const auto &v : val) {
+    if (val.isArray()) {
+        for (const auto &v : val) {
             argVec.emplace_back(v.asString());
         }
     }
@@ -59,7 +59,7 @@ void IEX::sendHttpGetRequest(Json::Value &jsonData, std::string &url)
     Json::Value JSONconfig;
     std::string token;
     std::ifstream config("../data/config.json", std::ifstream::binary);
-    if(!config.is_open()) {
+    if (!config.is_open()) {
         std::cerr << "token is missing, could not find config.json" << std::endl;
         return;
     }
@@ -69,7 +69,7 @@ void IEX::sendHttpGetRequest(Json::Value &jsonData, std::string &url)
         token = JSONconfig["token"].asString();
     }
 
-    url += token;
+    url += "/" + token;
     CURL* curl = curl_easy_init();
 
     curl_easy_setopt(curl, CURLOPT_URL, url.c_str());

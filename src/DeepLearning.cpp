@@ -1,7 +1,7 @@
 //
 // Created by mjonsson on 2/15/19.
 //
-#include <ta-lib/ta_func.h>
+
 #include "DeepLearning.h"
 #include <boost/array.hpp>
 #include <IEX.h>
@@ -26,12 +26,12 @@ void DeepLearning::run() {
 
     double movingAverage[200]{};
     int* idx0 = nullptr, *idxLast = nullptr;
-
-    TA_RetCode result_MA = TA_MA(0,199, closingPrices, 200, TA_MAType_SMA, idx0, idxLast, movingAverage);
-
-    if(result_MA != TA_SUCCESS) {
-        errorHandler(RETcode::ERROR);
-    }
+//
+//    TA_RetCode result_MA = TA_MA(0,199, closingPrices, 200, TA_MAType_SMA, idx0, idxLast, movingAverage);
+//
+//    if(result_MA != TA_SUCCESS) {
+//        errorHandler(RETcode::ERROR);
+//    }
 
     double target = closingPrices[0] *0.10;
 

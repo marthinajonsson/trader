@@ -86,3 +86,34 @@ Json::Value IEX::stock::ohlc(const std::string &symbol) {
     return jsonData;
 
 }
+
+Json::Value IEX::stock::advancedStats(const std::string &symbol)
+{
+    Json::Value jsonData;
+
+    if(!isValidSymbol(symbol)){
+        std::cout << "Invalid Symbol! I am returning an uninitialized JSON object!";
+        return jsonData;
+    }
+
+    std::string url(IEX_ENDPOINT);
+    url += "/stock/"+symbol+"/advanced-stats";
+    IEX::sendHttpGetRequest(jsonData, url);
+    return jsonData;
+}
+
+Json::Value IEX::stock::intradayPrices(const std::string &symbol)
+{
+    Json::Value jsonData;
+
+    if(!isValidSymbol(symbol)){
+        std::cout << "Invalid Symbol! I am returning an uninitialized JSON object!";
+        return jsonData;
+    }
+
+    std::string url(IEX_ENDPOINT);
+    url += "/stock/"+symbol+"/intraday-prices";
+    IEX::sendHttpGetRequest(jsonData, url);
+    return jsonData;
+}
+

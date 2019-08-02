@@ -1,18 +1,24 @@
 
-#include <ta-lib/ta_common.h>
-
 #include <iostream>
 #include <vector>
 #include <string>
 #include <algorithm>
+#include <Feeder.h>
 #include "main.h"
 
 using namespace Trader;
 
 int main(int argc, char** argv) {
+    Feeder feed;
+    feed.fetchByKey("NVDA", "price");
+    feed.fetchByKey("MSFT", "pe");
+    feed.fetchByKey("NVDA", "price");
+    feed.fetchByKey("MSFT", "pe");
+    feed.fetchByKey("NVDA", "price");
+    feed.fetchByKey("MSFT", "pe");
 
-    ::testing::InitGoogleMock(&argc, argv);
-        return RUN_ALL_TESTS();
+//    ::testing::InitGoogleMock(&argc, argv);
+//    return RUN_ALL_TESTS();
 
 //    TA_RetCode ret = TA_Initialize();
 //

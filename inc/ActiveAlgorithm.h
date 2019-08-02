@@ -6,7 +6,7 @@
 #define TRADER_ACTIVEALGORITHM_H
 
 #include "AlgoQueue.h"
-#include "json/json.h"
+#include "jsoncpp/json/json.h"
 #include "IEX.h"
 #include "Util.h"
 

@@ -5,7 +5,7 @@
 #ifndef TRADER_IEX_H
 #define TRADER_IEX_H
 
-#include <json/json.h>
+#include <jsoncpp/json/json.h>
 #include <curl/curl.h>
 #include <locale> //std::locale, std::isdigit
 #include <string>
@@ -15,7 +15,7 @@
 #include <algorithm>
 #include <boost/algorithm/string.hpp>
 
-const std::string IEX_ENDPOINT = "https://sandbox.iexapis.com/beta"; // "https://cloud.iexapis.com/beta" //"https://api.iextrading.com/1.0"
+const std::string IEX_ENDPOINT = "https://cloud.iexapis.com/stable"; // "https://cloud.iexapis.com/beta" //"https://api.iextrading.com/1.0"
 
 namespace IEX {
 
@@ -41,6 +41,8 @@ namespace IEX {
         Json::Value chart(const std::string &symbol, const std::string& range);
         Json::Value news(const std::string &symbol);
         Json::Value ohlc(const std::string &symbol);
+        Json::Value advancedStats(const std::string &symbol);
+        Json::Value intradayPrices(const std::string &symbol);
     }
 
     namespace market {

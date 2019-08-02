@@ -67,7 +67,7 @@ Example: ?filter=symbol,volume,lastSalePrice will return only the three fields s
  */
 void MeanReversion::run() {
 
-    TA_RetCode result;
+    //TA_RetCode result;
     //testing
     auto data = IEX::stock::quote("AAPL");
     std::string prevClose = data["previousClose"].asString();

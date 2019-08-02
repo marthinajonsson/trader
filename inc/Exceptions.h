@@ -27,11 +27,10 @@ class MeanRevImplException : public std::logic_error
 public:
     MeanRevImplException(const int error, const char* msg) : std::logic_error(msg) { };
 };
-
-class SentimentImplException : public std::logic_error
+class GenericImplException : public std::logic_error
 {
 public:
-    SentimentImplException(const int error, const char* msg) : std::logic_error(msg) { };
+    GenericImplException(const int error, const char* msg) : std::logic_error(msg) { };
 };
 
 
