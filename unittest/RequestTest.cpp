@@ -24,7 +24,7 @@ protected:
 
 TEST_F(RequestTest, validSymbol) {
 
-    bool exists = IEX::isValidSymbol("aapl");
+    bool exists = IEX::isValidSymbol("NVDA");
     ASSERT_TRUE(exists);
 }
 
@@ -52,7 +52,7 @@ TEST_F(RequestTest, getRegions) {
 
 TEST_F(RequestTest, company) {
 
-    auto jsonData = IEX::stock::company("aapl");
+    auto jsonData = IEX::stock::company("NVDA");
     ASSERT_FALSE(jsonData.empty());
 }
 
@@ -68,30 +68,18 @@ TEST_F(RequestTest, company2) {
 }
 
 TEST_F(RequestTest, chart) {
-    auto jsonData = IEX::stock::chart("AAPL", "6m");
-    ASSERT_FALSE(jsonData.empty());
-}
-
-
-TEST_F(RequestTest, news) {
-    auto jsonData = IEX::stock::news("AAPL");
-    ASSERT_FALSE(jsonData.empty());
-}
-
-
-TEST_F(RequestTest, quote) {
-    auto jsonData = IEX::stock::quote("AAPL");
+    auto jsonData = IEX::stock::fetch("MSFT", IEX::INDICATOR::HISTORICAL_PRICES::HIST_PRICE_SIX_MONTH);
     ASSERT_FALSE(jsonData.empty());
 }
 
 
 TEST_F(RequestTest, earnings) {
-    auto jsonData = IEX::stock::earnings("AAPL");
+    auto jsonData = IEX::stock::fetch("MSFT", IEX::INDICATOR::EARNINGS::EARNINGS_ONE_YEAR);
     ASSERT_FALSE(jsonData.empty());
 }
 
 
-TEST_F(RequestTest, dividend) {
-    auto jsonData = IEX::ref::dividend("AAPL");
+TEST_F(RequestTest, currentPrice) {
+    auto jsonData = IEX::stock::fetch("NVDA", IEX::INDICATOR::PRICE::CURRENT_PRICE);
     ASSERT_FALSE(jsonData.empty());
 }

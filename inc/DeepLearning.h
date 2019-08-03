@@ -5,11 +5,8 @@
 #ifndef TRADER_DEEPLEARNING_H
 #define TRADER_DEEPLEARNING_H
 
-#include <array>
-#include <vector>
-#include <boost/array.hpp>
 #include "Exceptions.h"
-
+#include "IEX.h"
 
 class DeepLearning {
 public:
@@ -19,17 +16,17 @@ public:
 
     void run();
 private:
-    boost::array<int,2> weights;
+    array_b<int,2> weights {0,0};
 
-    std::vector<double> mseHist;
-    float learningRate = 0.01;
+    vector<double> mseHist;
+    constexpr static const float learningRate = 0.01;
 
-    boost::array<double,200> GetHistoricalPrices();
-    boost::array<double,1> predict(boost::array<double,200> input, boost::array<int,2> weights);
-    boost::array<int, 2> updateWeights (boost::array<int,2> weights, boost::array<int,2> slope);
+    static array_b<double,200> GetHistoricalPrices();
+    static array_b<double,1> predict(array_b<double,200> input, array_b<int,2> weights);
+    static array_b<int, 2> updateWeights (array_b<int,2> weights, array_b<int,2> slope);
 
-    double getError(double &output, double &target);
-    double getMSE(std::array<int,2>&, int&);
+    static double getError(double &output, double &target);
+    static double getMSE(array_b<int,2>&, int&);
 
 
     void errorHandler(RETcode &&retCode) const {
@@ -45,7 +42,7 @@ private:
                 {RETcode::ERROR, "Lib not initialized"},
         };
 
-        for (int i = 0; i < sizeof(errors); i++)
+        for (unsigned long i = 0; i < sizeof(errors); i++)
         {
             if (errors[i].code == retCode)
             {

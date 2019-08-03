@@ -1,48 +1,38 @@
 
-#include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
-#include <Feeder.h>
+
 #include "main.h"
 
 using namespace Trader;
 
+void fetchLists() {
+    vector<string> lists = {"symbols", "regions"};
+    for (auto s : lists) {
+
+    }
+}
+
+
 int main(int argc, char** argv) {
-
-    auto v = IEX::ref::updateSymbolList();
-    std::cout << v[8];
-//    Feeder feed;
 //
-//    feed.fetchByKey("NVDA", "price");
-//    feed.fetchByKey("NVDA", "pe");
-//    feed.fetchByKey("MSFT", "price");
-//    feed.fetchByKey("MSFT", "pe");
-//    feed.fetchByKey("NVDA", "price");
-//    feed.fetchByKey("NVDA", "pe");
-//    feed.fetchByKey("MSFT", "price");
-//    feed.fetchByKey("MSFT", "pe");
-//    return RUN_ALL_TESTS();
+//    auto v = IEX::ref::updateSymbolList();
+//    std::cout << v[8];
+    Feeder feed;
 
-//    TA_RetCode ret = TA_Initialize();
-//
-//    if(ret != TA_RetCode::TA_SUCCESS) {
-//        std::cerr << "Cannot initialize TA-Lib (%d)!\n" << ret << std::endl;
-//        return -1;
-//    }
+    feed.fetchData("MSFT", IEX::INDICATOR::PRICE::CURRENT_PRICE);
+    feed.fetchData("MSFT", IEX::INDICATOR::HISTORICAL_PRICES::HIST_PRICE_THREE_MONTH);
+    feed.fetchData("MSFT", IEX::INDICATOR::EARNINGS::EARNINGS_ONE_YEAR,
+            IEX::INDICATOR::EARNINGS::KEY::ACTUAL_EPS);
+
+    feed.fetchData("MSFT", IEX::INDICATOR::STATS::STATS, IEX::INDICATOR::STATS::KEY::DAY_50_MOV_AVG);
+    feed.fetchData("MSFT", IEX::INDICATOR::STATS::STATS, IEX::INDICATOR::STATS::KEY::PE_RATIO);
+
+    ::testing::InitGoogleMock(&argc, argv);
+    return RUN_ALL_TESTS();
+
 ////    ActiveAlgorithm active;
 ////    active.registerWork(MEAN_REVERSION);
-//
-//    TA_Shutdown();
-//
-//
-//    Json::Value jsonData = IEX::stock::quote("AAPL");
 
     return 0;
-//
-//
-//
-//    StockInfo stock;
 //
 //        ::testing::InitGoogleMock(&argc, argv);
 //        return RUN_ALL_TESTS();

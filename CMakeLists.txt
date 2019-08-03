@@ -20,7 +20,6 @@ include_directories( ${Boost_LIB_DIR} )
 
 set(headers
         ${CMAKE_CURRENT_LIST_DIR}/inc/IEX.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/StockInfo.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/Util.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/InputParser.h
         ${CMAKE_CURRENT_LIST_DIR}/unittest/TestStartup.h
@@ -30,7 +29,8 @@ set(headers
         ${CMAKE_CURRENT_LIST_DIR}/inc/Exceptions.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/main.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/AlgoDispatcher.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/MeanReversion.h inc/Feeder.h)
+        ${CMAKE_CURRENT_LIST_DIR}/inc/MeanReversion.h
+        ${CMAKE_CURRENT_LIST_DIR}/inc/Feeder.h)
 
 set(sources
         ${CMAKE_CURRENT_LIST_DIR}/src/IEX.cpp
@@ -39,7 +39,8 @@ set(sources
         ${CMAKE_CURRENT_LIST_DIR}/src/DeepLearning.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/MeanReversion.cpp
         ${CMAKE_CURRENT_LIST_DIR}/unittest/RequestTest.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp src/Feeder.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/Feeder.cpp)
 
 enable_testing()
 add_subdirectory(external/gtest/googlemock)

@@ -4,13 +4,12 @@
 #include "IEX.h"
 
 #include <unordered_set>
-#include <vector>
 #include <fstream>
 
-void saveData(const std::string &name, const std::string& type, std::vector<std::string>& data) {
+void saveData(const string &name, const string& type, vector<string>& data) {
     Json::Value root;
     Json::Value add;
-    std::string url = "../data/" + name + ".json";
+    string url = "../data/" + name + ".json";
     if(name != "symbols") {
         std::ifstream db_read(url, std::ifstream::binary);
         db_read >> root;
@@ -19,7 +18,7 @@ void saveData(const std::string &name, const std::string& type, std::vector<std:
 
     add[type].append(Json::arrayValue);
     int index = 0;
-    for(const std::string &s : data) {
+    for(const string &s : data) {
         add[type][index] = s;
         index++;
 
@@ -30,79 +29,74 @@ void saveData(const std::string &name, const std::string& type, std::vector<std:
     db_write.close();
 }
 
-void IEX::ref::parseSymbolData(const Json::Value &IEXdata, std::vector<std::string> &symbolVec)
+void IEX::ref::parseDataList(const string &type, const Json::Value &IEXdata, vector<string> &vec)
 {
-    int i = 0;
-    while(i < IEXdata.size()) {
-        symbolVec.push_back(IEXdata[i]["symbol"].asString());
-        i++;
+    for(const auto & data : IEXdata) {
+        vec.emplace_back(data[type].asString());
     }
 }
 
-void IEX::ref::parseLocalSymbol(const Json::Value &IEXdata, std::vector<std::string> &symbolVec)
+void IEX::ref::parseDataListSorted(const string &type, const Json::Value &IEXdata, vector<string> &vec)
 {
-    int i = 0;
+    parseDataList(type, IEXdata, vec);
+    std::sort(vec.begin(), vec.end());
+    vec.erase(std::unique(vec.begin(), vec.end()), vec.end());
+}
+
+void IEX::ref::parseLocalSymbol(const Json::Value &IEXdata, vector<string> &symbolVec)
+{
     int j = 0;
-    while(i < IEXdata.size()) {
-        while(j < IEXdata[i]["symbol"].size()) {
-            symbolVec.emplace_back(IEXdata[i]["symbol"][j].asString());
+    for(const auto & data : IEXdata) {
+        while(j < data["symbol"].size()) {
+            symbolVec.emplace_back(data["symbol"][j].asString());
             j++;
         }
-        i++;
     }
 }
 
-void IEX::ref::parseSymbolDataByArg(const Json::Value &IEXdata, std::vector<std::string> &symbolVec, const std::string &arg)
-{
-    int i = 0;
-    while(i < IEXdata.size()) {
-        symbolVec.push_back(IEXdata[i][arg].asString());
-        i++;
-    }
-    std::sort(symbolVec.begin(), symbolVec.end());
-    symbolVec.erase(std::unique(symbolVec.begin(), symbolVec.end()), symbolVec.end());
-}
-
-Json::Value IEX::ref::dividend(const std::string &symbol)
+Json::Value IEX::ref::getISINList()
 {
     Json::Value jsonData;
-    std::string url(IEX_ENDPOINT);
-    url += "/ref-data/daily-list/dividends";
+    vector<string> list;
+    string url(IEX_ENDPOINT);
+    url = url.append("/ref-data/isin");
     IEX::sendHttpGetRequest(jsonData, url);
+    assert(jsonData.isArray());
+    saveData("isins", "isin", list);
     return jsonData;
 }
 
-std::vector<std::string> IEX::ref::updateSymbolList()
+vector<string> IEX::ref::updateSymbolList()
 {
     Json::Value jsonData;
-    std::string url(IEX_ENDPOINT);
-    std::vector<std::string> symbolList;
-    url += "/ref-data/symbols";
+    string url(IEX_ENDPOINT);
+    vector<string> list;
+    url = url.append("/ref-data/symbols");
     IEX::sendHttpGetRequest(jsonData, url);
     assert(jsonData.isArray());
-    parseSymbolData(jsonData, symbolList);
-    saveData("symbols", "symbol", symbolList);
-    return symbolList;
+    parseDataList("symbol", jsonData, list);
+    saveData("symbols", "symbol", list);
+    return list;
 }
 
-std::vector<std::string> IEX::ref::updateRegionList()
+vector<string> IEX::ref::updateRegionList()
 {
     Json::Value jsonData;
-    std::string url(IEX_ENDPOINT);
-    std::vector<std::string> symbolList;
-    url += "/ref-data/exchanges";
+    string url(IEX_ENDPOINT);
+    vector<string> list;
+    url = url.append("/ref-data/exchanges");
     IEX::sendHttpGetRequest(jsonData, url);
     assert(jsonData.isArray());
-    parseSymbolDataByArg(jsonData, symbolList, "region");
-    saveData("regions", "region", symbolList);
-    return symbolList;
+    parseDataListSorted("region", jsonData, list);
+    saveData("regions", "region", list);
+    return list;
 }
 
-std::vector<std::string> IEX::ref::getSymbolList()
+vector<string> IEX::ref::getSymbolList()
 {
     Json::Value root;
-    std::vector<std::string> list;
-    std::string url = "../data/symbols.json";
+    vector<string> list;
+    string url = "../data/symbols.json";
     std::ifstream db_read(url, std::ifstream::binary);
     db_read >> root;
     db_read.close();
@@ -113,25 +107,23 @@ std::vector<std::string> IEX::ref::getSymbolList()
 std::vector<std::string> IEX::ref::getRegionList()
 {
     Json::Value root;
-    std::vector<std::string> list;
-    std::string url = "../data/regions.json";
+    vector<string> list;
+    string url = "../data/regions.json";
     std::ifstream db_read(url, std::ifstream::binary);
     db_read >> root;
     db_read.close();
-    parseSymbolData(root, list);
+    parseDataList("symbol", root, list);
     return list;
 }
 
 std::vector<std::string> IEX::ref::getSymbolListByRegion(std::string &&region) {
     Json::Value jsonData;
-    std::string url(IEX_ENDPOINT);
-    std::vector<std::string> symbolList;
-    url += "/ref-data/region/";
-    url += region;
-    url += "/symbols";
+    string url(IEX_ENDPOINT);
+    vector<string> list;
+    url = url.append("/ref-data/region/").append(region).append("/symbols");
     IEX::sendHttpGetRequest(jsonData, url);
     assert(jsonData.isArray());
-    parseSymbolData(jsonData, symbolList);
-    saveData("regions", "symbols:"+region, symbolList);
-    return symbolList;
+    parseDataList("symbol", jsonData, list);
+    saveData("regions", "symbols:"+region, list);
+    return list;
 }

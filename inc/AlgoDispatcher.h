@@ -7,8 +7,6 @@
 
 #include "MeanReversion.h"
 #include "Util.h"
-
-#include <string>
 #include <functional>
 
 
@@ -17,15 +15,15 @@ private:
 
 public:
 
-    std::function<void()> set(std::string &type)
+    std::function<void()> set(string &type)
     {
-        if( MEAN_REVERSION == type ) {
+        if( ALGORITHM::MEAN_REVERSION == type ) {
             return std::bind(&MeanReversion::run, &MeanReversion::getInstance());
-        }else if ( MOMENTUM == type ) {
+        }else if ( ALGORITHM::MOMENTUM == type ) {
 
-        }else if ( SENTIMENT == type ) {
+        }else if ( ALGORITHM::SENTIMENT == type ) {
 
-        }else if ( SEASONALITY == type ) {
+        }else if ( ALGORITHM::SEASONALITY == type ) {
 
         }
         return std::bind(&MeanReversion::run, &MeanReversion::getInstance());

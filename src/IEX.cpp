@@ -6,26 +6,24 @@
 #include "main.h"
 
 
-
 namespace {
 
-    std::size_t callback(const char *in, std::size_t size, std::size_t num, std::string *out) {
+    std::size_t callback(const char *in, std::size_t size, std::size_t num, string *out) {
         const std::size_t totalBytes(size * num);
         out->append(in, totalBytes);
         return totalBytes;
     }
 }
 
-void IEX::parseData(const Json::Value &IEXdata, std::vector<std::string> &argVec) {
+void IEX::parseData(const Json::Value &IEXdata, vector<string> &argVec) {
 
-    for (Json::Value::const_iterator it=IEXdata.begin(); it!=IEXdata.end(); ++it) {
-        std::string data = it.key().asString() + ':' + it->asString();
-
+    for (Json::Value::const_iterator it = IEXdata.begin(); it != IEXdata.end(); ++it) {
+        string data = it.key().asString().append(":").append(it->asString());
         argVec.emplace_back(data);
     }
 }
 
-void IEX::parseArgData(const Json::Value &IEXdata, std::vector<std::string> &argVec, std::string &&arg)
+void IEX::parseArgData(const Json::Value &IEXdata, vector<string> &argVec, string &&arg)
 {
    if (!IEXdata.isMember(arg)) {
         std::cout << "Key doesn't exists" << std::endl;
@@ -39,25 +37,23 @@ void IEX::parseArgData(const Json::Value &IEXdata, std::vector<std::string> &arg
         }
     }
     else {
-        std::string result = val.asString();
-        argVec.emplace_back(result);
-
+        argVec.emplace_back(val.asString());
     }
 }
 
-bool IEX::isValidSymbol(const std::string &symbol)
+bool IEX::isValidSymbol(const string &symbol)
 {
-    std::vector<std::string> symbolList = IEX::ref::getSymbolList();
-    std::string symbolCopy = symbol;
+    vector<string> symbolList = IEX::ref::getSymbolList();
+    string symbolCopy = symbol;
     boost::to_upper(symbolCopy);
     return std::find(symbolList.begin(), symbolList.end(), symbolCopy) != symbolList.end();
 }
 
 
-void IEX::sendHttpGetRequest(Json::Value &jsonData, std::string &url)
+void IEX::sendHttpGetRequest(Json::Value &jsonData, string &url)
 {
     Json::Value JSONconfig;
-    std::string token;
+    string token;
     std::ifstream config("../data/config.json", std::ifstream::binary);
     if (!config.is_open()) {
         std::cerr << "token is missing, could not find config.json" << std::endl;
@@ -66,10 +62,10 @@ void IEX::sendHttpGetRequest(Json::Value &jsonData, std::string &url)
     else {
         config >> JSONconfig;
         config.close();
-        token = JSONconfig["token"].asString();
+        token = "?token=" + JSONconfig["token"].asString();
     }
 
-    url += token;
+    url = url.append(token);
     CURL* curl = curl_easy_init();
 
     curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
@@ -78,20 +74,24 @@ void IEX::sendHttpGetRequest(Json::Value &jsonData, std::string &url)
     curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
 
     long int httpCode(0);
-    std::unique_ptr<std::string> httpData(new std::string());
+    std::unique_ptr<string> httpData(new string());
     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, callback);
     curl_easy_setopt(curl, CURLOPT_WRITEDATA, httpData.get());
     curl_easy_perform(curl);
     curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &httpCode);
     curl_easy_cleanup(curl);
 
+    if (httpCode != 200) {
+        std::cerr << "HTTP response code: " << httpCode << std::endl;
+    }
+
     Json::CharReaderBuilder builder;
     Json::CharReader * reader = builder.newCharReader();
-    std::string errors;
+    string errors;
 
     bool result = reader->parse(httpData.get()->c_str(), httpData->end().base(), &jsonData, &errors);
 
-    if(!result) {
+    if (!result) {
         std::cout << "False curl request: " << url << std::endl;
     }
     delete reader;

@@ -10,13 +10,10 @@
 #include "IEX.h"
 #include "Util.h"
 
-#include <string>
 #include <thread>
 #include <queue>
 #include <mutex>
 #include <future>
-#include <iostream>
-
 
 namespace Trader {
 
@@ -28,7 +25,7 @@ namespace Trader {
     class ActiveAlgorithm {
     private:
 
-        std::string val;
+        string val;
         AlgoQueue queue;
         std::atomic<bool> done;
         std::thread *runnable;
@@ -39,9 +36,9 @@ namespace Trader {
         }
         ~ActiveAlgorithm() { runnable->join(); }
 
-        std::string getVal() { return val; }
+        string getVal() { return val; }
 
-        void registerWork(std::string algorithm) {
+        void registerWork(string algorithm) {
             val = algorithm;
             queue.put(algorithm);
         }

@@ -17,8 +17,8 @@ static std::mutex m_write;
 class Feeder {
 private:
     std::ofstream _file;
-    std::string _path;
-    std::string getPath();
+    string _path;
+    static string getPath();
 public:
     Feeder() {
         _path = getPath();
@@ -26,7 +26,7 @@ public:
 
     ~Feeder() = default;
 
-    void fetchByKey(std::string &&symbol, std::string &&key);
+    void fetchData(string &&symbol, const string& indicator, const string& filterKey = "");
 };
 
 #endif //TRADER_FEEDER_H

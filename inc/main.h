@@ -6,9 +6,12 @@
 #define TRADER_MAIN_H
 
 #include <include/gmock/gmock.h>
-#include "StockInfo.h"
+#include <iostream>
+
 #include "TestStartup.h"
 #include "ActiveAlgorithm.h"
 #include "Exceptions.h"
+#include "Feeder.h"
 #include "IEX.h"
+
 #endif //TRADER_MAIN_H
