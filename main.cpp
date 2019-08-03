@@ -21,13 +21,21 @@ int main(int argc, char** argv) {
     feed.fetchData("MSFT", IEX::INDICATOR::PRICE::CURRENT_PRICE);
     feed.fetchData("MSFT", IEX::INDICATOR::HISTORICAL_PRICES::HIST_PRICE_THREE_MONTH);
     feed.fetchData("MSFT", IEX::INDICATOR::EARNINGS::EARNINGS_ONE_YEAR,
-            IEX::INDICATOR::EARNINGS::KEY::ACTUAL_EPS);
+                   IEX::INDICATOR::EARNINGS::KEY::ACTUAL_EPS);
 
     feed.fetchData("MSFT", IEX::INDICATOR::STATS::STATS, IEX::INDICATOR::STATS::KEY::DAY_50_MOV_AVG);
     feed.fetchData("MSFT", IEX::INDICATOR::STATS::STATS, IEX::INDICATOR::STATS::KEY::PE_RATIO);
 
-    ::testing::InitGoogleMock(&argc, argv);
-    return RUN_ALL_TESTS();
+    feed.fetchData("NVDA", IEX::INDICATOR::PRICE::CURRENT_PRICE);
+    feed.fetchData("NVDA", IEX::INDICATOR::HISTORICAL_PRICES::HIST_PRICE_THREE_MONTH);
+    feed.fetchData("NVDA", IEX::INDICATOR::EARNINGS::EARNINGS_ONE_YEAR,
+                   IEX::INDICATOR::EARNINGS::KEY::ACTUAL_EPS);
+
+    feed.fetchData("NVDA", IEX::INDICATOR::STATS::STATS, IEX::INDICATOR::STATS::KEY::DAY_50_MOV_AVG);
+    feed.fetchData("NVDA", IEX::INDICATOR::STATS::STATS, IEX::INDICATOR::STATS::KEY::PE_RATIO);
+
+//    ::testing::InitGoogleMock(&argc, argv);
+//    return RUN_ALL_TESTS();
 
 ////    ActiveAlgorithm active;
 ////    active.registerWork(MEAN_REVERSION);

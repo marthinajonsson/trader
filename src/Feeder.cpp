@@ -4,6 +4,24 @@
 
 #include "Feeder.h"
 #include <algorithm>
+#include <regex>
+
+string Feeder::getDate() {
+    time_t now = time(0);
+    tm *ltm = localtime(&now);
+    auto year = 1900 + ltm->tm_year;
+    auto month = 1 + ltm->tm_mon;
+    auto day = ltm->tm_mday;
+    string y = std::to_string(year);
+    string m = std::to_string(month);
+    string d = std::to_string(day);
+    y = y.append("-");
+    y = y.append(m);
+    y = y.append("-");
+    y = y.append(d);
+    return y;
+}
+
 
 string Feeder::getPath() {
     boost::filesystem::path cwd(boost::filesystem::current_path());
@@ -20,9 +38,18 @@ void Feeder::fetchData(string &&symbol, const string& indicator, const string& f
     std::lock_guard<std::mutex> lock(m_write);
 
     string pathInd = indicator;
-    pathInd.erase(std::remove(pathInd.begin(), pathInd.end(), '/'), pathInd.end());
-    string filename = _path + symbol + pathInd;
+    if (string::npos != pathInd.find('/'))
+        pathInd = std::regex_replace(pathInd, std::regex("/"), "_");
 
+    string filename = _path;
+    filename.append(symbol).append("_").append(pathInd);
+    if (!filterKey.empty()) {
+        string pathKey = filterKey;
+        if (string::npos != pathKey.find('/'))
+            pathKey = std::regex_replace(pathKey, std::regex("/"), "_");
+        filename.append("_");
+        filename.append(pathKey);
+    }
     _file.open(filename, std::ios::out | std::ios::app);
 
     Json::Value JValue = IEX::stock::fetch(symbol, indicator, filterKey);
@@ -31,18 +58,17 @@ void Feeder::fetchData(string &&symbol, const string& indicator, const string& f
     }
     else if (!JValue.isNull()){
         if (filterKey.empty()) {
-            static int aCounter = 0;
-            _file << aCounter << ", ";
+            string date = getDate();
+            _file << date << ", ";
             _file << JValue.asDouble();
             _file << ",\n";
-            aCounter++;
         }
         else {
             static int aCounter2 = 0;
-            _file << aCounter2 << ", ";
+            string date = getDate();
+            _file << date << ", ";
             _file << JValue;
             _file << ",\n";
-            aCounter2++;
 
         }
     }

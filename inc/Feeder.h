@@ -15,7 +15,7 @@
 static std::mutex m_write;
 
 class Feeder {
-private:
+protected:
     std::ofstream _file;
     string _path;
     static string getPath();
@@ -25,7 +25,7 @@ public:
     }
 
     ~Feeder() = default;
-
+    static string getDate();
     void fetchData(string &&symbol, const string& indicator, const string& filterKey = "");
 };
 
