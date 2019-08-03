@@ -15,7 +15,7 @@
 #include <algorithm>
 #include <boost/algorithm/string.hpp>
 
-const std::string IEX_ENDPOINT = "https://sandbox.iexapis.com"; // "https://cloud.iexapis.com/beta" //"https://api.iextrading.com/1.0"
+const std::string IEX_ENDPOINT = "https://sandbox.iexapis.com/beta"; // "https://cloud.iexapis.com/beta" //"https://api.iextrading.com/1.0"
 
 namespace IEX {
 
@@ -26,8 +26,11 @@ namespace IEX {
     bool isValidSymbol(const std::string &);
 
     namespace ref {
+        void parseLocalSymbol(const Json::Value &, std::vector<std::string> &);
         void parseSymbolData(const Json::Value &, std::vector<std::string> &);
         void parseSymbolDataByArg(const Json::Value &, std::vector<std::string> &, const std::string &);
+        std::vector<std::string> updateSymbolList();
+        std::vector<std::string> updateRegionList();
         std::vector<std::string> getSymbolList();
         std::vector<std::string> getRegionList();
         std::vector<std::string> getSymbolListByRegion(std::string &&region);

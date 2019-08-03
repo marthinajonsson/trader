@@ -10,16 +10,18 @@ using namespace Trader;
 
 int main(int argc, char** argv) {
 
-    Feeder feed;
-
-    feed.fetchByKey("NVDA", "price");
-    feed.fetchByKey("MSFT", "pe");
-    feed.fetchByKey("NVDA", "price");
-    feed.fetchByKey("MSFT", "pe");
-    feed.fetchByKey("NVDA", "price");
-    feed.fetchByKey("MSFT", "pe");
-
-//    ::testing::InitGoogleMock(&argc, argv);
+    auto v = IEX::ref::updateSymbolList();
+    std::cout << v[8];
+//    Feeder feed;
+//
+//    feed.fetchByKey("NVDA", "price");
+//    feed.fetchByKey("NVDA", "pe");
+//    feed.fetchByKey("MSFT", "price");
+//    feed.fetchByKey("MSFT", "pe");
+//    feed.fetchByKey("NVDA", "price");
+//    feed.fetchByKey("NVDA", "pe");
+//    feed.fetchByKey("MSFT", "price");
+//    feed.fetchByKey("MSFT", "pe");
 //    return RUN_ALL_TESTS();
 
 //    TA_RetCode ret = TA_Initialize();

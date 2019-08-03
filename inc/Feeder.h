@@ -22,7 +22,6 @@ private:
 public:
     Feeder() {
         _path = getPath();
-        IEX::ref::getSymbolList();
     }
 
     ~Feeder() = default;

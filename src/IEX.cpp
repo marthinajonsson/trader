@@ -69,7 +69,7 @@ void IEX::sendHttpGetRequest(Json::Value &jsonData, std::string &url)
         token = JSONconfig["token"].asString();
     }
 
-    url += "/" + token;
+    url += token;
     CURL* curl = curl_easy_init();
 
     curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
@@ -95,5 +95,4 @@ void IEX::sendHttpGetRequest(Json::Value &jsonData, std::string &url)
         std::cout << "False curl request: " << url << std::endl;
     }
     delete reader;
-
 }

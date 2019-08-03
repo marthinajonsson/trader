@@ -39,6 +39,19 @@ void IEX::ref::parseSymbolData(const Json::Value &IEXdata, std::vector<std::stri
     }
 }
 
+void IEX::ref::parseLocalSymbol(const Json::Value &IEXdata, std::vector<std::string> &symbolVec)
+{
+    int i = 0;
+    int j = 0;
+    while(i < IEXdata.size()) {
+        while(j < IEXdata[i]["symbol"].size()) {
+            symbolVec.emplace_back(IEXdata[i]["symbol"][j].asString());
+            j++;
+        }
+        i++;
+    }
+}
+
 void IEX::ref::parseSymbolDataByArg(const Json::Value &IEXdata, std::vector<std::string> &symbolVec, const std::string &arg)
 {
     int i = 0;
@@ -59,7 +72,7 @@ Json::Value IEX::ref::dividend(const std::string &symbol)
     return jsonData;
 }
 
-std::vector<std::string> IEX::ref::getSymbolList()
+std::vector<std::string> IEX::ref::updateSymbolList()
 {
     Json::Value jsonData;
     std::string url(IEX_ENDPOINT);
@@ -72,7 +85,7 @@ std::vector<std::string> IEX::ref::getSymbolList()
     return symbolList;
 }
 
-std::vector<std::string> IEX::ref::getRegionList()
+std::vector<std::string> IEX::ref::updateRegionList()
 {
     Json::Value jsonData;
     std::string url(IEX_ENDPOINT);
@@ -83,6 +96,30 @@ std::vector<std::string> IEX::ref::getRegionList()
     parseSymbolDataByArg(jsonData, symbolList, "region");
     saveData("regions", "region", symbolList);
     return symbolList;
+}
+
+std::vector<std::string> IEX::ref::getSymbolList()
+{
+    Json::Value root;
+    std::vector<std::string> list;
+    std::string url = "../data/symbols.json";
+    std::ifstream db_read(url, std::ifstream::binary);
+    db_read >> root;
+    db_read.close();
+    parseLocalSymbol(root, list);
+    return list;
+}
+
+std::vector<std::string> IEX::ref::getRegionList()
+{
+    Json::Value root;
+    std::vector<std::string> list;
+    std::string url = "../data/regions.json";
+    std::ifstream db_read(url, std::ifstream::binary);
+    db_read >> root;
+    db_read.close();
+    parseSymbolData(root, list);
+    return list;
 }
 
 std::vector<std::string> IEX::ref::getSymbolListByRegion(std::string &&region) {
