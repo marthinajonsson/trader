@@ -40,7 +40,7 @@ set(sources
         ${CMAKE_CURRENT_LIST_DIR}/src/MeanReversion.cpp
         ${CMAKE_CURRENT_LIST_DIR}/unittest/RequestTest.cpp
         ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/Feeder.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/src/Feeder.cpp unittest/FeederTest.cpp)
 
 enable_testing()
 add_subdirectory(external/gtest/googlemock)

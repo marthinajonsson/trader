@@ -3,8 +3,11 @@
 //
 
 #include "Feeder.h"
+#include "IEX.h"
 #include <algorithm>
 #include <regex>
+
+namespace fs = boost::filesystem;
 
 string Feeder::getDate() {
     time_t now = time(0);
@@ -22,13 +25,18 @@ string Feeder::getDate() {
     return y;
 }
 
-
-string Feeder::getPath() {
-    boost::filesystem::path cwd(boost::filesystem::current_path());
-    string path = cwd.string() + "/feeds/";
-    boost::filesystem::path dir(path);
-    if (!(boost::filesystem::exists(path))) {
-        if (!boost::filesystem::create_directory(path))
+string Feeder::createPath(string &&key)
+{
+    Json::Value root;
+    vector<string> list;
+    string url = "../data/config.json";
+    std::ifstream db_read(url, std::ifstream::binary);
+    db_read >> root;
+    db_read.close();
+    string path = root[key].asString();
+    fs::path dir(path);
+    if (!fs::exists(path)) {
+        if (!fs::create_directory(path))
             std::cerr << "Failed to create feed folder" << std::endl;
     }
     return path;

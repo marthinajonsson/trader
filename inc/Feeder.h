@@ -10,7 +10,8 @@
 #include <fstream>
 #include <iostream>
 #include <mutex>
-#include "IEX.h"
+#include "Util.h"
+
 
 static std::mutex m_write;
 
@@ -18,14 +19,18 @@ class Feeder {
 protected:
     std::ofstream _file;
     string _path;
-    static string getPath();
-public:
-    Feeder() {
-        _path = getPath();
-    }
-
-    ~Feeder() = default;
+    static string createPath(string &&);
     static string getDate();
+public:
+    explicit Feeder(string &&test = "") {
+        if (test.empty())
+            _path = createPath("output_path");
+        else
+            _path = createPath("test_path");
+    }
+    ~Feeder() = default;
+
+    const string& getPath() { return _path; }
     void fetchData(string &&symbol, const string& indicator, const string& filterKey = "");
 };
 
