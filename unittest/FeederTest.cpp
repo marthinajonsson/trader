@@ -27,8 +27,10 @@ TEST_F(FeederTest, simple) {
     Feeder feed("test");
     string path = feed.getPath();
     fs::path fs_path(path);
-    for (fs::directory_iterator endIt, it(fs_path); it != endIt; it++) {
-        fs::remove_all(it->path());
+    if (fs::exists(fs_path)) {
+        for (fs::directory_iterator endIt, it(fs_path); it != endIt; it++) {
+            fs::remove_all(it->path());
+        }
     }
     ASSERT_TRUE(fs::is_empty(fs_path));
 
@@ -46,8 +48,10 @@ TEST_F(FeederTest, medium) {
     Feeder feed("test");
     string path = feed.getPath();
     fs::path fs_path(path);
-    for (fs::directory_iterator endIt, it(fs_path); it != endIt; it++) {
-        fs::remove_all(it->path());
+    if (fs::exists(fs_path)) {
+        for (fs::directory_iterator endIt, it(fs_path); it != endIt; it++) {
+            fs::remove_all(it->path());
+        }
     }
     ASSERT_TRUE(fs::is_empty(fs_path));
 
@@ -72,8 +76,10 @@ TEST_F(FeederTest, complex) {
     Feeder feed("test");
     string path = feed.getPath();
     fs::path fs_path(path);
-    for (fs::directory_iterator endIt, it(fs_path); it != endIt; it++) {
-        fs::remove_all(it->path());
+    if (fs::exists(fs_path)) {
+        for (fs::directory_iterator endIt, it(fs_path); it != endIt; it++) {
+            fs::remove_all(it->path());
+        }
     }
     ASSERT_TRUE(fs::is_empty(fs_path));
 

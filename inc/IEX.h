@@ -13,27 +13,23 @@
 #include <algorithm>
 #include "Util.h"
 
-const string IEX_ENDPOINT = "https://sandbox.iexapis.com/beta"; // "https://cloud.iexapis.com/stable"
+const string BASE_URL_ENDPOINT = "https://cloud.iexapis.com/stable";
 
-
-namespace IEX {
-
-    void sendHttpGetRequest(Json::Value &jsonData, string &url);
-    void parseData(const Json::Value &IEXdata, vector <string> &argVec);
-    void parseArgData(const Json::Value &IEXdata, vector <string> &argVec, string &&arg);
-
+namespace IEX
+{
+    void parseDataList(const string &type, const Json::Value &, vector<string> &);
+    Json::Value fetch(const string &, const string &, const string& = "");
+    void parseArgData(const Json::Value &, vector <string> &, string &&);
+    void parseLocalSymbol(const Json::Value &, vector<string> &);
+    vector<string> getSymbolList(const string &);
     bool isValidSymbol(const string &);
 
-    namespace INDICATOR {
-        /// \brief Require subscription plan
-        namespace ADVANCED_STAT {
-            static const string ADVANCED_STAT = "advanced-stats";
-            namespace KEY {
-                static const string PE = "pegRatio";
-                static const string FORWARD_PE_RATIO = "forwardPERatio";
-            }
-        }
+    void saveData(const string &, const string&, vector<string>&);
+    void sendRequest(Json::Value &jsonData, string &url);
+    void updateReferenceList(const string&);
+    void addToken(string &url);
 
+    namespace INDICATOR {
         namespace EARNINGS {
             static const string EARNINGS_ONE_YEAR = "earnings/1";
             namespace KEY {
@@ -60,10 +56,6 @@ namespace IEX {
 
         namespace PRICE {
             static const string CURRENT_PRICE = "price";
-
-            /// \brief Require subscription plan
-            static const string INTRADAY_PRICES = "intraday-prices";
-
             static const string PREVIOUS_PRICE = "previous";
             namespace KEY_PREVIOUS_PRICE {
                 static const string OPEN = "open";
@@ -81,29 +73,6 @@ namespace IEX {
                 static const string TRAILING_TWELVE_MONTHS_EARNING = "ttmEPS";
             }
         }
-    }
-
-    namespace ref {
-        void parseLocalSymbol(const Json::Value &, vector<string> &);
-        void parseDataList(const string&, const Json::Value &, vector<string> &);
-        void parseDataListSorted(const string &type, const Json::Value &IEXdata, vector<string> &vec);
-        vector<string> updateSymbolList();
-        vector<string> updateRegionList();
-        vector<string> getSymbolList();
-        vector<string> getRegionList();
-        vector<string> getSymbolListByRegion(string &&);
-        Json::Value getISINList();
-    }
-
-    namespace stock {
-        // EARNINGS, STATS, PRICE, PREVIOUS, HIST PRICE, INTRADAY PRICES
-        // INSIDER SUMMARY, ADVANCED STATS
-        Json::Value fetch(const string &symbol, const string &indicator, const string& filterKey = "");
-        Json::Value company(const string &symbol);
-    }
-
-    namespace market {
-        // IPOS
     }
 }
 

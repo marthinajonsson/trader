@@ -22,7 +22,6 @@ set(headers
         ${CMAKE_CURRENT_LIST_DIR}/inc/IEX.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/Util.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/InputParser.h
-        ${CMAKE_CURRENT_LIST_DIR}/unittest/TestStartup.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/ActiveAlgorithm.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/AlgoQueue.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/DeepLearning.h
@@ -30,22 +29,27 @@ set(headers
         ${CMAKE_CURRENT_LIST_DIR}/inc/main.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/AlgoDispatcher.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/MeanReversion.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/Feeder.h)
+        ${CMAKE_CURRENT_LIST_DIR}/inc/Feeder.h
+        ${CMAKE_CURRENT_LIST_DIR}/inc/UniBit.h
+        ${CMAKE_CURRENT_LIST_DIR}/inc/Client.h)
 
 set(sources
         ${CMAKE_CURRENT_LIST_DIR}/src/IEX.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/IEXStock.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/IEXRef.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/DeepLearning.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/MeanReversion.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/unittest/RequestTest.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/Feeder.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/UniBit.cpp)
+
+set(tests
         ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/Feeder.cpp unittest/FeederTest.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/unittest/TestStartup.h
+        ${CMAKE_CURRENT_LIST_DIR}/unittest/RequestTest.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/unittest/FeederTest.cpp)
 
 enable_testing()
 add_subdirectory(external/gtest/googlemock)
 
-add_executable(trader main.cpp ${sources} ${headers})
+add_executable(trader main.cpp ${sources} ${headers} ${tests})
 
 target_link_libraries(trader ${Boost_LIBRARIES})
 target_link_libraries(trader jsoncpp)

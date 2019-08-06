@@ -60,7 +60,7 @@ void Feeder::fetchData(string &&symbol, const string& indicator, const string& f
     }
     _file.open(filename, std::ios::out | std::ios::app);
 
-    Json::Value JValue = IEX::stock::fetch(symbol, indicator, filterKey);
+    Json::Value JValue = IEX::fetch(symbol, indicator, filterKey);
     if (JValue.isArray()) {
         _file << JValue << "\n";
     }
@@ -77,7 +77,6 @@ void Feeder::fetchData(string &&symbol, const string& indicator, const string& f
             _file << date << ", ";
             _file << JValue;
             _file << ",\n";
-
         }
     }
     _file.close();

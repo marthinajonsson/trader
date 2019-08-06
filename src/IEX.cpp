@@ -2,24 +2,32 @@
 // Created by mjonsson on 1/11/19.
 //
 
+#include "Client.h"
 #include "IEX.h"
 #include "main.h"
 
+void IEX::saveData(const string &name, const string& type, vector<string>& data) {
+    Json::Value root;
+    Json::Value add;
+    string url = "../data/IEX_" + name + ".json";
 
-namespace {
-
-    std::size_t callback(const char *in, std::size_t size, std::size_t num, string *out) {
-        const std::size_t totalBytes(size * num);
-        out->append(in, totalBytes);
-        return totalBytes;
+    add[type].append(Json::arrayValue);
+    int index = 0;
+    for(const string &s : data) {
+        add[type][index] = s;
+        index++;
     }
+    root.append(add);
+    std::ofstream db_write;
+    db_write.open(url, std::ios::trunc);
+    db_write << root;
+    db_write.close();
 }
 
-void IEX::parseData(const Json::Value &IEXdata, vector<string> &argVec) {
-
-    for (Json::Value::const_iterator it = IEXdata.begin(); it != IEXdata.end(); ++it) {
-        string data = it.key().asString().append(":").append(it->asString());
-        argVec.emplace_back(data);
+void IEX::parseDataList(const string &type, const Json::Value &response, vector<string> &result)
+{
+    for(const auto &data : response) {
+        result.emplace_back(data[type].asString());
     }
 }
 
@@ -41,16 +49,74 @@ void IEX::parseArgData(const Json::Value &IEXdata, vector<string> &argVec, strin
     }
 }
 
-bool IEX::isValidSymbol(const string &symbol)
+void IEX::parseLocalSymbol(const Json::Value &response, vector<string> &result)
 {
-    vector<string> symbolList = IEX::ref::getSymbolList();
+    int j = 0;
+    for(const auto & data : response) {
+        while(j < data["symbol"].size()) {
+            result.emplace_back(data["symbol"][j].asString());
+            j++;
+        }
+    }
+}
+
+vector<string> IEX::getSymbolList(const string &region)
+{
+    Json::Value root;
+    vector<string> list;
+    string url = "../data/symbols";
+    url = url.append("[");
+    url = url.append(region);
+    url = url.append("]");
+    std::ifstream db_read(url, std::ifstream::binary);
+    db_read >> root;
+    db_read.close();
+    parseLocalSymbol(root, list);
+    return list;
+}
+
+bool IEX::isValidSymbol(const string &symbol) {
+    vector<string> symbolList = getSymbolList("us");
     string symbolCopy = symbol;
     boost::to_upper(symbolCopy);
     return std::find(symbolList.begin(), symbolList.end(), symbolCopy) != symbolList.end();
 }
 
+Json::Value IEX::fetch(const string &symbol, const string &indicator, const string& filterKey)
+{
+    Json::Value jsonData;
+    if (!isValidSymbol(symbol)) {
+        std::cout << "Invalid Symbol! I am returning an uninitialized JSON object!";
+        return jsonData;
+    }
 
-void IEX::sendHttpGetRequest(Json::Value &jsonData, string &url)
+    string url(BASE_URL_ENDPOINT);
+    url = url.append("/stock/").append(symbol).append("/").append(indicator);
+    if (!filterKey.empty()) {
+        url = url.append("/").append(filterKey);
+    }
+    addToken(url);
+    sendRequest(jsonData, url);
+    return jsonData;
+}
+
+void IEX::updateReferenceList(const string &region) {
+    Json::Value jsonData;
+    string url(BASE_URL_ENDPOINT);
+    vector<string> list;
+    url = url.append("/ref-data/region/").append(region).append("/symbols");
+    addToken(url);
+    IEX::sendRequest(jsonData, url);
+    assert(jsonData.isArray());
+    parseDataList("symbol", jsonData, list);
+    string name = "symbols";
+    name.append("[");
+    name.append(region);
+    name.append("]");
+    saveData("symbols["+region+"]", "symbols:"+region, list);
+}
+
+void IEX::addToken(string &url)
 {
     Json::Value JSONconfig;
     string token;
@@ -62,37 +128,14 @@ void IEX::sendHttpGetRequest(Json::Value &jsonData, string &url)
     else {
         config >> JSONconfig;
         config.close();
-        token = "?token=" + JSONconfig["token"].asString();
+        token = "?token=" + JSONconfig["IEX"]["token"].asString();
     }
-
     url = url.append(token);
-    CURL* curl = curl_easy_init();
+}
 
-    curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
-    curl_easy_setopt(curl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
-    curl_easy_setopt(curl, CURLOPT_TIMEOUT, 10);
-    curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
-
-    long int httpCode(0);
-    std::unique_ptr<string> httpData(new string());
-    curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, callback);
-    curl_easy_setopt(curl, CURLOPT_WRITEDATA, httpData.get());
-    curl_easy_perform(curl);
-    curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &httpCode);
-    curl_easy_cleanup(curl);
-
-    if (httpCode != 200) {
-        std::cerr << "HTTP response code: " << httpCode << std::endl;
-    }
-
-    Json::CharReaderBuilder builder;
-    Json::CharReader * reader = builder.newCharReader();
-    string errors;
-
-    bool result = reader->parse(httpData.get()->c_str(), httpData->end().base(), &jsonData, &errors);
-
-    if (!result) {
-        std::cout << "False curl request: " << url << std::endl;
-    }
-    delete reader;
+void IEX::sendRequest(Json::Value &jsonData, string &url)
+{
+    Client client;
+    addToken(url);
+    client.sendHttpGetRequest(jsonData, url);
 }

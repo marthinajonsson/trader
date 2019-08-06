@@ -8,7 +8,7 @@
 array_b<double,200> DeepLearning::GetHistoricalPrices()
 {
     array_b<double, 200> prices{};
-    auto historicalData = IEX::stock::fetch("AAPL", IEX::INDICATOR::HISTORICAL_PRICES::HIST_PRICE_SIX_MONTH);
+    auto historicalData = IEX::fetch("AAPL", IEX::INDICATOR::HISTORICAL_PRICES::HIST_PRICE_SIX_MONTH);
     for (auto day : historicalData) {
         double price = day["close"].asDouble();
         prices.fill(price);
@@ -23,7 +23,7 @@ void DeepLearning::run() {
 
     double movingAverage[200]{};
     int* idx0 = nullptr, *idxLast = nullptr;
-    Json::Value data = IEX::stock::fetch("AAPL", IEX::INDICATOR::STATS::STATS, IEX::INDICATOR::STATS::KEY::DAY_200_MOV_AVG);
+    Json::Value data = IEX::fetch("AAPL", IEX::INDICATOR::STATS::STATS, IEX::INDICATOR::STATS::KEY::DAY_200_MOV_AVG);
     int i = 0;
     while (i < data.size()) {
         movingAverage[i] = data[i].asDouble();
