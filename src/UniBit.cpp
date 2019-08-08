@@ -4,10 +4,12 @@
 
 #include <iostream>
 #include <fstream>
+#include <string>
 #include <Client.h>
 #include "UniBit.h"
 
-void UNIBIT::saveData(const string &name, const string& type, vector<string>& data)
+template<typename T>
+void UNIBIT::saveData(const string &name, const string& type, vector<T>& data)
 {
     Json::Value root;
     Json::Value add;
@@ -26,7 +28,8 @@ void UNIBIT::saveData(const string &name, const string& type, vector<string>& da
     db_write.close();
 }
 
-void UNIBIT::parseArgData(const Json::Value &response, vector<string> &argVec, const string &arg)
+template<typename T>
+void UNIBIT::parseArgData(const Json::Value &response, vector<T> &argVec, const string& baseArg, const string &arg)
 {
     if (!response.isMember(arg)) {
         std::cout << "Key doesn't exists" << std::endl;
@@ -66,8 +69,8 @@ void UNIBIT::updateReferenceList(const string& exchange)
     url.append(UNIBIT::SYMBOLS::KEY_REQUEST_EXCHANGE);
     url.append(exchange);
     sendRequest(response, url);
-    parseArgData(response, result, UNIBIT::SYMBOLS::KEY_RESPONSE::TICKER);
-    parseArgData(response, result, UNIBIT::SYMBOLS::KEY_RESPONSE::CURRENCY);
+    parseArgData(response, result, "", UNIBIT::SYMBOLS::KEY_RESPONSE::TICKER);
+    parseArgData(response, result, "", UNIBIT::SYMBOLS::KEY_RESPONSE::CURRENCY);
     string name = "symbols";
     name.append("[");
     name.append(exchange);

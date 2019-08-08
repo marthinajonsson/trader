@@ -19,10 +19,5 @@ MeanReversion& MeanReversion::getInstance()
 
 void MeanReversion::run()
 {
-    string key = UNIBIT::INDICATOR::KEY_REQUEST_DATA_POINT;
-    key = key.append("200");
-    key = key.append(UNIBIT::INDICATOR::KEY_REQUEST_SERIES_TYPE).append("close");
-    key = key.append(UNIBIT::INDICATOR::KEY_REQUEST_INTERVAL).append("daily");
-    key = key.append(UNIBIT::INDICATOR::KEY_REQUEST_RANGE).append("6m");
-    UNIBIT::fetch("MSFT", UNIBIT::INDICATOR::BASE_REQUEST, key);
+
 }

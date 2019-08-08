@@ -17,14 +17,19 @@ const string BASE_URL_ENDPOINT = "https://cloud.iexapis.com/stable";
 
 namespace IEX
 {
-    void parseDataList(const string &type, const Json::Value &, vector<string> &);
+    template<typename T = string>
+    void parseDataList(const string &type, const Json::Value &, vector<T> &);
+
+    template<typename T = double>
+    void parseArgData(const Json::Value &, vector <T> &, const string &);
+
     Json::Value fetch(const string &, const string &, const string& = "");
-    void parseArgData(const Json::Value &, vector <string> &, string &&);
     void parseLocalSymbol(const Json::Value &, vector<string> &);
     vector<string> getSymbolList(const string &);
     bool isValidSymbol(const string &);
 
-    void saveData(const string &, const string&, vector<string>&);
+    template<typename T = string>
+    void saveData(const string &, const string&, vector<T>&);
     void sendRequest(Json::Value &jsonData, string &url);
     void updateReferenceList(const string&);
     void addToken(string &url);

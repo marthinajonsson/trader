@@ -12,22 +12,35 @@ namespace UNIBIT
 {
     const string BASE_URL_ENDPOINT = "https://api.unibit.ai/api";
 
-    void parseArgData(const Json::Value &response, vector<string> &argVec, const string &arg);
-    void saveData(const string &name, const string& type, vector<string>& data);
+    template<typename T = double>
+    void parseArgData(const Json::Value &, vector<T> &, const string &, const string &);
+
+    template<typename T = string>
+    void saveData(const string &, const string&, vector<T>&);
+
     Json::Value fetch(const string &, const string &, const string& = "");
-    void sendRequest(Json::Value &jsonData, string &url);
-    void updateReferenceList(const string& exchange);
-    void addToken(string &url);
+    void sendRequest(Json::Value &, string &);
+    void updateReferenceList(const string&);
+    void addToken(string &);
 
     static const string TICKER = "ticker=";
     static const string ACCESS_KEY = "&AccessKey=";
 
     namespace INDICATOR {
         static const string BASE_REQUEST = "/technicalindicators?";
-        static const string KEY_REQUEST_DATA_POINT ="&data_point=";
-        static const string KEY_REQUEST_SERIES_TYPE ="&series_type=";
-        static const string KEY_REQUEST_INTERVAL ="&interval=";
-        static const string KEY_REQUEST_RANGE = "&range=";
+        static const string DATA_POINT_KEY ="&data_point=";
+        static const string DATA_POINT_VALUE_14 = "14";
+        static const string DATA_POINT_VALUE_20 = "20";
+        static const string DATA_POINT_VALUE_50 = "50";
+        static const string DATA_POINT_VALUE_200 = "200";
+        static const string SERIES_TYPE_KEY ="&series_type=";
+
+        static const string INTERVAL_KEY ="&interval=";
+        static const string INTERVAL_DAILY_VALUE ="daily";
+        static const string INTERVAL_MONTH_VALUE ="monthly";
+        static const string INTERVAL_WEEK_VALUE ="weekly";
+
+        static const string RANGE_KEY = "&range=";
 
         namespace SMA {
             static const string KEY_REQUEST_FUNC = "&function=SMA";
@@ -38,13 +51,13 @@ namespace UNIBIT
                 static const string CALC = "SMA";
             }
         }
-        namespace DEMA {
-            static const string KEY_REQUEST_FUNC = "&function=DEMA";
+        namespace ADX {
+            static const string KEY_REQUEST_FUNC = "&function=ADX";
 
             namespace KEY_RESPONSE {
-                static const string BASE = "Technical Indicator: DEMA";
-                static const string DATE = "datetime";
-                static const string CALC = "DEMA";
+                static const string BASE = "Technical Indicator: ADX";
+                static const string DATE = "date";
+                static const string CALC = "price";
             }
         }
     }

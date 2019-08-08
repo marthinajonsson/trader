@@ -31,14 +31,14 @@ set(headers
         ${CMAKE_CURRENT_LIST_DIR}/inc/MeanReversion.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/Feeder.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/UniBit.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/Client.h)
+        ${CMAKE_CURRENT_LIST_DIR}/inc/Client.h inc/ADX.h)
 
 set(sources
         ${CMAKE_CURRENT_LIST_DIR}/src/IEX.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/DeepLearning.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/MeanReversion.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/Feeder.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/UniBit.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/src/UniBit.cpp src/ADX.cpp)
 
 set(tests
         ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp
