@@ -2,6 +2,7 @@
 // Created by mjonsson on 2/15/19.
 //
 
+#include <IEX.h>
 #include "DeepLearning.h"
 
 
@@ -23,6 +24,7 @@ void DeepLearning::run() {
 
     double movingAverage[200]{};
     int* idx0 = nullptr, *idxLast = nullptr;
+
     Json::Value data = IEX::fetch("AAPL", IEX::INDICATOR::STATS::STATS, IEX::INDICATOR::STATS::KEY::DAY_200_MOV_AVG);
     int i = 0;
     while (i < data.size()) {

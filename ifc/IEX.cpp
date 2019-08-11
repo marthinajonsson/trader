@@ -2,18 +2,18 @@
 // Created by mjonsson on 1/11/19.
 //
 
-#include "Client.h"
+//#include "Client.h"
 #include "IEX.h"
 #include "main.h"
-template<typename T>
-void IEX::saveData(const string &name, const string& type, vector<T>& data) {
+
+void IEX::saveData(const string &name, const string& type, vector<string>& data) {
     Json::Value root;
     Json::Value add;
     string url = "../data/IEX_" + name + ".json";
 
     add[type].append(Json::arrayValue);
     int index = 0;
-    for(const string &s : data) {
+    for(const auto &s : data) {
         add[type][index] = s;
         index++;
     }
@@ -23,20 +23,14 @@ void IEX::saveData(const string &name, const string& type, vector<T>& data) {
     db_write << root;
     db_write.close();
 }
-// TODO fix generic
-template<typename T>
-void IEX::parseDataList(const string &type, const Json::Value &response, vector<T> &result)
+
+void IEX::parseDataList(const string &type, const Json::Value &response, vector<string> &result)
 {
-    if (std::is_same<T, std::string>::value)
-        for(const auto &data : response)
-            result.emplace_back(data[type].asString());
-    else if(std::is_same<T, double>::value)
-        for(const auto &data : response)
-            result.emplace_back(data[type].asDouble());
+    for(const auto &data : response)
+        result.emplace_back(data[type].asString());
 }
 
-template<typename T>
-void IEX::parseArgData(const Json::Value &response, vector<T> &result, const string &arg)
+void IEX::parseArgData(const Json::Value &response, vector<string> &result, const string &arg)
 {
    if (!response.isMember(arg)) {
         std::cout << "Key doesn't exists" << std::endl;
@@ -45,18 +39,11 @@ void IEX::parseArgData(const Json::Value &response, vector<T> &result, const str
 
     auto val = response[arg];
     if (val.isArray()) {
-        if (std::is_same<T, std::string>::value)
-            for (const auto &v : val)
-                result.emplace_back(v.asString());
-        else if(std::is_same<T, double>::value)
-            for (const auto &data : response)
-                result.emplace_back(data[arg].asDouble());
+        for (const auto &v : val)
+            result.emplace_back(v.asString());
     }
     else {
-        if (std::is_same<T, std::string>::value)
-            result.emplace_back(val.asString());
-        else if(std::is_same<T, double>::value)
-            result.emplace_back(val.asDouble());
+        result.emplace_back(val.asString());
     }
 }
 
@@ -124,7 +111,7 @@ void IEX::updateReferenceList(const string &region) {
     name.append("[");
     name.append(region);
     name.append("]");
-    saveData<string>("symbols["+region+"]", "symbols:"+region, list);
+    saveData("symbols["+region+"]", "symbols:"+region, list);
 }
 
 void IEX::addToken(string &url)
@@ -147,5 +134,5 @@ void IEX::addToken(string &url)
 void IEX::sendRequest(Json::Value &jsonData, string &url)
 {
     addToken(url);
-    Client::sendHttpGetRequest(jsonData, url);
+   // Client::sendHttpGetRequest(jsonData, url);
 }

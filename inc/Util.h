@@ -10,6 +10,7 @@
 #include <string>
 #include <array>
 
+
 template<class T, std::size_t S>
 using array = std::array<T, S>;
 

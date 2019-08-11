@@ -5,6 +5,7 @@
 #ifndef TRADER_IEX_H
 #define TRADER_IEX_H
 
+#include <boost/property_tree/ptree.hpp>
 #include <jsoncpp/json/json.h>
 #include <curl/curl.h>
 #include <locale> //std::locale, std::isdigit
@@ -17,19 +18,16 @@ const string BASE_URL_ENDPOINT = "https://cloud.iexapis.com/stable";
 
 namespace IEX
 {
-    template<typename T = string>
-    void parseDataList(const string &type, const Json::Value &, vector<T> &);
-
-    template<typename T = double>
-    void parseArgData(const Json::Value &, vector <T> &, const string &);
+    typedef boost::property_tree::ptree ptree;
+    void parseDataList(const string &type, const Json::Value &, vector<string> &);
+    void parseArgData(const Json::Value &, vector <string> &, const string &);
 
     Json::Value fetch(const string &, const string &, const string& = "");
     void parseLocalSymbol(const Json::Value &, vector<string> &);
     vector<string> getSymbolList(const string &);
     bool isValidSymbol(const string &);
 
-    template<typename T = string>
-    void saveData(const string &, const string&, vector<T>&);
+    void saveData(const string &, const string&, vector<string>&);
     void sendRequest(Json::Value &jsonData, string &url);
     void updateReferenceList(const string&);
     void addToken(string &url);

@@ -1,5 +1,6 @@
 
 
+#include <UniBit.h>
 #include "main.h"
 
 using namespace Trader;
@@ -14,8 +15,10 @@ void fetchLists() {
 
 int main(int argc, char** argv) {
 
-    ::testing::InitGoogleMock(&argc, argv);
-    return RUN_ALL_TESTS();
+    UNIBIT::updateReferenceList("OMX");
+    //
+//    ::testing::InitGoogleMock(&argc, argv);
+//    return RUN_ALL_TESTS();
 
 ////    ActiveAlgorithm active;
 ////    active.registerWork(MEAN_REVERSION);

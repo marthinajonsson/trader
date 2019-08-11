@@ -6,7 +6,8 @@
 #define TRADER_DEEPLEARNING_H
 
 #include "Exceptions.h"
-#include "IEX.h"
+#include "UniBit.h"
+#include "Util.h"
 
 class DeepLearning {
 public:

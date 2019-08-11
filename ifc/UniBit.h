@@ -5,21 +5,19 @@
 #ifndef TRADER_UNIBIT_H
 #define TRADER_UNIBIT_H
 
-#include <jsoncpp/json/json.h>
+#include <boost/property_tree/json_parser.hpp>
+#include "json_streamer.h"
 #include "Util.h"
 
 namespace UNIBIT
 {
+    typedef boost::property_tree::ptree ptree;
     const string BASE_URL_ENDPOINT = "https://api.unibit.ai/api";
+    void parseArgData(const ptree &, vector<string> &, const string &, const string & ...);
+    void saveData(const string &, const string&, vector<string>&);
 
-    template<typename T = double>
-    void parseArgData(const Json::Value &, vector<T> &, const string &, const string &);
-
-    template<typename T = string>
-    void saveData(const string &, const string&, vector<T>&);
-
-    Json::Value fetch(const string &, const string &, const string& = "");
-    void sendRequest(Json::Value &, string &);
+    ptree fetch(const string &, const string& = "");
+    void sendRequest(ptree &, string &);
     void updateReferenceList(const string&);
     void addToken(string &);
 
