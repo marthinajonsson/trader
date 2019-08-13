@@ -2,39 +2,26 @@
 // Created by mjonsson on 8/6/19.
 //
 
-#include <boost/foreach.hpp>
 #include <iostream>
 #include <string>
 #include "Client.h"
 #include "UniBit.h"
 
-void UNIBIT::saveData(const string &name, const string& type, vector<string>& data)
+void UNIBIT::saveData(const string &name, const string& type, vector<std::pair<string, string>>& data)
 {
     ptree root;
-    ptree toBeAdded;
+    ptree arr;
+    ptree child1, children, child3;
     string url = "../data/UNIBIT_" + name + ".json";
-    boost::property_tree::read_json(url, root);
-    for (auto &d : data) {
-        toBeAdded.put<string>(type,d);
+    vector<std::pair<string,string>>::const_iterator it;
+    for (it = data.begin(); it != data.end(); it++) {
+        child1.put_value(it->second);
+        arr.push_back(std::make_pair(it->first, child1));
     }
+    root.add_child(type, arr);
 
-    root.put_child("", toBeAdded);
-    boost::property_tree::write_json(url, root, std::locale(), true);
-}
-
-void UNIBIT::parseArgData(const ptree &response, vector<string> &argVec, const string& baseArg, const string &arg ...)
-{
-    string node = response.get<string>(arg, "-");
-    if (node == "-") {
-        ptree child = response.get_child(baseArg);
-        BOOST_ASSERT(!child.empty());
-        BOOST_FOREACH(boost::property_tree::ptree::value_type &arr, child) {
-            string value = arr.second.get<std::string>(arg);
-            argVec.emplace_back(value);
-        }
-    }else{
-        argVec.emplace_back(node);
-    }
+    boost::property_tree::write_json(std::cout, root);
+    boost::property_tree::write_json(url, root);
 }
 
 UNIBIT::ptree UNIBIT::fetch(const string &indicator, const string &key)
@@ -53,16 +40,15 @@ UNIBIT::ptree UNIBIT::fetch(const string &indicator, const string &key)
 void UNIBIT::updateReferenceList(const string& exchange)
 {
     UNIBIT::ptree response;
-    vector<string> result;
+
     string url = UNIBIT::BASE_URL_ENDPOINT;
     url.append(UNIBIT::SYMBOLS::BASE_REQUEST);
     url.append(UNIBIT::SYMBOLS::KEY_REQUEST_EXCHANGE);
     url.append(exchange);
     sendRequest(response, url);
-    parseArgData(response, result, "", UNIBIT::SYMBOLS::KEY_RESPONSE::TICKER);
-    parseArgData(response, result, "", UNIBIT::SYMBOLS::KEY_RESPONSE::NAME);
-    parseArgData(response, result, "", UNIBIT::SYMBOLS::KEY_RESPONSE::CURRENCY);
-    parseArgData(response, result, "", UNIBIT::SYMBOLS::KEY_RESPONSE::EXCHANGE_NAME);
+    vector<std::pair<string, string>> result = parseArgData(response, UNIBIT::SYMBOLS::KEY_RESPONSE::TICKER,
+            UNIBIT::SYMBOLS::KEY_RESPONSE::NAME, UNIBIT::SYMBOLS::KEY_RESPONSE::EXCHANGE_NAME );
+
     string name = "symbols";
     name.append("[");
     name.append(exchange);

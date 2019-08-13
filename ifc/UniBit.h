@@ -5,17 +5,53 @@
 #ifndef TRADER_UNIBIT_H
 #define TRADER_UNIBIT_H
 
+#include <boost/foreach.hpp>
 #include <boost/property_tree/json_parser.hpp>
 #include "json_streamer.h"
+#include <iostream>
 #include "Util.h"
 
 namespace UNIBIT
 {
     typedef boost::property_tree::ptree ptree;
     const string BASE_URL_ENDPOINT = "https://api.unibit.ai/api";
-    void parseArgData(const ptree &, vector<string> &, const string &, const string & ...);
-    void saveData(const string &, const string&, vector<string>&);
 
+    template<typename T>
+    std::pair<T,T> parseData(boost::property_tree::ptree pt, vector<std::pair<T,T>> result, T v) {
+        return std::make_pair(v, pt.get<T>(v));
+    }
+
+    template<typename T, typename... Args>
+    std::pair<T,T> parseData(boost::property_tree::ptree pt, vector<std::pair<T,T>> &result , T first, Args... args) {
+        result.emplace_back(std::make_pair(first, pt.get<T>(first)));
+        result.emplace_back(parseData(pt, result, args...));
+        return {"",""};
+    }
+
+    template<typename ...T>
+    vector<std::pair<string, string>> parseArgData(const ptree &response, T&&... args)
+    {
+        BOOST_ASSERT(!response.empty());
+        ptree path;
+        ptree child;
+        try
+        {
+            child = response.get_child("", path);
+        }
+        catch(const boost::property_tree::ptree_bad_path &e)
+        {
+            std::cout << e.what() << std::endl;
+            child = response;
+        }
+
+        vector<std::pair<string, string>> result;
+        BOOST_FOREACH(boost::property_tree::ptree::value_type &arr, child) {
+            std::pair<string, string> temp = parseData(arr.second, result, args...);
+        }
+        return result;
+    }
+
+    void saveData(const string &name, const string& type, vector<std::pair<string, string>>& data);
     ptree fetch(const string &, const string& = "");
     void sendRequest(ptree &, string &);
     void updateReferenceList(const string&);

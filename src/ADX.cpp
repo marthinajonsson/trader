@@ -24,7 +24,7 @@ ADX& ADX::getInstance()
 void ADX::run()
 {
     boost::property_tree::ptree response;
-    vector<string> result;
+    vector<std::pair<string, string>> result;
     string indicator;
     indicator = indicator.append(UNIBIT::INDICATOR::BASE_REQUEST);
     indicator = indicator.append(UNIBIT::INDICATOR::ADX::KEY_REQUEST_FUNC);
@@ -35,10 +35,10 @@ void ADX::run()
     key = key.append(UNIBIT::INDICATOR::INTERVAL_KEY).append(UNIBIT::INDICATOR::INTERVAL_MONTH_VALUE);
 
     response = UNIBIT::fetch(indicator, key);
-    UNIBIT::parseArgData(response, result, UNIBIT::INDICATOR::ADX::KEY_RESPONSE::BASE,
-            UNIBIT::INDICATOR::ADX::KEY_RESPONSE::CALC);
+//    result = UNIBIT::parseArgData(response, UNIBIT::INDICATOR::ADX::KEY_RESPONSE::BASE,
+//            UNIBIT::INDICATOR::ADX::KEY_RESPONSE::CALC);
 
-    double adx = std::stod(result.front());
+//    double adx = std::stod(result.front().second);
     result.clear();
 
 //    response = IEX::fetch("MSFT", IEX::INDICATOR::PRICE::CURRENT_PRICE);
@@ -46,16 +46,5 @@ void ADX::run()
 //    double price = result.front();
 //    result.clear();
 
-    if (adx < STRONG_TREND_MIN && adx >= WEAK_TREND_MIN) {
-        std::cout << "BAD";
-    }
-    else if (adx < VERY_STRONG_MIN && adx >= STRONG_TREND_MIN) {
-        std::cout << "Good";
-    }
-    else if (adx < EXTREMLY_STRONG_TREND_MIN && adx >= VERY_STRONG_MIN) {
-        std::cout << "Amazing";
-    }
-    else {
-        std::cout << "Unknown";
-    }
+//    }
 }
