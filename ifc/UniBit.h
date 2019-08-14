@@ -51,10 +51,12 @@ namespace UNIBIT
         return result;
     }
 
-    void saveData(const string &name, const string& type, vector<std::pair<string, string>>& data);
+    void saveData(const string &name, const string& type, ptree &data, bool clean = true);
+    void saveSymbolData(const string &name, const string& type, vector<std::pair<string, string>>& data);
     ptree fetch(const string &, const string& = "");
     void sendRequest(ptree &, string &);
     void updateReferenceList(const string&);
+    UNIBIT::ptree parseSymbol(string &, string &);
     void addToken(string &);
 
     static const string TICKER = "ticker=";

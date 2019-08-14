@@ -7,21 +7,66 @@
 #include "Client.h"
 #include "UniBit.h"
 
-void UNIBIT::saveData(const string &name, const string& type, vector<std::pair<string, string>>& data)
+void UNIBIT::saveSymbolData(const string &name, const string& type, vector<std::pair<string, string>>& data)
 {
     ptree root;
     ptree arr;
-    ptree child1, children, child3;
+    ptree ticker;
+    ptree company;
+    ptree exchange;
+
     string url = "../data/UNIBIT_" + name + ".json";
     vector<std::pair<string,string>>::const_iterator it;
+    string tmp;
+    int count = 1;
     for (it = data.begin(); it != data.end(); it++) {
-        child1.put_value(it->second);
-        arr.push_back(std::make_pair(it->first, child1));
+        if (it->first == "ticker") {
+            tmp = it->second;
+        }
+        else if (it->first == "companyName"){
+            company.put_value(it->second);
+        }
+        else if (it->first == "exchange"){
+            exchange.put_value(it->second);
+        }
+
+        if (0 == count%3) {
+            arr.push_back(std::make_pair("company", company));
+            arr.push_back(std::make_pair("exchange", exchange));
+            ticker.add_child(tmp, arr);
+            arr.clear();
+        }
+        if(!it->second.empty())
+            count++;
     }
-    root.add_child(type, arr);
+    root.add_child(type, ticker);
+    boost::property_tree::write_json(url, root);
+}
+
+void UNIBIT::saveData(const string &name, const string& type, ptree &data, bool clean)
+{
+    ptree root;
+    string url = "../data/UNIBIT_" + name + "test.json";
+    if(!clean) {
+        try{
+            boost::property_tree::read_json(url, root);
+        }catch(std::exception){
+
+        }
+    }
+    root.add_child(type, data);
 
     boost::property_tree::write_json(std::cout, root);
     boost::property_tree::write_json(url, root);
+}
+
+UNIBIT::ptree UNIBIT::parseSymbol(string &exchange, string& ticker) {
+    ptree root;
+    string url = "../data/UNIBIT_symbols[";
+    url.append(exchange);
+    url.append("].json");
+    boost::property_tree::read_json(url, root);
+
 }
 
 UNIBIT::ptree UNIBIT::fetch(const string &indicator, const string &key)
@@ -46,14 +91,14 @@ void UNIBIT::updateReferenceList(const string& exchange)
     url.append(UNIBIT::SYMBOLS::KEY_REQUEST_EXCHANGE);
     url.append(exchange);
     sendRequest(response, url);
-    vector<std::pair<string, string>> result = parseArgData(response, UNIBIT::SYMBOLS::KEY_RESPONSE::TICKER,
-            UNIBIT::SYMBOLS::KEY_RESPONSE::NAME, UNIBIT::SYMBOLS::KEY_RESPONSE::EXCHANGE_NAME );
+    //vector<std::pair<string, string>> result = parseArgData(response, UNIBIT::SYMBOLS::KEY_RESPONSE::TICKER,
+    //        UNIBIT::SYMBOLS::KEY_RESPONSE::NAME, UNIBIT::SYMBOLS::KEY_RESPONSE::EXCHANGE_NAME );
 
     string name = "symbols";
     name.append("[");
     name.append(exchange);
     name.append("]");
-    saveData(name, "ticker", result);
+    saveData(name, "ticker", response);
 }
 
 void UNIBIT::addToken(string &url)
