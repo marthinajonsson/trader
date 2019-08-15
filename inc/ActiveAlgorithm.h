@@ -31,16 +31,16 @@ namespace Trader {
         std::thread *runnable;
 
     public:
-        ActiveAlgorithm() : val(0), done(false) {
+        ActiveAlgorithm() : val(""), done(false) {
             runnable = new std::thread(&ActiveAlgorithm::run, this);
         }
         ~ActiveAlgorithm() { runnable->join(); }
 
         string getVal() { return val; }
 
-        void registerWork(string algorithm) {
+        void registerWork(const string algorithm, const string param) {
             val = algorithm;
-            queue.put(algorithm);
+            queue.put(algorithm, param);
         }
 
         void run() {

@@ -35,6 +35,7 @@ void ADX::run()
     key = key.append(UNIBIT::INDICATOR::INTERVAL_KEY).append(UNIBIT::INDICATOR::INTERVAL_MONTH_VALUE);
 
     response = UNIBIT::fetch(indicator, key);
+    boost::property_tree::write_json(std::cout, response);
 //    result = UNIBIT::parseArgData(response, UNIBIT::INDICATOR::ADX::KEY_RESPONSE::BASE,
 //            UNIBIT::INDICATOR::ADX::KEY_RESPONSE::CALC);
 

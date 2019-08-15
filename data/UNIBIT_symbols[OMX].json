@@ -1,0 +1,3156 @@
+{
+    "ticker": [
+        {
+            "ticker": "24SEVE.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "AAK.ST",
+            "companyName": "AAK AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ABB.ST",
+            "companyName": "ABB Ltd.",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ACAD.ST",
+            "companyName": "AcadeMedia AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ACAN-B.ST",
+            "companyName": "Acando AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ACTI.ST",
+            "companyName": "Active Biotech AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ADDT-B.ST",
+            "companyName": "Addtech AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "AF-B.ST",
+            "companyName": "AF Poyry AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "AGRO.ST",
+            "companyName": "Agromino A\/S",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "AHSL.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ALFA.ST",
+            "companyName": "Alfa Laval AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ALIF-B.ST",
+            "companyName": "AddLife AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ALIG.ST",
+            "companyName": "Alimak Group AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ALIV-SDB.ST",
+            "companyName": "Autoliv Inc. SWEDDR",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "AM1S.ST",
+            "companyName": "Ahlstrom-Munksjo Oyj",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "AMBEA.ST",
+            "companyName": "Ambea AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ANOD-B.ST",
+            "companyName": "Addnode Group AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ANOT.ST",
+            "companyName": "Anoto Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "AOI.ST",
+            "companyName": "Africa Oil Corp",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "AQ.ST",
+            "companyName": "AQ Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ARION-SDB.ST",
+            "companyName": "ARIONBANKI\/SDR",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ARISE.ST",
+            "companyName": "Arise AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ARJO-B.ST",
+            "companyName": "Arjo AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ARP.ST",
+            "companyName": "ARCTIC PAPER SA",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ASSA-B.ST",
+            "companyName": "ASSA ABLOY AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ATCO-A.ST",
+            "companyName": "Atlas Copco AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ATCO-B.ST",
+            "companyName": "Atlas Copco AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ATIC.ST",
+            "companyName": "Actic Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ATORX.ST",
+            "companyName": "Alligator Bioscience AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ATRE.ST",
+            "companyName": "A3 AllmaITochTelekomaktiebolaget(publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ATRLJ-B.ST",
+            "companyName": "Atrium Ljungberg AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ATT.ST",
+            "companyName": "Attendo AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "AXFO.ST",
+            "companyName": "Axfood AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "AYIMA.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "AZA.ST",
+            "companyName": "Avanza Bank Holding AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "AZN.ST",
+            "companyName": "AstraZeneca plc",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "B3.ST",
+            "companyName": "B3 Consulting Group AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BACTI-B.ST",
+            "companyName": "Bactiguard Holding AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BALCO.ST",
+            "companyName": "Balco Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BALD-B.ST",
+            "companyName": "Fastighets AB Balder",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BEGR.ST",
+            "companyName": "BE Group AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BEIA-B.ST",
+            "companyName": "Beijer Alma AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BEIJ-B.ST",
+            "companyName": "Beijer Ref AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BELE.ST",
+            "companyName": "Beijer Electronics Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BERG-B.ST",
+            "companyName": "Bergman & Beving AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BESQ.ST",
+            "companyName": "Besqab AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BETCO.ST",
+            "companyName": "Better Collective A\/S",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BETS-B.ST",
+            "companyName": "Betsson AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BHG.ST",
+            "companyName": "Bygghemma Group First AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BIBB.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BILI-A.ST",
+            "companyName": "Bilia AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BILL.ST",
+            "companyName": "BillerudKorsnas AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BINV.ST",
+            "companyName": "BioInvent International AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BIOA-B.ST",
+            "companyName": "BioArctic AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BIOG-B.ST",
+            "companyName": "BioGaia AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BIOT.ST",
+            "companyName": "Biotage AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BMAX.ST",
+            "companyName": "Byggmax Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BOL.ST",
+            "companyName": "Boliden AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BONAV-A.ST",
+            "companyName": "Bonava AB (publ) Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BONAV-B.ST",
+            "companyName": "Bonava AB (publ) Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BONEX.ST",
+            "companyName": "Bonesupport Holding AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BONG.ST",
+            "companyName": "Bong AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BOOZT.ST",
+            "companyName": "Boozt AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BORG.ST",
+            "companyName": "Bjorn Borg AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BOUL.ST",
+            "companyName": "Boule Diagnostics AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BRAV.ST",
+            "companyName": "Bravida Holding AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BRG-B.ST",
+            "companyName": "Bergs Timber AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BRIN-B.ST",
+            "companyName": "Brinova Fastigheter AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BTS-B.ST",
+            "companyName": "BTS Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BUBL.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BUFAB.ST",
+            "companyName": "Bufab AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BULTEN.ST",
+            "companyName": "Bulten AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "BURE.ST",
+            "companyName": "Bure Equity AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CALTX.ST",
+            "companyName": "Calliditas Therapeutics AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CAMX.ST",
+            "companyName": "Camurus AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CANTA.ST",
+            "companyName": "Cantargia AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CAPIO.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CAST.ST",
+            "companyName": "Castellum AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CAT-A.ST",
+            "companyName": "Catella AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CAT-B.ST",
+            "companyName": "Catella AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CATE.ST",
+            "companyName": "Catena AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CBTT-B.ST",
+            "companyName": "Christian Berner Tech Trade AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CCC.ST",
+            "companyName": "Cavotec SA",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CCOR-B.ST",
+            "companyName": "Concordia Maritime AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CEVI.ST",
+            "companyName": "CellaVision AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CGIT.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CHER-B.ST",
+            "companyName": "Cherry AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CLA-B.ST",
+            "companyName": "Cloetta AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CLAS-B.ST",
+            "companyName": "Clas Ohlson AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CLX.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "COIC.ST",
+            "companyName": "Concentric AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "COLL.ST",
+            "companyName": "Collector AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CONS-B.ST",
+            "companyName": "Consilium AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "COOR.ST",
+            "companyName": "Coor Service Management Holding AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CORE-A.ST",
+            "companyName": "Corem Property Group AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CORE-B.ST",
+            "companyName": "Corem Property Group AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CORE-PREF.ST",
+            "companyName": "Corem Property Group AB Preference Shares",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CRAD-B.ST",
+            "companyName": "C-Rad AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CRED-A.ST",
+            "companyName": "Creades AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CTM.ST",
+            "companyName": "Catena Media PLC",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "CTT.ST",
+            "companyName": "CTT Systems AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "DEDI.ST",
+            "companyName": "Dedicare AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "DIOS.ST",
+            "companyName": "Dios Fastigheter AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "DOM.ST",
+            "companyName": "Dometic Group AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "DORO.ST",
+            "companyName": "Doro AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "DUNI.ST",
+            "companyName": "Duni AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "DURC-B.ST",
+            "companyName": "Duroc AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "DUST.ST",
+            "companyName": "Dustin Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "EAST.ST",
+            "companyName": "Eastnine AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "EDGE.ST",
+            "companyName": "Edgeware AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "EKTA-B.ST",
+            "companyName": "Elekta AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ELAN-B.ST",
+            "companyName": "Elanders AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ELEC.ST",
+            "companyName": "Electra Gruppen AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ELOS-B.ST",
+            "companyName": "Elos Medtech AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ELTEL.ST",
+            "companyName": "Eltel AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ELUX-A.ST",
+            "companyName": "Electrolux AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ELUX-B.ST",
+            "companyName": "Electrolux AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "EMPIR-B.ST",
+            "companyName": "Empir Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ENDO.ST",
+            "companyName": "Endomines AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ENEA.ST",
+            "companyName": "Enea AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ENG.ST",
+            "companyName": "Interntnll Englsk Skln I Svg Hldng II AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ENQ.ST",
+            "companyName": "Enquest Plc",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ENRO-PREF.ST",
+            "companyName": "Eniro AB Preference Shares",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ENRO.ST",
+            "companyName": "Eniro AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "EOLU-B.ST",
+            "companyName": "Eolus Vind AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "EPI-A.ST",
+            "companyName": "Epiroc AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "EPI-B.ST",
+            "companyName": "Epiroc AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "EPIS B.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "EPIS-B.ST",
+            "companyName": "Episurf Medical AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ERIC-A.ST",
+            "companyName": "Telefonaktiebolaget LM Ericsson Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ERIC-B.ST",
+            "companyName": "Telefonaktiebolaget LM Ericsson Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ESSITY-A.ST",
+            "companyName": "Essity AB (publ) Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ESSITY-B.ST",
+            "companyName": "Essity AB (publ) Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ETX.ST",
+            "companyName": "Etrion Corp",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "EVO.ST",
+            "companyName": "Evolution Gaming Group AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "EWRK.ST",
+            "companyName": "eWork Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "FABG.ST",
+            "companyName": "Fabege AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "FAG.ST",
+            "companyName": "Fagerhult AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "FEEL.ST",
+            "companyName": "Feelgood Svenska AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "FING-B.ST",
+            "companyName": "Fingerprint Cards AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "FMM-B.ST",
+            "companyName": "FM Mattsson Mora Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "FNM.ST",
+            "companyName": "Ferronordic Machines AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "FOI-B.ST",
+            "companyName": "Fenix Outdoor International AG",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "FPAR-PREF.ST",
+            "companyName": "FastPartner AB Preference Shares",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "FPAR.ST",
+            "companyName": "FastPartner AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "FPIP.ST",
+            "companyName": "FormPipe Software AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "G5EN.ST",
+            "companyName": "G5 Entertainment AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "GARO.ST",
+            "companyName": "Garo AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "GETI-B.ST",
+            "companyName": "Getinge AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "GHP.ST",
+            "companyName": "GHP Specialty Care AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "GRNG.ST",
+            "companyName": "Granges AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "GUNN.ST",
+            "companyName": "Gunnebo AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HANDI.ST",
+            "companyName": "Handicare Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HAV-B.ST",
+            "companyName": "Havsfrun Investment AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HEBA-B.ST",
+            "companyName": "HEBA Fastighets AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HEM-B.ST",
+            "companyName": "Hembla AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HEMF-PREF.ST",
+            "companyName": "Hemfosa Fastigheter AB Preference Shares",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HEMF.ST",
+            "companyName": "Hemfosa Fastigheter AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HEXA-B.ST",
+            "companyName": "Hexagon AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HIQ.ST",
+            "companyName": "HiQ International AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HLDX.ST",
+            "companyName": "Haldex AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HM-B.ST",
+            "companyName": "H & M Hennes & Mauritz AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HMED.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HMS.ST",
+            "companyName": "HMS Networks AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HOFI.ST",
+            "companyName": "Hoist Finance AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HOLM-A.ST",
+            "companyName": "Holmen AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HOLM-B.ST",
+            "companyName": "Holmen AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HPOL-B.ST",
+            "companyName": "HEXPOL AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HTRO.ST",
+            "companyName": "Hexatronic Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HUFV-A.ST",
+            "companyName": "Hufvudstaden AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HUFV-C.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HUM.ST",
+            "companyName": "Humana AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HUSQ-A.ST",
+            "companyName": "Husqvarna AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "HUSQ-B.ST",
+            "companyName": "Husqvarna AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "IAR-B.ST",
+            "companyName": "IAR Systems Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "IBT-B.ST",
+            "companyName": "Infant Bacterial Therapeutics AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ICA.ST",
+            "companyName": "ICA Gruppen AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ICTA.ST",
+            "companyName": "ICTA AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "IMMNOV.ST",
+            "companyName": "Immunovia AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "IMMU.ST",
+            "companyName": "Immunicum AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "INDT.ST",
+            "companyName": "Indutrade AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "INDU-A.ST",
+            "companyName": "Industrivarden AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "INDU-C.ST",
+            "companyName": "Industrivarden AB Class C",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "INFRA.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "INSTAL.ST",
+            "companyName": "Instalco Intressenter AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "INTRUM.ST",
+            "companyName": "Intrum AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "INVE-A.ST",
+            "companyName": "Investor AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "INVE-B.ST",
+            "companyName": "Investor AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "INWI.ST",
+            "companyName": "Inwido AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "IPCO.ST",
+            "companyName": "International Petroleum Corp",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "IS.ST",
+            "companyName": "Image Systems AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ISAB.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ITAB-B.ST",
+            "companyName": "ITAB Shop Concept AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "IVSO.ST",
+            "companyName": "Invisio Communications AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "JM.ST",
+            "companyName": "JM AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "KABE-B.ST",
+            "companyName": "KABE Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "KAHL.ST",
+            "companyName": "KappAhl AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "KARO.ST",
+            "companyName": "Karo Pharma AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "KDEV.ST",
+            "companyName": "Karolinska Development AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "KIND-SDB.ST",
+            "companyName": "Kindred Group PLC",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "KINV-A.ST",
+            "companyName": "Kinnevik AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "KINV-B.ST",
+            "companyName": "Kinnevik AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "KLED.ST",
+            "companyName": "Kungsleden AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "KLOV-A.ST",
+            "companyName": "Klovern AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "KLOV-B.ST",
+            "companyName": "Klovern AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "KLOV-PREF.ST",
+            "companyName": "Klovern AB Preference Shares",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "KNOW.ST",
+            "companyName": "Knowit AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "LAGR-B.ST",
+            "companyName": "Lagercrantz Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "LAMM-B.ST",
+            "companyName": "Lammhults Design Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "LATO-B.ST",
+            "companyName": "Investment AB Latour",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "LEO.ST",
+            "companyName": "LeoVegas AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "LIAB.ST",
+            "companyName": "Lindab International AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "LIFCO-B.ST",
+            "companyName": "Lifco AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "LOOM-B.ST",
+            "companyName": "Loomis AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "LUC.ST",
+            "companyName": "Lucara Diamond Corp",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "LUG.ST",
+            "companyName": "Lundin Gold Inc",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "LUMI.ST",
+            "companyName": "Lundin Mining Corporation",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "LUND-B.ST",
+            "companyName": "L E Lundbergforetagen AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "LUPE.ST",
+            "companyName": "Lundin Petroleum AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MAG.ST",
+            "companyName": "Magnolia Bostad AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MCAP.ST",
+            "companyName": "MedCap AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MCOV-B.ST",
+            "companyName": "Medicover AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MEAB-B.ST",
+            "companyName": "Malmbergs Elektriska AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MEKO.ST",
+            "companyName": "Mekonomen AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MIC-SDB.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MIDW-A.ST",
+            "companyName": "Midway Holding AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MIDW-B.ST",
+            "companyName": "Midway Holding AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MIPS.ST",
+            "companyName": "MIPS AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MMGR-B.ST",
+            "companyName": "Momentum Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MOB.ST",
+            "companyName": "Moberg Pharma AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MOMENT.ST",
+            "companyName": "Moment Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MQ.ST",
+            "companyName": "MQ Holding AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MRG.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MSAB-B.ST",
+            "companyName": "Micro Systemation AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MSON-A.ST",
+            "companyName": "Midsona AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MSON-B.ST",
+            "companyName": "Midsona AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MTG-A.ST",
+            "companyName": "Modern Times Group Mtg AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MTG-B.ST",
+            "companyName": "Modern Times Group Mtg AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MTRS.ST",
+            "companyName": "Munters Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MULQ.ST",
+            "companyName": "MultiQ International AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MVIR-B.ST",
+            "companyName": "Medivir AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "MYCR.ST",
+            "companyName": "Mycronic AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NAXS.ST",
+            "companyName": "NAXS AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NCAB.ST",
+            "companyName": "NCAB Group AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NCC-A.ST",
+            "companyName": "NCC AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NCC-B.ST",
+            "companyName": "NCC AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NDA-SE.ST",
+            "companyName": "Nordea Bank Abp",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NET-B.ST",
+            "companyName": "NetEnt AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NETI-B.ST",
+            "companyName": "Net Insight AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NEWA-B.ST",
+            "companyName": "New Wave Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NGQ.ST",
+            "companyName": "NGEx Resources Inc",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NGS.ST",
+            "companyName": "NGS Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NIBE-B.ST",
+            "companyName": "Nibe Industrier AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NIL-B.ST",
+            "companyName": "Nilorngruppen AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NMAN.ST",
+            "companyName": "Nederman Holding AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NOBI.ST",
+            "companyName": "Nobia AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NOBINA.ST",
+            "companyName": "Nobina AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NOLA-B.ST",
+            "companyName": "Nolato AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NOTE.ST",
+            "companyName": "Note AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NP3-PREF.ST",
+            "companyName": "NP3 Fastigheter AB Preference Shares",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NP3.ST",
+            "companyName": "NP3 Fastigheter AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NTEK-B.ST",
+            "companyName": "Novotek AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NUE.ST",
+            "companyName": "Nuevolution AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NVP.ST",
+            "companyName": "NeuroVive Pharmaceutical AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NWG.ST",
+            "companyName": "Nordic Waterproofing Holding A\/S",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "NYF.ST",
+            "companyName": "Nyfosa AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "OASM.ST",
+            "companyName": "Oasmia Pharmaceutical AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "OBST.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ODD.ST",
+            "companyName": "Odd Molly International AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "OEM-B.ST",
+            "companyName": "OEM International AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "OMNI.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ONCO.ST",
+            "companyName": "Oncopeptides AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "OP-PREF.ST",
+            "companyName": "OSCARPROPE\/PREF",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "OP-PREFB.ST",
+            "companyName": "Oscar Properties Holding AB Preference Shares Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "OP.ST",
+            "companyName": "Oscar Properties Holding AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "OPUS.ST",
+            "companyName": "Opus Group AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ORES.ST",
+            "companyName": "Investment AB Oresund",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ORGO.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ORI.ST",
+            "companyName": "Oriflame Holding AG",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ORTI-A.ST",
+            "companyName": "Ortivus AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ORTI-B.ST",
+            "companyName": "Ortivus AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ORX.ST",
+            "companyName": "Orexo AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "PACT.ST",
+            "companyName": "Proact IT Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "PEAB-B.ST",
+            "companyName": "Peab AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "PENG-B.ST",
+            "companyName": "Projektengagemang Sweden AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "PLAZ-B.ST",
+            "companyName": "Platzer Fastigheter Holding AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "PNDX-B.ST",
+            "companyName": "Pandox AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "POOL-B.ST",
+            "companyName": "Poolia AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "PREC.ST",
+            "companyName": "Precise Biometrics AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "PREV-B.ST",
+            "companyName": "Prevas AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "PRIC-B.ST",
+            "companyName": "Pricer AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "PROB.ST",
+            "companyName": "Probi AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "PROF-B.ST",
+            "companyName": "ProfilGruppen AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "PXXS-SDB.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "QIIWI.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "QLINEA.ST",
+            "companyName": "Q linea AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "QLRO.ST",
+            "companyName": "QLIROGROUP\/SH",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "RADH.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "RAIL.ST",
+            "companyName": "Railcare Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "RATO-A.ST",
+            "companyName": "Ratos AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "RATO-B.ST",
+            "companyName": "Ratos AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "RAY-B.ST",
+            "companyName": "RaySearch Laboratories AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "RECI-B.ST",
+            "companyName": "Recipharm AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "RECY.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "REJL-B.ST",
+            "companyName": "Rejlers AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "RESURS.ST",
+            "companyName": "Resurs Holding AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "RNBS.ST",
+            "companyName": "Rnb Retail and Brands AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "RROS.ST",
+            "companyName": "Rottneros AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SAAB-B.ST",
+            "companyName": "Saab AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SAGA-A.ST",
+            "companyName": "Sagax AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SAGA-B.ST",
+            "companyName": "Sagax AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SAGA-D.ST",
+            "companyName": "Sagax AB Class D",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SAGA-PREF.ST",
+            "companyName": "Sagax AB Preferred Shares",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SAND.ST",
+            "companyName": "Sandvik AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SANION.ST",
+            "companyName": "Saniona AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SAS-PREF.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SAS.ST",
+            "companyName": "SAS AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SCA-A.ST",
+            "companyName": "Svenska Cellulosa SCA AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SCA-B.ST",
+            "companyName": "Svenska Cellulosa SCA AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SCST.ST",
+            "companyName": "Scandi Standard AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SEAFI.ST",
+            "companyName": "nan",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "nan",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SEB-A.ST",
+            "companyName": "Skandinaviska Enskilda Banken AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SEB-C.ST",
+            "companyName": "Skandinaviska Enskilda Banken AB Class C",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SECT-B.ST",
+            "companyName": "Sectra AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SECU-B.ST",
+            "companyName": "Securitas AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SEMC.ST",
+            "companyName": "Semcon AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SENS.ST",
+            "companyName": "Sensys Gatso Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SHB-A.ST",
+            "companyName": "Svenska Handelsbanken AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SHB-B.ST",
+            "companyName": "Svenska Handelsbanken AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SHOT.ST",
+            "companyName": "Scandic Hotels Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SINT.ST",
+            "companyName": "SinterCast AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SKA-B.ST",
+            "companyName": "Skanska AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SKF-A.ST",
+            "companyName": "AB SKF Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SKF-B.ST",
+            "companyName": "AB SKF Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SKIS-B.ST",
+            "companyName": "SkiStar AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SMF.ST",
+            "companyName": "Semafo Inc.",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SOBI.ST",
+            "companyName": "Swedish Orphan Biovitrum AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SOF-B.ST",
+            "companyName": "Softronic AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SPOR.ST",
+            "companyName": "Sportamore AB (Publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SRNKE-B.ST",
+            "companyName": "SERNEKE Group AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SSAB-A.ST",
+            "companyName": "SSAB AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SSAB-B.ST",
+            "companyName": "SSAB AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SSM.ST",
+            "companyName": "SSM Holding AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "STAR-A.ST",
+            "companyName": "Starbreeze AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "STAR-B.ST",
+            "companyName": "Starbreeze AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "STE-A.ST",
+            "companyName": "STORA ENSO OYJ\/Sh  Cl A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "STE-R.ST",
+            "companyName": "STORA ENSO OYJ\/Sh  Cl R",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "STEF-B.ST",
+            "companyName": "Stendorren Fastigheter AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "STRAX.ST",
+            "companyName": "Strax AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "STWK.ST",
+            "companyName": "Stockwik Forvaltning AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SVED-B.ST",
+            "companyName": "Svedbergs i Dalstorp AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SVIK.ST",
+            "companyName": "Studsvik AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SVOL-A.ST",
+            "companyName": "Svolder AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SVOL-B.ST",
+            "companyName": "Svolder AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SWEC-A.ST",
+            "companyName": "Sweco AB (publ) Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SWEC-B.ST",
+            "companyName": "Sweco AB (publ) Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SWED-A.ST",
+            "companyName": "Swedbank AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SWMA.ST",
+            "companyName": "Swedish Match AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SWOL-B.ST",
+            "companyName": "Swedol AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "SYSR.ST",
+            "companyName": "Systemair AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "TEL2-A.ST",
+            "companyName": "Tele2 AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "TEL2-B.ST",
+            "companyName": "Tele2 AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "TELIA.ST",
+            "companyName": "Telia Company AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "TETY.ST",
+            "companyName": "Tethys Oil AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "TFBANK.ST",
+            "companyName": "TF Bank AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "THULE.ST",
+            "companyName": "Thule Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "TIETOS.ST",
+            "companyName": "Tieto Oyj",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "TOBII.ST",
+            "companyName": "Tobii AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "TRAC-B.ST",
+            "companyName": "AB Traction",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "TRAD.ST",
+            "companyName": "TradeDoubler AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "TREL-B.ST",
+            "companyName": "Trelleborg AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "TRENT.ST",
+            "companyName": "Trention AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "TROAX.ST",
+            "companyName": "Troax Group AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VBG-B.ST",
+            "companyName": "VBG Group AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VICP-A.ST",
+            "companyName": "Victoria Park AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VICP-B.ST",
+            "companyName": "Victoria Park AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VICP-PREF.ST",
+            "companyName": "Victoria Park AB Preference Shares",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VIT-B.ST",
+            "companyName": "Vitec Software Group AB (publ)",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VITR.ST",
+            "companyName": "Vitrolife AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VNE-SDB.ST",
+            "companyName": "VEONEERINC\/SDR",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VNV-SDB.ST",
+            "companyName": "Vostok New Ventures Ltd",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VOLO-PREF.ST",
+            "companyName": "Volati AB Preference Shares",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VOLO.ST",
+            "companyName": "Volati AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VOLV-A.ST",
+            "companyName": "Volvo AB Class A",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VOLV-B.ST",
+            "companyName": "Volvo AB Class B",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VRG-B.ST",
+            "companyName": "Venue Retail Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "VSSAB-B.ST",
+            "companyName": "Viking Supply Ships AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "WALL-B.ST",
+            "companyName": "Wallenstam AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "WIHL.ST",
+            "companyName": "Wihlborgs Fastigheter AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "WISE.ST",
+            "companyName": "Wise Group AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "XANO-B.ST",
+            "companyName": "XANO Industri AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "XVIVO.ST",
+            "companyName": "Xvivo Perfusion AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "ZETA.ST",
+            "companyName": "Zetadisplay AB",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        },
+        {
+            "ticker": "^OMX",
+            "companyName": "OMX Stockholm 30 Index",
+            "exchange": "Stockholm Stock Exchange",
+            "exchangeShort": "OMX",
+            "currency": "SEK",
+            "timezone": "Europe\/Stockholm"
+        }
+    ]
+}

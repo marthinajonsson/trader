@@ -33,7 +33,7 @@ set(headers
         ${CMAKE_CURRENT_LIST_DIR}/inc/Feeder.h
         ${CMAKE_CURRENT_LIST_DIR}/ifc/UniBit.h
         ${CMAKE_CURRENT_LIST_DIR}/inc/Client.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/ADX.h)
+        ${CMAKE_CURRENT_LIST_DIR}/inc/ADX.h inc/SearchJson.h)
 
 set(sources
         ${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.cpp

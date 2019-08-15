@@ -24,11 +24,10 @@ using string = std::string;
 
 namespace ALGORITHM{
     static const string MEAN_REVERSION = "mean_reversion"; /* what goes up must come down */
-    static const string SENTIMENT = "sentiment"; /* buy the rumor, sell the news*/
-    static const string MOMENTUM = "momentum"; /* the trend is your friend */
-    static const string SEASONALITY = "seasonality"; /* sell in May and go away */
+    static const string ADX = "adx";
     static const string DEEP_LEARNING = "deeplearning"; /* ta-lib */
 }
+
 
 template<typename T>
 void vec_emblace_back(vector<T>& vector, const T& element) {
