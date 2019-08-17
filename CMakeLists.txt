@@ -40,14 +40,15 @@ set(headers
 set(sources
         ${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/DeepLearning.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/Feeder.cpp
         ${CMAKE_CURRENT_LIST_DIR}/ifc/UniBit.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/ADX.cpp src/JsonWriter.cpp src/Client.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/src/ADX.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/JsonWriter.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/Client.cpp)
 
 set(tests
         ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp
         ${CMAKE_CURRENT_LIST_DIR}/unittest/TestStartup.h
-        ${CMAKE_CURRENT_LIST_DIR}/unittest/RequestTest.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/unittest/RequestTest.cpp)
 
 enable_testing()
 add_subdirectory(external/gtest/googlemock)
