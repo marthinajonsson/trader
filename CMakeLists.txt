@@ -11,7 +11,7 @@ find_package(OpenSSL)
 find_package( Boost 1.69 COMPONENTS REQUIRED filesystem)
 find_package(Threads REQUIRED)
 
-include_directories(inc)
+include_directories(h)
 include_directories(ifc)
 include_directories(src)
 include_directories(unittest)
@@ -22,31 +22,32 @@ include_directories(${JsonStreamer_INCLUDE_DIRS})
 
 set(headers
         ${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/Util.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/InputParser.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/ActiveAlgorithm.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/AlgoQueue.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/DeepLearning.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/Exceptions.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/main.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/AlgoDispatcher.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/Feeder.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/Util.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/InputParser.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/ActiveAlgorithm.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/AlgoQueue.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/DeepLearning.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/Exceptions.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/main.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/AlgoDispatcher.h
         ${CMAKE_CURRENT_LIST_DIR}/ifc/UniBit.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/Client.h
-        ${CMAKE_CURRENT_LIST_DIR}/inc/ADX.h inc/SearchJson.h)
+        ${CMAKE_CURRENT_LIST_DIR}/h/Client.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/ADX.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/SearchJson.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/CSVWriter.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/JsonWriter.h)
 
 set(sources
         ${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/DeepLearning.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/Feeder.cpp
         ${CMAKE_CURRENT_LIST_DIR}/ifc/UniBit.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/ADX.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/src/ADX.cpp src/JsonWriter.cpp src/Client.cpp)
 
 set(tests
         ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp
         ${CMAKE_CURRENT_LIST_DIR}/unittest/TestStartup.h
         ${CMAKE_CURRENT_LIST_DIR}/unittest/RequestTest.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/unittest/FeederTest.cpp)
 
 enable_testing()
 add_subdirectory(external/gtest/googlemock)

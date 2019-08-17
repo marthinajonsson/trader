@@ -1,3 +1,5 @@
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "cert-err58-cpp"
 //
 // Created by mjonsson on 8/5/19.
 //
@@ -14,7 +16,7 @@
 namespace UNIBIT
 {
     typedef boost::property_tree::ptree ptree;
-    const string BASE_URL_ENDPOINT = "https://api.unibit.ai/api";
+    static const string BASE_URL_ENDPOINT = "https://api.unibit.ai/api";
 
     template<typename T>
     std::pair<T,T> parseData(boost::property_tree::ptree pt, vector<std::pair<T,T>> result, T v) {
@@ -51,12 +53,12 @@ namespace UNIBIT
         return result;
     }
 
-    void saveData(const string &name, const string& type, ptree &data, bool clean = true);
-    void saveSymbolData(const string &name, const string& type, vector<std::pair<string, string>>& data);
     ptree fetch(const string &, const string& = "");
     void sendRequest(ptree &, string &);
+    void sendRequest(ptree &, string &);
+    void sendRequest(ptree &, string &);
+    void sendRequest(ptree &, string &);
     void updateReferenceList(const string&);
-    UNIBIT::ptree parseSymbol(string &, string &);
     void addToken(string &);
 
     static const string TICKER = "ticker=";
@@ -137,3 +139,5 @@ namespace UNIBIT
     }
 };
 #endif //TRADER_UNIBIT_H
+
+#pragma clang diagnostic pop

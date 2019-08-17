@@ -28,8 +28,6 @@ static std::vector<std::string> split(std::string &input, char delim)
     return seglist;
 }
 
-static std::unordered_map<std::string, std::function<std::optional<std::string>(std::string&)>> cliCommands;
-
 static std::optional<std::string> print(std::string& param)
 {
     auto vec = split(param, ' ');
@@ -83,7 +81,7 @@ static std::optional<std::string> search(std::string &param)
     auto vec = split(param, ' ');
     std::string pattern = vec.front();
     pop_front(vec);
-    SearchJson search("../data/UNIBIT_symbols[OMX].json");
+    IO::SearchJson search("../data/UNIBIT_symbols[OMX].json");
     std::vector<std::pair<std::string, std::string>> tmp;
     bool found = search.exists(tmp, pattern, "ticker", {"ticker", "companyName"});
 
@@ -118,6 +116,9 @@ static std::optional<std::string> compile (std::string& param)
     ActiveAlgorithm active;
     active.registerWork(WORK, temp);
 }
+
+
+static std::unordered_map<std::string, std::function<std::optional<std::string>(std::string&)>> cliCommands;
 
 static void regInit() {
     cliCommands["search"] = search;

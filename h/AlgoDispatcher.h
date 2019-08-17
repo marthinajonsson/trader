@@ -17,7 +17,7 @@ private:
 
 public:
 
-    std::function<void()> set(string type, string param)
+    std::function<void()> set(string type)
     {
         // TODO send param
         const std::string typeLower = boost::algorithm::to_lower_copy(type);

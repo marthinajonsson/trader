@@ -38,9 +38,9 @@ namespace Trader {
 
         string getVal() { return val; }
 
-        void registerWork(const string algorithm, const string param) {
+        void registerWork(const string algorithm) {
             val = algorithm;
-            queue.put(algorithm, param);
+            queue.put(algorithm);
         }
 
         void run() {

@@ -22,7 +22,7 @@ public:
     ADX(ADX const&) = delete;
     void operator=(ADX const&) = delete;
 
-    void run();
+    static void run();
 };
 
 #endif //TRADER_ADX_H

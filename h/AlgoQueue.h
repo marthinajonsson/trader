@@ -28,7 +28,7 @@ public:
 
     void put(string opName, string opParam) {
         std::lock_guard<std::mutex> guard(qlock);
-        Operation op = dispatcher.set(opName, opParam);
+        Operation op = dispatcher.set(opName);
         ops_queue.push(op);
         empty.notify_one();
     }

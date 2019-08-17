@@ -6,8 +6,10 @@
 #include <iostream>
 //#include "IEX.h"
 #include "ADX.h"
-
 #include "UniBit.h"
+#include "CSVWriter.h"
+
+using namespace IO;
 
 std::mutex single;
 static ADX* instance;
@@ -36,10 +38,13 @@ void ADX::run()
 
     response = UNIBIT::fetch(indicator, key);
     boost::property_tree::write_json(std::cout, response);
-//    result = UNIBIT::parseArgData(response, UNIBIT::INDICATOR::ADX::KEY_RESPONSE::BASE,
-//            UNIBIT::INDICATOR::ADX::KEY_RESPONSE::CALC);
+    result = UNIBIT::parseArgData(response, UNIBIT::INDICATOR::ADX::KEY_RESPONSE::BASE,
+            UNIBIT::INDICATOR::ADX::KEY_RESPONSE::CALC);
 
-//    double adx = std::stod(result.front().second);
+    std::string file = "MSFT";
+    file.append("_ADX.csv");
+    CSVWriter writer(file);
+    writer.addDatainRow(result.begin(), result.end());
     result.clear();
 
 //    response = IEX::fetch("MSFT", IEX::INDICATOR::PRICE::CURRENT_PRICE);
