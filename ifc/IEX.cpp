@@ -3,6 +3,7 @@
 //
 
 //#include "Client.h"
+#include <fstream>
 #include "IEX.h"
 #include "main.h"
 

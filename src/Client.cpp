@@ -18,7 +18,7 @@ std::size_t Client::callback(void* in, std::size_t size, std::size_t num, std::s
 void Client::sendHttpGetRequest(boost::property_tree::ptree &respData, string &url)
 {
     CURL* curl = curl_easy_init();
-
+    std::cout << url << std::endl;
     curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
     curl_easy_setopt(curl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
     curl_easy_setopt(curl, CURLOPT_TIMEOUT, 10);

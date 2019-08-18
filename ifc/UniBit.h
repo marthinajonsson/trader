@@ -31,14 +31,14 @@ namespace UNIBIT
     }
 
     template<typename ...T>
-    vector<std::pair<string, string>> parseArgData(const ptree &response, T&&... args)
+    vector<std::pair<string, string>> parseArgData(const ptree &response, const string &base = "", T&&... args)
     {
         BOOST_ASSERT(!response.empty());
         ptree path;
         ptree child;
         try
         {
-            child = response.get_child("", path);
+            child = response.get_child(base, path);
         }
         catch(const boost::property_tree::ptree_bad_path &e)
         {
@@ -55,9 +55,6 @@ namespace UNIBIT
 
     ptree fetch(const string &, const string& = "");
     void sendRequest(ptree &, string &);
-    void sendRequest(ptree &, string &);
-    void sendRequest(ptree &, string &);
-    void sendRequest(ptree &, string &);
     void updateReferenceList(const string&);
     void addToken(string &);
 
@@ -65,13 +62,15 @@ namespace UNIBIT
     static const string ACCESS_KEY = "&AccessKey=";
 
     namespace INDICATOR {
-        static const string BASE_REQUEST = "/technicalindicators?";
+        static const string BASE_REQUEST = "/technicalindicators/?";
         static const string DATA_POINT_KEY ="&data_point=";
         static const string DATA_POINT_VALUE_14 = "14";
         static const string DATA_POINT_VALUE_20 = "20";
         static const string DATA_POINT_VALUE_50 = "50";
+        static const string DATA_POINT_VALUE_100 = "100";
         static const string DATA_POINT_VALUE_200 = "200";
         static const string SERIES_TYPE_KEY ="&series_type=";
+        static const string SERIES_TYPE_VALUE ="close";
 
         static const string INTERVAL_KEY ="&interval=";
         static const string INTERVAL_DAILY_VALUE ="daily";
@@ -95,7 +94,7 @@ namespace UNIBIT
             namespace KEY_RESPONSE {
                 static const string BASE = "Technical Indicator: ADX";
                 static const string DATE = "date";
-                static const string CALC = "price";
+                static const string CALC = "ADX";
             }
         }
     }

@@ -30,11 +30,11 @@ namespace IO {
 
         ~SearchJson() = default;
 
-        bool exists(std::vector<std::pair<std::string, std::string>> &findings, const std::string &pattern,
+        int exists(std::vector<std::pair<std::string, std::string>> &findings, const std::string &pattern,
                     const std::string &head, const std::vector<std::string> &keys) {
             auto tickerIt = _root.get_child_optional(head);
             if (!tickerIt) {
-                return false;
+                return -1;
             }
             bool found = false;
             std::vector<ptree> treeResult;
@@ -57,10 +57,10 @@ namespace IO {
                                 for (const ptree &pt : treeResult) {
                                     boost::property_tree::write_json(std::cout, pt);
                                 }
-                                return true;
+                                return treeResult.size();
                             }
                         }
-            return false;
+            return -1;
         }
     };
 }

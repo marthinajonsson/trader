@@ -38,6 +38,8 @@ namespace Trader {
 
         string getVal() { return val; }
 
+        void endWork() { done = true; }
+
         void registerWork(const string algorithm) {
             val = algorithm;
             queue.put(algorithm);

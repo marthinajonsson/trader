@@ -1,0 +1,2540 @@
+{
+    "ticker": [
+        {
+            "ticker": "AAMC",
+            "companyName": "Altisource Asset Management Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AAU",
+            "companyName": "Almaden Minerals Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ACU",
+            "companyName": "Acme United Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ACY",
+            "companyName": "AeroCentury Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AE",
+            "companyName": "Adams Resources & Energy, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AEF",
+            "companyName": "Aberdeen Emerging Markets Equity Income Fund, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AGE",
+            "companyName": "AgeX Therapeutics, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AINC",
+            "companyName": "Ashford Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AIRI",
+            "companyName": "Air Industries Group",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AKG",
+            "companyName": "Asanko Gold Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ALO",
+            "companyName": "Alio Gold Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AMBO",
+            "companyName": "Ambow Education Holding Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AMPE",
+            "companyName": "Ampio Pharmaceuticals, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AMS",
+            "companyName": "American Shared Hospital Services",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "APHB",
+            "companyName": "AmpliPhi Biosciences Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "APT",
+            "companyName": "Alpha Pro Tech, Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ASM",
+            "companyName": "Avino Silver & Gold Mines Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AST",
+            "companyName": "Asterias Biotherapeutics",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ATNM",
+            "companyName": "Actinium Pharmaceuticals, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AUG",
+            "companyName": "Auryn Resources Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AUMN",
+            "companyName": "Golden Minerals Company",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AWX",
+            "companyName": "Avalon Holdings Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "AXU",
+            "companyName": "Alexco Resource Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BCV",
+            "companyName": "Bancroft Fund Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BCV-A",
+            "companyName": "Bancroft Fund Ltd. Preferred Shares Series A",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BDL",
+            "companyName": "Flanigan's Enterprises, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BDR",
+            "companyName": "Blonder Tongue Laboratories, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BGI",
+            "companyName": "Birks Group Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BGSF",
+            "companyName": "BG Staffing, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BHB",
+            "companyName": "Bar Harbor Bankshares",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BKJ",
+            "companyName": "Bancorp Of New Jersey, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BKTI",
+            "companyName": "BK Technologies Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BPMX",
+            "companyName": "BioPharmX Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BRG",
+            "companyName": "Bluerock Residential Growth REIT, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BRG-A",
+            "companyName": "Bluerock Residential Growth REIT Inc Preferred Shares Series A",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BRG-C",
+            "companyName": "Bluerock Residential Growth REIT Inc Preferred Shares Series C",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BRG-D",
+            "companyName": "Bluerock Residential Growth REIT Inc Preferred Shares Series D",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BRN",
+            "companyName": "Barnwell Industries, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BTG",
+            "companyName": "B2Gold Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BTN",
+            "companyName": "Ballantyne Strong, Inc",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BTX",
+            "companyName": "BioTime, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BWL.A",
+            "companyName": "Bowl America Incorporated Class A",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CANF",
+            "companyName": "Can-Fite BioPharma Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CAW",
+            "companyName": "CCA Industries, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CCA",
+            "companyName": "MFS California Municipal Fund",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CCF",
+            "companyName": "Chase Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CDOR",
+            "companyName": "Condor Hospitality Trust, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CEI",
+            "companyName": "Camber Energy, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CET",
+            "companyName": "Central Securities Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CIK",
+            "companyName": "Credit Suisse Asset Management Income Fund, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CIX",
+            "companyName": "CompX International Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CKX",
+            "companyName": "CKX Lands, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CLM",
+            "companyName": "Cornerstone Strategic Value Fund, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CMCL",
+            "companyName": "Caledonia Mining Corporation Plc",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CMT",
+            "companyName": "Core Molding Technologies, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "COHN",
+            "companyName": "Cohen & Company Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CPHI",
+            "companyName": "China Pharma Holdings, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CQP",
+            "companyName": "Cheniere Energy Partners, L.P.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CRF",
+            "companyName": "Cornerstone Total Return Fund, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CRHM",
+            "companyName": "CRH Medical Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CRMD",
+            "companyName": "CorMedix, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CTEK",
+            "companyName": "Cynergistek, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CTO",
+            "companyName": "Consolidated-Tomoka Land Co.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CUO",
+            "companyName": "Continental Materials Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CVM",
+            "companyName": "CEL-SCI Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CVR",
+            "companyName": "Chicago Rivet & Machine Co.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CVRS",
+            "companyName": "Corindus Vascular Robotics, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CVU",
+            "companyName": "CPI Aerostructures, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "DFVL",
+            "companyName": "iPath US Treasury 5-year Bull ETN",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "DGSE",
+            "companyName": "DGSE Companies, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "DHY",
+            "companyName": "Credit Suisse High Yield Bond Fund, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "DIT",
+            "companyName": "AMCON Distributing Company",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "DLA",
+            "companyName": "Delta Apparel, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "DMF",
+            "companyName": "Dreyfus Municipal Income, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "DNN",
+            "companyName": "Denison Mines Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "DPW",
+            "companyName": "DPW Holdings, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "DSS",
+            "companyName": "Document Security Systems, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "DTUL",
+            "companyName": "iPath US Treasury 2-year Bull ETN",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "DXF",
+            "companyName": "Dunxin Financial Holdings Limited",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "DXR",
+            "companyName": "Daxor Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ECF",
+            "companyName": "Ellsworth Growth and Income Fund Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ECF-A",
+            "companyName": "Ellsworth Growth and Income Fund Ltd Preferred Shares Series A",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EGI",
+            "companyName": "Entrée Resources Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EIM",
+            "companyName": "Eaton Vance Municipal Bond Fund",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EIO",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EIP",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EIV",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ELLO",
+            "companyName": "Ellomay Capital Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ELMD",
+            "companyName": "Electromed, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EMAN",
+            "companyName": "eMagin Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EMJ",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EMX",
+            "companyName": "EMX Royalty Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ENSV",
+            "companyName": "Enservco Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ENX",
+            "companyName": "Eaton Vance New York Municipal Bond Fund",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EPM",
+            "companyName": "Evolution Petroleum Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ERC",
+            "companyName": "Wells Fargo Advantage Multi-Sector Income Fund",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ERH",
+            "companyName": "Wells Fargo Advantage Utilities and High Income Fund",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ESNC",
+            "companyName": "EnSync Inc",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ESP",
+            "companyName": "Espey Mfg. & Electronics Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EVBN",
+            "companyName": "Evans Bancorp, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EVI",
+            "companyName": "EVI Industries, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EVJ",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EVM",
+            "companyName": "Eaton Vance California Municipal Bond Fund",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EVO",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EVP",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EVV",
+            "companyName": "Eaton Vance Limited Duration Income Fund",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EVY",
+            "companyName": "Eaton Vance New York Municipal Income Trust",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "FRD",
+            "companyName": "Friedman Industries, Incorporated",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "FSI",
+            "companyName": "Flexible Solutions International Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "FSP",
+            "companyName": "Franklin Street Properties Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "FTF",
+            "companyName": "Franklin Limited Duration Income Trust",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "FTNW",
+            "companyName": "FTE Networks, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GBR",
+            "companyName": "New Concept Energy, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GDP",
+            "companyName": "Goodrich Petroleum Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GGN",
+            "companyName": "GAMCO Global Gold, Natural Resources & Income Trust",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GGN-B",
+            "companyName": "GAMCO GLB GOLD\/5.00% PFD SH S B",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GGO",
+            "companyName": "The Gabelli Go Anywhere Trust",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GGO-A",
+            "companyName": "GABELLI GO ANYW\/CUM PUTTABLE & CALL",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GLOW",
+            "companyName": "Glowpoint, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GLU",
+            "companyName": "The Gabelli Global Utility & Income Trust",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GLU-A",
+            "companyName": "Gabelli Global Utility & Income Trust Preferred Shares Series A",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GLU-B",
+            "companyName": "Gabelli Global Utility & Income Trust Preferred Shares Series B",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GLV",
+            "companyName": "Clough Global Dividend and Income Fund",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GMO",
+            "companyName": "General Moly, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GORO",
+            "companyName": "Gold Resource Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GPL",
+            "companyName": "Great Panther Mining Limited",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GRF",
+            "companyName": "Eagle Capital Growth Fund, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GSAT",
+            "companyName": "Globalstar, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GSB",
+            "companyName": "GlobalSCAPE, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GSS",
+            "companyName": "Golden Star Resources Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GSV",
+            "companyName": "Gold Standard Ventures Corp",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GTE",
+            "companyName": "Gran Tierra Energy Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GV",
+            "companyName": "The Goldfield Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "HEB",
+            "companyName": "Hemispherx Biopharma, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "HLTH",
+            "companyName": "Nobilis Health Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "HMG",
+            "companyName": "HMG\/Courtland Properties, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "HNW",
+            "companyName": "Pioneer Diversified High Income Trust",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "HUSA",
+            "companyName": "Houston American Energy Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "IAF",
+            "companyName": "Aberdeen Australia Equity Fund, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "IBIO",
+            "companyName": "iBio, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "IBKR",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "IDN",
+            "companyName": "Intellicheck, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "IEC",
+            "companyName": "IEC Electronics Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "IHT",
+            "companyName": "InnSuites Hospitality Trust",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "IMH",
+            "companyName": "Impac Mortgage Holdings, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "IMO",
+            "companyName": "Imperial Oil Limited",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "INFU",
+            "companyName": "InfuSystem Holdings Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "INS",
+            "companyName": "Intelligent Systems Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "INTT",
+            "companyName": "inTEST Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "INUV",
+            "companyName": "Inuvo, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "IOR",
+            "companyName": "Income Opportunity Realty Investors, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "IPB",
+            "companyName": "Merrill Lynch Depositor Inc. 6.0518% Index Plus Trust Series 2003-1",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ISDR",
+            "companyName": "Issuer Direct Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ISR",
+            "companyName": "IsoRay, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ITP",
+            "companyName": "IT Tech Packaging, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "JOB",
+            "companyName": "GEE Group, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "KIQ",
+            "companyName": "Kelso Technologies Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "LBY",
+            "companyName": "Libbey Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "LEU",
+            "companyName": "Centrus Energy Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "LEVB",
+            "companyName": "Level Brands, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "LGL",
+            "companyName": "The LGL Group, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "LLEX",
+            "companyName": "Lilis Energy, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "LNG",
+            "companyName": "Cheniere Energy, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "LODE",
+            "companyName": "Comstock Mining Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "LOV",
+            "companyName": "Spark Networks SE",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "LTS",
+            "companyName": "Ladenburg Thalmann Financial Services Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "LTS-A",
+            "companyName": "LADENBURG THALM\/% RED PFD SH S A",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "LTSL",
+            "companyName": "Ladenburg Thalmann Financial Services Inc. 6.50% NT 27",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MAG",
+            "companyName": "MAG Silver Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MCF",
+            "companyName": "Contango Oil & Gas Company",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MHH",
+            "companyName": "Mastech Digital, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MICR",
+            "companyName": "Micron Solutions, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MLSS",
+            "companyName": "Milestone Scientific Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MMV",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MNI",
+            "companyName": "The McClatchy Company",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MOC",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MSN",
+            "companyName": "Emerson Radio Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MTNB",
+            "companyName": "Matinas BioPharma Holdings, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MXC",
+            "companyName": "Mexco Energy Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MYO",
+            "companyName": "Myomo, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NAK",
+            "companyName": "Northern Dynasty Minerals Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NAVB",
+            "companyName": "Navidea Biopharmaceuticals, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NBH",
+            "companyName": "Neuberger Berman Intermediate Municipal Fund Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NBO",
+            "companyName": "Neuberger Berman New York Municipal Fund, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NBY",
+            "companyName": "NovaBay Pharmaceuticals, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NEN",
+            "companyName": "New England Realty Associates Limited Partnership",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NES",
+            "companyName": "Nuverra Environmental Solutions, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NG",
+            "companyName": "NovaGold Resources Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NGD",
+            "companyName": "New Gold Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NHC",
+            "companyName": "National HealthCare Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NHS",
+            "companyName": "Neuberger Berman High Yield Strategies Fund Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NML",
+            "companyName": "Neuberger Berman MLP Income Fund Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NNVC",
+            "companyName": "NanoViricides, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NOG",
+            "companyName": "Northern Oil and Gas, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NRCG",
+            "companyName": "NRC Group Holdings Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NRO",
+            "companyName": "Neuberger Berman Real Estate Securities Income Fund Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NSPR",
+            "companyName": "InspireMD, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NSU",
+            "companyName": "Nevsun Resources",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NTIP",
+            "companyName": "Network-1 Technologies, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NTN",
+            "companyName": "NTN Buzztime, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NXE",
+            "companyName": "NexGen Energy Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "OCX",
+            "companyName": "OncoCyte Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "OGEN",
+            "companyName": "Oragenics, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ORM",
+            "companyName": "Owens Realty Mortgage Inc",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PCG-A",
+            "companyName": "Pacific Gas & Electric Company 6% Preferred Shares",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PCG-B",
+            "companyName": "PAC GAS & ELEC\/5.50% PFD SH",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PCG-C",
+            "companyName": "PAC GAS & ELEC\/5% PFD SH",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PCG-D",
+            "companyName": "Pacific Gas & Electric Company 5% Preferred Shares",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PCG-E",
+            "companyName": "Pacific Gas & Electric Company 5% Preferred Shares Ser. A",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PCG-G",
+            "companyName": "PAC GAS & ELEC\/4.80% PFD SH",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PCG-H",
+            "companyName": "PAC GAS & ELEC\/4.50% PFD SH",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PCG-I",
+            "companyName": "PAC GAS & ELEC\/4.36% PFD SH",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PED",
+            "companyName": "PEDEVCO Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PFNX",
+            "companyName": "Pfenex Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PHYS",
+            "companyName": "Sprott Physical Gold Trust",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PLAG",
+            "companyName": "Planet Green Holdings Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PLG",
+            "companyName": "Platinum Group Metals Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PLM",
+            "companyName": "PolyMet Mining Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PLX",
+            "companyName": "Protalix BioTherapeutics, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PLYM",
+            "companyName": "Plymouth Industrial REIT, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PLYM-A",
+            "companyName": "Plymouth Industrial Reit Inc Preferred Shares Series A",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PRK",
+            "companyName": "Park National Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PSLV",
+            "companyName": "Sprott Physical Silver Trust",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PTN",
+            "companyName": "Palatin Technologies, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PW",
+            "companyName": "Power REIT",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PW-A",
+            "companyName": "PWR REIT\/7.75% RED EXGBL PFD SH S A",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "PZG",
+            "companyName": "Paramount Gold Nevada Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "RCG",
+            "companyName": "RENN Fund, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "REI",
+            "companyName": "Ring Energy, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "RFL",
+            "companyName": "Rafael Holdings, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "RHE",
+            "companyName": "Regional Health Properties, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "RHE-A",
+            "companyName": "Regional Health Properties Inc Preferred Shares Series A",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "RLGT",
+            "companyName": "Radiant Logistics, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "RNN",
+            "companyName": "Rexahn Pharmaceuticals, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ROX",
+            "companyName": "Castle Brands Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "RVP",
+            "companyName": "Retractable Technologies, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SACH",
+            "companyName": "Sachem Capital Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SAND",
+            "companyName": "Sandstorm Gold Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SCE-B",
+            "companyName": "SN CA EDISON CO\/4.08% PFD SH",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SCE-C",
+            "companyName": "SN CA EDISON CO\/4.24% PFD SH",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SCE-D",
+            "companyName": "SN CA EDISON CO\/4.32% PFD SH",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SCE-E",
+            "companyName": "Southern California Edison Co.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SDI",
+            "companyName": "Standard Diversified Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SDPI",
+            "companyName": "Superior Drilling Products, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SEB",
+            "companyName": "Seaboard Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SENS",
+            "companyName": "Senseonics Holdings, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SGB",
+            "companyName": "Southwest Georgia Financial Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SIF",
+            "companyName": "SIFCO Industries, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SILV",
+            "companyName": "SilverCrest Metals Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SIM",
+            "companyName": "Grupo Simec, S.A.B. de C.V.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SMTS",
+            "companyName": "Sierra Metals Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SNMP",
+            "companyName": "Sanchez Midstream Partners LP",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SPPP",
+            "companyName": "Sprott Physical Platinum and Palladium Trust",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SRCI",
+            "companyName": "SRC Energy Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SSY",
+            "companyName": "SunLink Health Systems, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SVM",
+            "companyName": "Silvercorp Metals Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SVT",
+            "companyName": "Servotronics, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "SYN",
+            "companyName": "Synthetic Biologics, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "TAT",
+            "companyName": "TransAtlantic Petroleum Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "TGB",
+            "companyName": "Taseko Mines Limited",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "TGC",
+            "companyName": "Tengasco, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "THM",
+            "companyName": "International Tower Hill Mines Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "TIK",
+            "companyName": "Tel-Instrument Electronics Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "TIS",
+            "companyName": "Orchids Paper Products Company",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "TKAT",
+            "companyName": "Takung Art Co., Ltd.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "TMP",
+            "companyName": "Tompkins Financial Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "TMQ",
+            "companyName": "Trilogy Metals Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "TPHS",
+            "companyName": "Trinity Place Holdings Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "TRT",
+            "companyName": "Trio-Tech International",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "TRX",
+            "companyName": "Tanzanian Gold Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "TRXC",
+            "companyName": "TransEnterix, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "UAMY",
+            "companyName": "United States Antimony Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "UAVS",
+            "companyName": "AgEagle Aerial Systems, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "UEC",
+            "companyName": "Uranium Energy Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "UFAB",
+            "companyName": "Unique Fabricating, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "UQM",
+            "companyName": "UQM Technologies, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "URG",
+            "companyName": "Ur-Energy Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "USAS",
+            "companyName": "Americas Silver Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "UTG",
+            "companyName": "Reaves Utility Income Fund",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "UUU",
+            "companyName": "Universal Security Instruments, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "UUUU",
+            "companyName": "Energy Fuels Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "UWN",
+            "companyName": "Nevada Gold & Casinos, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "VCF",
+            "companyName": "Delaware Investments Colorado Municipal Income Fund, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "VFL",
+            "companyName": "Delaware Investments National Municipal Income Fund",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "VGZ",
+            "companyName": "Vista Gold Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "VHC",
+            "companyName": "VirnetX Holding Corp",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "VISI",
+            "companyName": "Volt Information Sciences, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "VKI",
+            "companyName": "Invesco Advantage Municipal Income Trust II",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "VMM",
+            "companyName": "Delaware Investments Minnesota Municipal Income Fund II, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "VNRX",
+            "companyName": "VolitionRx Limited",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "WRN",
+            "companyName": "Western Copper and Gold Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "WTT",
+            "companyName": "Wireless Telecom Group, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "WYY",
+            "companyName": "WidePoint Corporation",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "XPL",
+            "companyName": "Solitario Zinc Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "XTNT",
+            "companyName": "Xtant Medical Holdings, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "XXII",
+            "companyName": "22nd Century Group, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "YUMA",
+            "companyName": "Yuma Energy, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ZDGE",
+            "companyName": "Zedge, Inc.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ZOM",
+            "companyName": "Zomedica Pharmaceuticals Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ALN",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BVX",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CQH",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EIA",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "EMI",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GLF",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GST",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GST-A",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "GST-B",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "HCAC",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "IMUC",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "LTSF",
+            "companyName": "Ladenburg Thalmann Financial Services Inc. 7.00% SN NT 28",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MAB",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "MIW",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "NYH",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "ONP",
+            "companyName": "nan",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "nan",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "BIOX",
+            "companyName": "Bioceres Crop Solutions Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        },
+        {
+            "ticker": "CHAC",
+            "companyName": "Chardan Healthcare Acquisition Corp.",
+            "exchange": "NYSE American Stock Exchange",
+            "exchangeShort": "AMEX",
+            "currency": "USD",
+            "timezone": "America\/New_York"
+        }
+    ]
+}

@@ -30,43 +30,37 @@ static std::vector<std::string> split(std::string &input, char delim)
 
 static std::optional<std::string> print(std::string& param)
 {
-    auto vec = split(param, ' ');
-    std::string category = vec.front();
-    pop_front(vec);
     std::string update = "update - Update reference lists for a certain exchange\n";
-    update.append("\n E.g. 'update OMX' or 'update NASDAQ'\n\n");
+    update.append("E.g. 'update OMX' or 'update NASDAQ'\n\n");
 
     std::string help = "help - Print help text\n";
-    help.append("'E.g. 'help update' or 'help search'\n\n");
+    help.append("E.g. 'help update' or 'help search'\n\n");
 
     std::string search = "search - Search for stock symbols and company name\n";
-    search.append("E.g. 'search Veoneer' or 'search VNE-SDB'\n\n");
+    search.append("E.g. 'search OMX Veoneer' or 'search OMX VNE-SDB'\n");
+    search.append("E.g. 'search NASDAQ Microsoft' or 'search NASDAQ MSFT'\n\n");
 
     std::string indicator = "<stock indicator> <stock symbol> <parameters>\n";
     indicator.append("E.g. 'ADX MSFT datapoint 14'\n\n");
 
-    std::cout << "CAT " << category << std::endl;
-    if (std::string::npos != category.find("update")) {
+    if (std::string::npos != param.find("update")) {
         std::cout << update;
     }
-    else if (std::string::npos != category.find("search"))
+    else if (std::string::npos != param.find("search"))
     {
         std::cout << search;
-    }
-    else if (std::string::npos != category.find("help"))
-    {
-        std::cout << help;
     }
     else {
         std::cout << help << search << update << indicator << std::endl;
     }
+    return std::nullopt;
 }
 
 static std::optional<std::string> update(std::string& param)
 {
     auto vec = split(param, ' ');
-    std::string exchange = vec.front();
     pop_front(vec);
+    std::string exchange = vec.front();
     try {
         UNIBIT::updateReferenceList(exchange);
     }
@@ -74,18 +68,24 @@ static std::optional<std::string> update(std::string& param)
         std::cerr << "Error update reference list, " << "did you type a correct exchange?" << std::endl;
         std::cerr << ex.what() << std::endl;
     }
+    return std::nullopt;
 }
 
 static std::optional<std::string> search(std::string &param)
 {
     auto vec = split(param, ' ');
-    std::string pattern = vec.front();
     pop_front(vec);
-    IO::SearchJson search("../data/UNIBIT_symbols[OMX].json");
-    std::vector<std::pair<std::string, std::string>> tmp;
-    bool found = search.exists(tmp, pattern, "ticker", {"ticker", "companyName"});
+    std::string exchange = vec.front();
+    pop_front(vec);
+    std::string pattern = vec.front();
+    std::string url = "../data/UNIBIT_symbols[";
+    url.append(exchange).append("].json");
 
-    if (found)
+    IO::SearchJson search(url);
+    std::vector<std::pair<std::string, std::string>> tmp;
+    int findings = search.exists(tmp, pattern, "ticker", {"ticker", "companyName"});
+
+    if (findings > 1)
     {
         std::string ticker;
         std::string chosenSymbol;
@@ -100,6 +100,7 @@ static std::optional<std::string> search(std::string &param)
         }
         return chosenSymbol;
     }
+    return std::nullopt;
 }
 
 static std::optional<std::string> compile (std::string& param)
@@ -114,7 +115,11 @@ static std::optional<std::string> compile (std::string& param)
     }
     const std::string WORK = boost::algorithm::to_upper_copy(cmd);
     ActiveAlgorithm active;
-    active.registerWork(WORK, temp);
+    active.registerWork(WORK);
+    std::string what = active.getVal();
+    std::cout << "executed " << what << std::endl;
+    active.endWork();
+    return std::nullopt;
 }
 
 
@@ -125,13 +130,14 @@ static void regInit() {
     cliCommands["update"] = update;
     cliCommands["help"] = print;
     cliCommands["ADX"] = compile;
+    cliCommands["SMA"] = compile;
 }
 
 int main(int argc, char** argv)
 {
     regInit();
 
-    if (argc < 1) {
+    if (argc < 2) {
         std::string cmd = "help";
         std::string tmp;
         cliCommands[cmd](tmp);
@@ -143,6 +149,7 @@ int main(int argc, char** argv)
     std::stringstream ss;
     for (int i = 1; i < argc; i++) {
         ss << argv[i];
+        ss << " ";
     }
     param = ss.str();
     std::optional<std::string> result = cliCommands[cmd](param);

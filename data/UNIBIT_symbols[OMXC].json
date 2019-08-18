@@ -1,0 +1,2092 @@
+{
+    "ticker": [
+        {
+            "ticker": "AAB.CO",
+            "companyName": "Aalborg Boldspilklub A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ACG1V.CO",
+            "companyName": "Aspocomp Group Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ADMCAP-B.CO",
+            "companyName": "Admiral Capital A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "AFAGR.CO",
+            "companyName": "Afarak Group Plc",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "AFE1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "AGF-B.CO",
+            "companyName": "Agf A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "AHL1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ALBAV.CO",
+            "companyName": "Alandsbanken Abp Class A",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ALBBV.CO",
+            "companyName": "Alandsbanken Abp Class B",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ALK-B.CO",
+            "companyName": "ALK-Abello A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ALMB.CO",
+            "companyName": "Alm. Brand A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "AM-B.CO",
+            "companyName": "Andersen & Martini A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "AMBU-B.CO",
+            "companyName": "Ambu A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "AMEAS.CO",
+            "companyName": "Amer Sports Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "AOJ-P.CO",
+            "companyName": "Broedrene A & O Johansen A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ARKIL-B.CO",
+            "companyName": "Arkil Holding A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ATG1V.CO",
+            "companyName": "Asiakastieto Group Plc",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ATHENA.CO",
+            "companyName": "Athena Investments A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ATLA-DKK.CO",
+            "companyName": "Atlantic Petroleum P\/F",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ATRAV.CO",
+            "companyName": "Atria Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "BAS1V.CO",
+            "companyName": "Basware Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "BAVA.CO",
+            "companyName": "Bavarian Nordic A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "BIF.CO",
+            "companyName": "Broendbyernes IF Fodbold A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "BIOBV.CO",
+            "companyName": "Biohit Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "BIOPOR.CO",
+            "companyName": "BioPorto A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "BITTI.CO",
+            "companyName": "Bittium Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "BLVIS-A.CO",
+            "companyName": "Blue Vision A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "BNORDIK-CSE.CO",
+            "companyName": "BankNordik P\/F",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "BO.CO",
+            "companyName": "Bang & Olufsen A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "BOLIGA.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "BORD-B.CO",
+            "companyName": "F E Bording A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "BTH1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CARL-A.CO",
+            "companyName": "Carlsberg A\/S Class A",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CARL-B.CO",
+            "companyName": "Carlsberg A\/S Class B",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CAV1V.CO",
+            "companyName": "Caverion Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CBRAIN.CO",
+            "companyName": "cBrain A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CEMAT.CO",
+            "companyName": "Cemat A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CGCBV.CO",
+            "companyName": "Cargotec Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CHEMM.CO",
+            "companyName": "ChemoMetec A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CHR.CO",
+            "companyName": "Chr Hansen Holding A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "COLO-B.CO",
+            "companyName": "Coloplast A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "COLUM.CO",
+            "companyName": "Columbus A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CONSTI.CO",
+            "companyName": "Consti Group Plc",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CPHCAP-PREF.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CPHCAP-ST.CO",
+            "companyName": "Copenhagen Capital A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CRA1V.CO",
+            "companyName": "Cramo Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CTH1V.CO",
+            "companyName": "Componenta Corp",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "CTY1S.CO",
+            "companyName": "Citycon Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "DAB.CO",
+            "companyName": "Danske Andelskassers Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "DANSKE.CO",
+            "companyName": "Danske Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "DANT.CO",
+            "companyName": "Dantax A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "DFDS.CO",
+            "companyName": "DFDS A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "DJS.CO",
+            "companyName": "Den Jyske Sparekasse A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "DJUR.CO",
+            "companyName": "Djurslands Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "DLH.CO",
+            "companyName": "Dalhoff Larsen&Horneman A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "DNORD.CO",
+            "companyName": "Dampskibsselskabet NORDEN A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "DOV1V.CO",
+            "companyName": "Dovre Group Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "DSV.CO",
+            "companyName": "DSV A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "EFO1V.CO",
+            "companyName": "Efore Plc",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "EGE-B.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ELEAV.CO",
+            "companyName": "Elecster Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "EQV1V.CO",
+            "companyName": "eQ Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "EVLI.CO",
+            "companyName": "Evli Pankki Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "EXL1V.CO",
+            "companyName": "Exel Composites Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "FED.CO",
+            "companyName": "Fast Ejendom Danmark A S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "FFARMS.CO",
+            "companyName": "FirstFarms A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "FIA1S.CO",
+            "companyName": "Finnair Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "FLS.CO",
+            "companyName": "FLSmidth & Co. A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "FLUG-B.CO",
+            "companyName": "Flugger group A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "FSC1V.CO",
+            "companyName": "F-Secure Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "FYNBK.CO",
+            "companyName": "Fynske Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "G4S.CO",
+            "companyName": "G4S plc",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "GABR.CO",
+            "companyName": "Gabriel Holding A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "GEN.CO",
+            "companyName": "Genmab A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "GERHSP.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "GJ.CO",
+            "companyName": "Glunz & Jensen Holding A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "GLA1V.CO",
+            "companyName": "Glaston Oyj Abp",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "GN.CO",
+            "companyName": "GN Store Nord A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "GRLA.CO",
+            "companyName": "GroenlandsBANKEN A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "GRND.CO",
+            "companyName": "HB Grandi hf.",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "ISK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "GYLD-A.CO",
+            "companyName": "Gyldendal A\/S Class A",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "GYLD-B.CO",
+            "companyName": "Gyldendal A\/S Class B",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "HAGA.CO",
+            "companyName": "Hagar hf",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "ISK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "HARB-B.CO",
+            "companyName": "Harboes Bryggeri A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "HART.CO",
+            "companyName": "Broedrene Hartmann A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "HH.CO",
+            "companyName": "H+H International A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "HKSAV.CO",
+            "companyName": "HKScan Corporation",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "HOEJ-A.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "HOEJ-B.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "HOIVA.CO",
+            "companyName": "Suomen Hoivatilat Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "HONBS.CO",
+            "companyName": "Honkarakenne Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "HRTIS.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "HUH1V.CO",
+            "companyName": "Huhtamaki Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "HVID.CO",
+            "companyName": "Hvidbjerg Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "IC.CO",
+            "companyName": "IC Group A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ICEAIR.CO",
+            "companyName": "Icelandair Group hf",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "ISK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ICP1V.CO",
+            "companyName": "Incap Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "IFA1V.CO",
+            "companyName": "Innofactor Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ILK1S.CO",
+            "companyName": "Ilkka Yhtyma Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ILK2S.CO",
+            "companyName": "Ilkka Yhtyma Oyj Series II",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "IMAIL.CO",
+            "companyName": "InterMail A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "INVEST.CO",
+            "companyName": "Investors House Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ISS.CO",
+            "companyName": "ISS A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "JDAN.CO",
+            "companyName": "Jeudan A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "JUTBK.CO",
+            "companyName": "Jutlander Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "JYSK.CO",
+            "companyName": "Jyske Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "KBHL.CO",
+            "companyName": "Koebenhavns Lufthavne A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "KELAS.CO",
+            "companyName": "Kesla Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "KLEE-B.CO",
+            "companyName": "BRD Klee A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "KNEBV.CO",
+            "companyName": "Kone Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "KRE.CO",
+            "companyName": "Kreditbanken A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "KSLAV.CO",
+            "companyName": "Keskisuomalainen Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "LASP.CO",
+            "companyName": "Laan & Spar Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "LAT1V.CO",
+            "companyName": "Lassila & Tikanoja Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "LEM1S.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "LOLB.CO",
+            "companyName": "Lollands Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "LUN.CO",
+            "companyName": "H. Lundbeck A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "LUXOR-B.CO",
+            "companyName": "Investeringsselskabet Luxor A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "MAERSK-A.CO",
+            "companyName": "AP Moeller Maersk A\/S Class A",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "MAERSK-B.CO",
+            "companyName": "AP Moeller Maersk A\/S Class B",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "MARAS.CO",
+            "companyName": "Martela Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "MARL.CO",
+            "companyName": "Marel hf",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "ISK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "MATAS.CO",
+            "companyName": "Matas A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "METSA.CO",
+            "companyName": "Metsa Board Oyj Class A",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "METSB.CO",
+            "companyName": "Metsa Board Oyj Class B",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "MIGA-B.CO",
+            "companyName": "Svejsemaskinefabrikken Migatronic A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "MMO1V.CO",
+            "companyName": "Marimekko Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "MNBA.CO",
+            "companyName": "Moens Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "MT-B.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "N1.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NDA-DK.CO",
+            "companyName": "Nordea Bank Abp",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NDA1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NEO1V.CO",
+            "companyName": "Neo Industrial Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NESTE.CO",
+            "companyName": "Neste Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NETC.CO",
+            "companyName": "Netcompany Holding I A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NEUR.CO",
+            "companyName": "NeuroSearch A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NEWCAP.CO",
+            "companyName": "Newcap Holding A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NKT.CO",
+            "companyName": "NKT A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NLFSK.CO",
+            "companyName": "Nilfisk Holding A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NLG1V.CO",
+            "companyName": "Nurminen Logistics Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NNIT.CO",
+            "companyName": "Nnit A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NOKIA.CO",
+            "companyName": "Nokia Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NORDIC.CO",
+            "companyName": "Nordic Shipholding A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NORTHM.CO",
+            "companyName": "North Media A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NORVE.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NOVO-B.CO",
+            "companyName": "Novo Nordisk A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NRDF.CO",
+            "companyName": "Nordfyns Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NRE1V.CO",
+            "companyName": "Nokian Tyres plc",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NTR-B.CO",
+            "companyName": "NTR Holding A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "NZYM-B.CO",
+            "companyName": "Novozymes A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "OKDAV.CO",
+            "companyName": "Oriola Oyj Class A",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "OKDBV.CO",
+            "companyName": "Oriola Oyj Class B",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "OKM1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "OLVAS.CO",
+            "companyName": "Olvi Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ONXEO.CO",
+            "companyName": "Onxeo SA",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "OREIT.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ORNAV.CO",
+            "companyName": "Orion Oyj Class A",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ORNBV.CO",
+            "companyName": "Orion Oyj Class B",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ORPHA.CO",
+            "companyName": "Orphazyme A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ORSTED.CO",
+            "companyName": "Oersted A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "OSSR.CO",
+            "companyName": "Ossur hf",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "OTE1V.CO",
+            "companyName": "Outotec Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "OUT1V.CO",
+            "companyName": "Outokumpu Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "PAAL-B.CO",
+            "companyName": "Per Aarsleff Holding A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "PARKEN.CO",
+            "companyName": "PARKEN Sport & Entertainment A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "PIHLIS.CO",
+            "companyName": "Pihlajalinna Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "PIZZA.CO",
+            "companyName": "Kotipizza Group Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "PKC1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "PKK1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "PNA1V.CO",
+            "companyName": "Panostaja Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "PNDORA.CO",
+            "companyName": "PANDORA A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "PON1V.CO",
+            "companyName": "Ponsse Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "POY1V.CO",
+            "companyName": "Poyry PLC",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "PRIMOF.CO",
+            "companyName": "Prime Office A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "PSNRDC-A.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "QPR1V.CO",
+            "companyName": "QPR Software Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "RAIKV.CO",
+            "companyName": "RAISIO OYJ\/SH  CL KANTA",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "RAIVV.CO",
+            "companyName": "RAISIO OYJ\/SH?CL VAIHTO",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "RAP1V.CO",
+            "companyName": "Rapala VMC Corp",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "RBLN-B.CO",
+            "companyName": "Roblon A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "RBREW.CO",
+            "companyName": "Royal UNIBREW A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "REG1V.CO",
+            "companyName": "Revenio Group Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "REGINN.CO",
+            "companyName": "Reginn hf",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "ISK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "REITIR.CO",
+            "companyName": "Reitir fasteignafelag hf",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "ISK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "RESTA.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "RIAS-B.CO",
+            "companyName": "RIAS A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "RILBA.CO",
+            "companyName": "Ringkjoebing Landbobank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "RMR1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ROBIT.CO",
+            "companyName": "Robit Plc",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ROCK-A.CO",
+            "companyName": "Rockwool International A\/S Class A",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ROCK-B.CO",
+            "companyName": "Rockwool International A\/S Class B",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ROV.CO",
+            "companyName": "Rovsing A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "RTX.CO",
+            "companyName": "Rtx A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SAA1V.CO",
+            "companyName": "Sanoma Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SAGCV.CO",
+            "companyName": "Saga Furs Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SALB.CO",
+            "companyName": "Salling Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SANI.CO",
+            "companyName": "Sanistaal A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SAS-DKK.CO",
+            "companyName": "SAS AB",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SBS.CO",
+            "companyName": "Scandinavian Brake Systems A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SCD.CO",
+            "companyName": "SmallCap Danmark A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SCHO.CO",
+            "companyName": "Schouw & Co A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SFG.CO",
+            "companyName": "Santa Fe Group A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SIF.CO",
+            "companyName": "Silkeborg IF Invest A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SIILI.CO",
+            "companyName": "Siili Solutions Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SIM.CO",
+            "companyName": "SimCorp A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SIMINN.CO",
+            "companyName": "Siminn hf",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "ISK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SJOVA.CO",
+            "companyName": "Sjova-Almennar tryggingar hf",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "ISK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SKAKO.CO",
+            "companyName": "Skako A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SKJE.CO",
+            "companyName": "Skjern Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SOLAR-B.CO",
+            "companyName": "Solar A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SOPRA.CO",
+            "companyName": "Soprano Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SPEAS.CO",
+            "companyName": "Scandinavian Private Equity A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SPG.CO",
+            "companyName": "SP Group A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SPKSJF.CO",
+            "companyName": "Sparekassen Sjaelland",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SPNO.CO",
+            "companyName": "Spar Nord Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SRV1V.CO",
+            "companyName": "SRV Yhtiot Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SSH1V.CO",
+            "companyName": "SSH Communications Security Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "STCAS.CO",
+            "companyName": "Stockmann Oyj Class A",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "STCBV.CO",
+            "companyName": "Stockmann Oyj Class B",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "STEAV.CO",
+            "companyName": "Stora Enso OYJ Class A",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "STERV.CO",
+            "companyName": "Stora Enso OYJ Class R",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "STG.CO",
+            "companyName": "Scandinavian Tobacco Group A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "STRINV.CO",
+            "companyName": "Strategic Investments A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SUY1V.CO",
+            "companyName": "Suominen Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "SYDB.CO",
+            "companyName": "Sydbank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TAALA.CO",
+            "companyName": "Taaleri Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TAM1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TCM.CO",
+            "companyName": "Tcm Group A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TEM1V.CO",
+            "companyName": "Tecnotree Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TIE1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TIK1V.CO",
+            "companyName": "Tikkurila Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TIV.CO",
+            "companyName": "Tivoli A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TKDV.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TLT1V.CO",
+            "companyName": "Teleste Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TNOM.CO",
+            "companyName": "Talenom Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TOP.CO",
+            "companyName": "Topdanmark A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TOTA.CO",
+            "companyName": "Totalbanken A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TPS1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TRH1V.CO",
+            "companyName": "Trainers' House Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TRMD-A.CO",
+            "companyName": "Torm PLC",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TRYG.CO",
+            "companyName": "Tryg A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TTM1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TULAV.CO",
+            "companyName": "Tulikivi Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "TUT1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "UIE.CO",
+            "companyName": "United International Enterprises Limited",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "UUTEC.CO",
+            "companyName": "Plc Uutechnic Group Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "VAIAS.CO",
+            "companyName": "Vaisala Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "VALMT.CO",
+            "companyName": "Valmet Corp",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "VALOE.CO",
+            "companyName": "Valoe Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "VELO.CO",
+            "companyName": "Veloxis Pharmaceuticals A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "VIK1V.CO",
+            "companyName": "Viking Line Abp",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "VIPRO.CO",
+            "companyName": "Victoria Properties A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "VJBA.CO",
+            "companyName": "Vestjysk Bank A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "VOICE.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "VWS.CO",
+            "companyName": "Vestas Wind Systems A\/S",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "WDH.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "WRT1V.CO",
+            "companyName": "Wartsila Oyj Abp",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "WUF1V.CO",
+            "companyName": "Wulff-Yhtiot Oyj",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "EUR",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "YLEPS.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ZEAL.CO",
+            "companyName": "Zealand Pharma Aktieselskabet",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "DKK",
+            "timezone": "Europe\/Copenhagen"
+        },
+        {
+            "ticker": "ZEE1V.CO",
+            "companyName": "nan",
+            "exchange": "Copenhagen Stock Exchange",
+            "exchangeShort": "OMXC",
+            "currency": "nan",
+            "timezone": "Europe\/Copenhagen"
+        }
+    ]
+}

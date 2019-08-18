@@ -15,9 +15,8 @@ UNIBIT::ptree UNIBIT::fetch(const string &indicator, const string &key)
     string url(BASE_URL_ENDPOINT);
     url = url.append(indicator);
     if (!key.empty()) {
-        url = url.append("/").append(key);
+        url = url.append("").append(key);
     }
-    addToken(url);
     sendRequest(jsonData, url);
     return jsonData;
 }

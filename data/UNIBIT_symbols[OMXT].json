@@ -1,0 +1,140 @@
+{
+    "ticker": [
+        {
+            "ticker": "ARC1T.TL",
+            "companyName": "Arco Vara AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "BLT1T.TL",
+            "companyName": "Baltika AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "EEG1T.TL",
+            "companyName": "Ekspress Grupp AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "HAE1T.TL",
+            "companyName": "Harju Electrics Ltd",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "LHV1T.TL",
+            "companyName": "LHV Group AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "MRK1T.TL",
+            "companyName": "Merko Ehitus AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "NCN1T.TL",
+            "companyName": "Nordecon As",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "OEG1T.TL",
+            "companyName": "nan",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "nan",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "PKG1T.TL",
+            "companyName": "Pro Kapital Grupp AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "PRF1T.TL",
+            "companyName": "PRFoods AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "SFG1T.TL",
+            "companyName": "Silvano Fashion Group AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "SKN1T.TL",
+            "companyName": "Skano Group AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "TAL1T.TL",
+            "companyName": "Tallink Grupp AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "TKM1T.TL",
+            "companyName": "Tallinna Kaubamaja Grupp AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "TPD1T.TL",
+            "companyName": "Trigon Property Development AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "TSM1T.TL",
+            "companyName": "Tallinna Sadam AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        },
+        {
+            "ticker": "TVEAT.TL",
+            "companyName": "Tallinna Vesi AS",
+            "exchange": "Tallinn Stock Exchange",
+            "exchangeShort": "OMXT",
+            "currency": "EUR",
+            "timezone": "Europe\/Tallinn"
+        }
+    ]
+}

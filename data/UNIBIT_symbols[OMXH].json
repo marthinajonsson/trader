@@ -1,0 +1,1116 @@
+{
+    "ticker": [
+        {
+            "ticker": "NESTE.HE",
+            "companyName": "Neste Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ACG1V.HE",
+            "companyName": "Aspocomp Group Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "AFAGR.HE",
+            "companyName": "Afarak Group Plc",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "AKTIA.HE",
+            "companyName": "Aktia Bank Plc",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ALBAV.HE",
+            "companyName": "Alandsbanken Abp Class A",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ALBBV.HE",
+            "companyName": "Alandsbanken Abp Class B",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ALMA.HE",
+            "companyName": "Alma Media Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ALTIA.HE",
+            "companyName": "Altia Plc",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "AM1.HE",
+            "companyName": "Ahlstrom-Munksjo Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "AMEAS.HE",
+            "companyName": "Amer Sports Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "APETIT.HE",
+            "companyName": "Apetit Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ASPO.HE",
+            "companyName": "Aspo Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ATG1V.HE",
+            "companyName": "Asiakastieto Group Plc",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ATRAV.HE",
+            "companyName": "Atria Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "BAS1V.HE",
+            "companyName": "Basware Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "BIOBV.HE",
+            "companyName": "Biohit Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "BITTI.HE",
+            "companyName": "Bittium Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "CAPMAN.HE",
+            "companyName": "CapMan Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "CAV1V.HE",
+            "companyName": "Caverion Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "CGCBV.HE",
+            "companyName": "Cargotec Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "CONSTI.HE",
+            "companyName": "Consti Group Plc",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "CRA1V.HE",
+            "companyName": "Cramo Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "CTH1V.HE",
+            "companyName": "Componenta Corp",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "CTY1S.HE",
+            "companyName": "Citycon Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "DIGIA.HE",
+            "companyName": "Digia Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "DIGIGR.HE",
+            "companyName": "Digitalist Group Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "DNA.HE",
+            "companyName": "DNA Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "DOV1V.HE",
+            "companyName": "Dovre Group Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "EFO1V.HE",
+            "companyName": "Efore Plc",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ELEAV.HE",
+            "companyName": "Elecster Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ELISA.HE",
+            "companyName": "Elisa Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ENDOM.HE",
+            "companyName": "Endomines AB (publ)",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "EQV1V.HE",
+            "companyName": "eQ Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ETTE.HE",
+            "companyName": "Etteplan Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "EVLI.HE",
+            "companyName": "Evli Pankki Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "EXL1V.HE",
+            "companyName": "Exel Composites Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "FIA1S.HE",
+            "companyName": "Finnair Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "FORTUM.HE",
+            "companyName": "Fortum Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "FSC1V.HE",
+            "companyName": "F-Secure Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "FSKRS.HE",
+            "companyName": "Fiskars Oyj Abp",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "GLA1V.HE",
+            "companyName": "Glaston Oyj Abp",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "HARVIA.HE",
+            "companyName": "Harvia Finland Oy",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "HKSAV.HE",
+            "companyName": "HKScan Corporation",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "HOIVA.HE",
+            "companyName": "Suomen Hoivatilat Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "HONBS.HE",
+            "companyName": "Honkarakenne Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "HUH1V.HE",
+            "companyName": "Huhtamaki Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ICP1V.HE",
+            "companyName": "Incap Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "IFA1V.HE",
+            "companyName": "Innofactor Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ILK2S.HE",
+            "companyName": "Ilkka Yhtyma Oyj Series II",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "INVEST.HE",
+            "companyName": "Investors House Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "KAMUX.HE",
+            "companyName": "Kamux Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "KCR.HE",
+            "companyName": "Konecranes Abp",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "KELAS.HE",
+            "companyName": "Kesla Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "KEMIRA.HE",
+            "companyName": "Kemira Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "KESKOA.HE",
+            "companyName": "Kesko Oyj Class A",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "KESKOB.HE",
+            "companyName": "Kesko Oyj Class B",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "KNEBV.HE",
+            "companyName": "Kone Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "KOJAMO.HE",
+            "companyName": "Kojamo Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "KSLAV.HE",
+            "companyName": "Keskisuomalainen Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "LAT1V.HE",
+            "companyName": "Lassila & Tikanoja Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "LEHTO.HE",
+            "companyName": "Lehto Group Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "MARAS.HE",
+            "companyName": "Martela Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "METSA.HE",
+            "companyName": "Metsa Board Oyj Class A",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "METSB.HE",
+            "companyName": "Metsa Board Oyj Class B",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "METSO.HE",
+            "companyName": "Metso Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "MMO1V.HE",
+            "companyName": "Marimekko Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "NDA-FI.HE",
+            "companyName": "Nordea Bank Abp",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "NEO1V.HE",
+            "companyName": "Neo Industrial Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "NIXU.HE",
+            "companyName": "Nixu Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "NLG1V.HE",
+            "companyName": "Nurminen Logistics Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "NOHO.HE",
+            "companyName": "NoHo Partners Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "NOKIA.HE",
+            "companyName": "Nokia Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "NRE1V.HE",
+            "companyName": "Nokian Tyres plc",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "OKDAV.HE",
+            "companyName": "Oriola Oyj Class A",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "OKDBV.HE",
+            "companyName": "Oriola Oyj Class B",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "OLVAS.HE",
+            "companyName": "Olvi Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "OMASP.HE",
+            "companyName": "Oma Saastopankki Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ORNAV.HE",
+            "companyName": "Orion Oyj Class A",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ORNBV.HE",
+            "companyName": "Orion Oyj Class B",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "OTE1V.HE",
+            "companyName": "Outotec Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "OUT1V.HE",
+            "companyName": "Outokumpu Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "OVARO.HE",
+            "companyName": "Ovaro Kiinteistosijoitus Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "PIHLIS.HE",
+            "companyName": "Pihlajalinna Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "PIZZA.HE",
+            "companyName": "Kotipizza Group Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "PKK1V.HE",
+            "companyName": "Pohjois-Karjalan Kirjapaino Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "PNA1V.HE",
+            "companyName": "Panostaja Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "PON1V.HE",
+            "companyName": "Ponsse Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "POY1V.HE",
+            "companyName": "Poyry PLC",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "QPR1V.HE",
+            "companyName": "QPR Software Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "QTCOM.HE",
+            "companyName": "Qt Group Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "RAIVV.HE",
+            "companyName": "RAISIO OYJ\/SH?CL VAIHTO",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "RAMI.HE",
+            "companyName": "Ramirent Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "RAP1V.HE",
+            "companyName": "Rapala VMC Corp",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "RAUTE.HE",
+            "companyName": "Raute Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "REG1V.HE",
+            "companyName": "Revenio Group Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ROBIT.HE",
+            "companyName": "Robit Plc",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "ROVIO.HE",
+            "companyName": "Rovio Entertainment Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SAA1V.HE",
+            "companyName": "Sanoma Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SAGCV.HE",
+            "companyName": "Saga Furs Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SAMPO.HE",
+            "companyName": "Sampo Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SCANFL.HE",
+            "companyName": "Scanfil Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SIEVI.HE",
+            "companyName": "Sievi Capital Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SIILI.HE",
+            "companyName": "Siili Solutions Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SILMA.HE",
+            "companyName": "Silmaasema Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SOLTEQ.HE",
+            "companyName": "Solteq Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SOPRA.HE",
+            "companyName": "Soprano Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SOSI1.HE",
+            "companyName": "Sotkamo Silver AB",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SRV1V.HE",
+            "companyName": "SRV Yhtiot Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SSABAH.HE",
+            "companyName": "SSAB AB Class A",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SSABBH.HE",
+            "companyName": "SSAB AB Class B",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SSH1V.HE",
+            "companyName": "SSH Communications Security Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "STCAS.HE",
+            "companyName": "Stockmann Oyj Class A",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "STCBV.HE",
+            "companyName": "Stockmann Oyj Class B",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "STEAV.HE",
+            "companyName": "Stora Enso OYJ Class A",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "STERV.HE",
+            "companyName": "Stora Enso OYJ Class R",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "SUY1V.HE",
+            "companyName": "Suominen Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "TAALA.HE",
+            "companyName": "Taaleri Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "TALLINK.HE",
+            "companyName": "NORDEA BANK ABP\/DR",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "TELIA1.HE",
+            "companyName": "Telia Company AB",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "TEM1V.HE",
+            "companyName": "Tecnotree Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "TIETO.HE",
+            "companyName": "Tieto Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "TIK1V.HE",
+            "companyName": "Tikkurila Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "TLT1V.HE",
+            "companyName": "Teleste Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "TNOM.HE",
+            "companyName": "Talenom Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "TOKMAN.HE",
+            "companyName": "Tokmanni Group Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "TRH1V.HE",
+            "companyName": "Trainers' House Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "TTALO.HE",
+            "companyName": "Terveystalo Oy",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "TULAV.HE",
+            "companyName": "Tulikivi Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "UPM.HE",
+            "companyName": "UPM-Kymmene Corporation",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "UPONOR.HE",
+            "companyName": "Uponor Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "UUTEC.HE",
+            "companyName": "Plc Uutechnic Group Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "VAIAS.HE",
+            "companyName": "Vaisala Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "VALMT.HE",
+            "companyName": "Valmet Corp",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "VALOE.HE",
+            "companyName": "Valoe Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "VIK1V.HE",
+            "companyName": "Viking Line Abp",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "WRT1V.HE",
+            "companyName": "Wartsila Oyj Abp",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "WUF1V.HE",
+            "companyName": "Wulff-Yhtiot Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "YEINT.HE",
+            "companyName": "Yleiselektroniikka Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        },
+        {
+            "ticker": "YIT.HE",
+            "companyName": "YIT Oyj",
+            "exchange": "Helsinki Stock Exchange",
+            "exchangeShort": "OMXH",
+            "currency": "EUR",
+            "timezone": "Europe\/Helsinki"
+        }
+    ]
+}

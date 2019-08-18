@@ -7,17 +7,19 @@
 
 
 #include <boost/algorithm/string.hpp>
+#include <functional>
 #include "MeanReversion.h"
 #include "ADX.h"
+#include "SMA.h"
 #include "Util.h"
-#include <functional>
+
 
 class AlgoDispatcher {
 private:
 
 public:
 
-    std::function<void()> set(string type)
+    std::function<void()> set(const string& type)
     {
         // TODO send param
         const std::string typeLower = boost::algorithm::to_lower_copy(type);
@@ -25,6 +27,9 @@ public:
             //
         }else if ( ALGORITHM::ADX == typeLower ) {
             return std::bind(&ADX::run, &ADX::getInstance());
+        }
+        else if ( ALGORITHM::SMA == typeLower ) {
+            return std::bind(&SMA::run, &SMA::getInstance());
         }
 //        return std::bind(&MeanReversion::run, &MeanReversion::getInstance());
     }

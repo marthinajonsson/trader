@@ -21,7 +21,7 @@ namespace IO
     public:
 
         static JsonWriter& getInstance ();
-        static void addPropertyTree(std::string && api, const std::string &name, const std::string& type,
+        void addPropertyTree(std::string && api, const std::string &name, const std::string& type,
                 ptree &data, bool clean = true);
     };
 }

@@ -11,12 +11,12 @@
 
 using namespace IO;
 
-std::mutex single;
+std::mutex single_ADX;
 static ADX* instance;
 
 ADX& ADX::getInstance()
 {
-    std::lock_guard<std::mutex> lock(single);
+    std::lock_guard<std::mutex> lock(single_ADX);
     if(!instance) {
         instance = new ADX();
     }
@@ -29,28 +29,28 @@ void ADX::run()
     vector<std::pair<string, string>> result;
     string indicator;
     indicator = indicator.append(UNIBIT::INDICATOR::BASE_REQUEST);
+    indicator = indicator.append(UNIBIT::TICKER).append("nvda");
     indicator = indicator.append(UNIBIT::INDICATOR::ADX::KEY_REQUEST_FUNC);
-    indicator = indicator.append(UNIBIT::TICKER).append("MSFT.st");
 
     string key;
-    key = key.append(UNIBIT::INDICATOR::DATA_POINT_KEY).append(UNIBIT::INDICATOR::DATA_POINT_VALUE_14);
-    key = key.append(UNIBIT::INDICATOR::INTERVAL_KEY).append(UNIBIT::INDICATOR::INTERVAL_MONTH_VALUE);
+    key = key.append(UNIBIT::INDICATOR::DATA_POINT_KEY).append(UNIBIT::INDICATOR::DATA_POINT_VALUE_50);
+    key = key.append(UNIBIT::INDICATOR::INTERVAL_KEY).append(UNIBIT::INDICATOR::INTERVAL_DAILY_VALUE);
 
     response = UNIBIT::fetch(indicator, key);
-    boost::property_tree::write_json(std::cout, response);
+
     result = UNIBIT::parseArgData(response, UNIBIT::INDICATOR::ADX::KEY_RESPONSE::BASE,
             UNIBIT::INDICATOR::ADX::KEY_RESPONSE::CALC);
 
-    std::string file = "MSFT";
+    std::string file = "NVDA";
     file.append("_ADX.csv");
+    std::vector<std::string> filteredValue;
+    int odd = 0;
+    for(auto &p : result) {
+        filteredValue.emplace_back(p.second);
+    }
+
     CSVWriter writer(file);
-    writer.addDatainRow(result.begin(), result.end());
+    writer.addDatainRow(filteredValue.begin(), filteredValue.end());
+    filteredValue.clear();
     result.clear();
-
-//    response = IEX::fetch("MSFT", IEX::INDICATOR::PRICE::CURRENT_PRICE);
-//    IEX::parseArgData<double>(response, result, IEX::INDICATOR::PRICE::CURRENT_PRICE);
-//    double price = result.front();
-//    result.clear();
-
-//    }
 }

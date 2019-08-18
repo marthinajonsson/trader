@@ -26,7 +26,7 @@ public:
     AlgoQueue() = default;
     ~AlgoQueue() = default;
 
-    void put(string opName, string opParam) {
+    void put(string opName) {
         std::lock_guard<std::mutex> guard(qlock);
         Operation op = dispatcher.set(opName);
         ops_queue.push(op);

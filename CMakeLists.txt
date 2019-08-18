@@ -35,7 +35,8 @@ set(headers
         ${CMAKE_CURRENT_LIST_DIR}/h/ADX.h
         ${CMAKE_CURRENT_LIST_DIR}/h/SearchJson.h
         ${CMAKE_CURRENT_LIST_DIR}/h/CSVWriter.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/JsonWriter.h)
+        ${CMAKE_CURRENT_LIST_DIR}/h/JsonWriter.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/SMA.h)
 
 set(sources
         ${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.cpp
@@ -43,7 +44,8 @@ set(sources
         ${CMAKE_CURRENT_LIST_DIR}/ifc/UniBit.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/ADX.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/JsonWriter.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/Client.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/src/Client.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/SMA.cpp)
 
 set(tests
         ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp

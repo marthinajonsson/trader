@@ -25,7 +25,8 @@ using string = std::string;
 namespace ALGORITHM{
     static const string MEAN_REVERSION = "mean_reversion"; /* what goes up must come down */
     static const string ADX = "adx";
-    static const string DEEP_LEARNING = "deeplearning"; /* ta-lib */
+    static const string SMA = "sma";
+    static const string DEEP_LEARNING = "deeplearning";
 }
 
 
