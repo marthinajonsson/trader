@@ -5,13 +5,14 @@
 #ifndef TRADER_MEANREVERSION_H
 #define TRADER_MEANREVERSION_H
 
+#include "Subject.h"
+#include "Algorithm.h"
 #include <mutex>
 
-class MeanReversion {
+class MeanReversion : Algorithm, Subject {
 private:
     MeanReversion()= default;
     ~MeanReversion()= default;
-
 public:
     static MeanReversion& getInstance();
     MeanReversion(MeanReversion const&) = delete;

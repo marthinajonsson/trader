@@ -19,5 +19,5 @@ MeanReversion& MeanReversion::getInstance()
 
 void MeanReversion::run()
 {
-
+    notifyObservers(ALGORITHM::MEAN_REVERSION)
 }

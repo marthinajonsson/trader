@@ -36,7 +36,14 @@ set(headers
         ${CMAKE_CURRENT_LIST_DIR}/h/SearchJson.h
         ${CMAKE_CURRENT_LIST_DIR}/h/CSVWriter.h
         ${CMAKE_CURRENT_LIST_DIR}/h/JsonWriter.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/SMA.h)
+        ${CMAKE_CURRENT_LIST_DIR}/h/SMA.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/ProcessHandler.h
+        ${CMAKE_CURRENT_LIST_DIR}/ifc/Observer.h
+        ${CMAKE_CURRENT_LIST_DIR}/ifc/Subject.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/Algorithm.h
+        ${CMAKE_CURRENT_LIST_DIR}/ifc/Analyzer.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/ADXAnalyzer.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/SMAAnalyzer.h)
 
 set(sources
         ${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.cpp
@@ -45,7 +52,11 @@ set(sources
         ${CMAKE_CURRENT_LIST_DIR}/src/ADX.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/JsonWriter.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/Client.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/SMA.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/src/SMA.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/ifc/Subject.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/ProcessHandler.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/ADXAnalyzer.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/SMAAnalyzer.cpp)
 
 set(tests
         ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp

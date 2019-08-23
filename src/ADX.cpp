@@ -4,19 +4,15 @@
 
 #include <mutex>
 #include <iostream>
-//#include "IEX.h"
 #include "ADX.h"
 #include "UniBit.h"
-#include "CSVWriter.h"
 
-using namespace IO;
-
-std::mutex single_ADX;
-static ADX* instance;
+std::mutex m_adx;
+static ADX *instance;
 
 ADX& ADX::getInstance()
 {
-    std::lock_guard<std::mutex> lock(single_ADX);
+    std::lock_guard<std::mutex> lock(m_adx);
     if(!instance) {
         instance = new ADX();
     }
@@ -49,8 +45,8 @@ void ADX::run()
         filteredValue.emplace_back(p.second);
     }
 
-    CSVWriter writer(file);
-    writer.addDatainRow(filteredValue.begin(), filteredValue.end());
+    save(file, filteredValue);
     filteredValue.clear();
     result.clear();
+    notifyObservers(ALGORITHM::ADX);
 }

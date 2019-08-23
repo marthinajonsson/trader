@@ -8,17 +8,30 @@
 
 #include <boost/algorithm/string.hpp>
 #include <functional>
+#include <memory>
+
+#include "ProcessHandler.h"
 #include "MeanReversion.h"
+#include "Algorithm.h"
 #include "ADX.h"
 #include "SMA.h"
 #include "Util.h"
 
-
-class AlgoDispatcher {
+class AlgoDispatcher : Subject {
 private:
-
+    ProcessHandler *pHandler;
 public:
+    AlgoDispatcher()
+    {
+        pHandler = new ProcessHandler();
+        registerObserver(ALGORITHM::ADX, pHandler);
+        registerObserver(ALGORITHM::SMA, pHandler);
+    }
 
+    ~AlgoDispatcher() {
+        removeObserver(pHandler);
+        delete pHandler;
+    }
     std::function<void()> set(const string& type)
     {
         // TODO send param
@@ -33,7 +46,6 @@ public:
         }
 //        return std::bind(&MeanReversion::run, &MeanReversion::getInstance());
     }
-
 };
 
 

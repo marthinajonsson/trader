@@ -8,19 +8,16 @@
 
 #include <mutex>
 #include <iostream>
-//#include "IEX.h"
 #include "SMA.h"
 #include "UniBit.h"
 #include "CSVWriter.h"
 
-using namespace IO;
-
-std::mutex single_SMA;
-static SMA* instance;
+std::mutex m_sma;
+static SMA *instance;
 
 SMA& SMA::getInstance()
 {
-    std::lock_guard<std::mutex> lock(single_SMA);
+    std::lock_guard<std::mutex> lock(m_sma);
     if(!instance) {
         instance = new SMA();
     }
@@ -53,8 +50,8 @@ void SMA::run()
         std::cout << p.first << " : " << p.second << std::endl;
     }
 
-    CSVWriter writer(file);
-    writer.addDatainRow(filteredValue.begin(), filteredValue.end());
+    save(file, filteredValue);
     result.clear();
     filteredValue.clear();
+    notifyObservers(ALGORITHM::SMA);
 }
