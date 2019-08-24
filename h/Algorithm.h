@@ -11,7 +11,7 @@
 class Algorithm {
 public:
     static void save(std::string &file, std::vector<std::string> &result) {
-        IO::CSVWriter writer(file);
+        IO::CSVWriter writer(file.c_str());
         writer.addDatainRow(result.begin(), result.end());
     }
 

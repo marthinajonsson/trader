@@ -37,4 +37,10 @@ void vec_emblace_back(vector<T>& vector, const T& element) {
     }
 }
 
+enum ERR_CODE {
+    NOT_FOUND = -1,
+    SUCCESS = 0,
+    UNEXPECTED_ERROR = 2,
+    FAILED = 3
+};
 #endif //TRADER_UTIL_H

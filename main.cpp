@@ -1,5 +1,3 @@
-
-
 #include "ProcessHandler.h"
 #include "SearchJson.h"
 #include "UniBit.h"
@@ -114,6 +112,7 @@ static std::optional<std::string> compile (std::string& param)
         temp.append(s);
         temp.append(" ");
     }
+
     const std::string WORK = boost::algorithm::to_upper_copy(cmd);
     ActiveAlgorithm active;
     active.registerWork(WORK);

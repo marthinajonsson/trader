@@ -26,7 +26,7 @@ set(headers
         ${CMAKE_CURRENT_LIST_DIR}/h/InputParser.h
         ${CMAKE_CURRENT_LIST_DIR}/h/ActiveAlgorithm.h
         ${CMAKE_CURRENT_LIST_DIR}/h/AlgoQueue.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/DeepLearning.h
+       # ${CMAKE_CURRENT_LIST_DIR}/h/DeepLearning.h
         ${CMAKE_CURRENT_LIST_DIR}/h/Exceptions.h
         ${CMAKE_CURRENT_LIST_DIR}/h/main.h
         ${CMAKE_CURRENT_LIST_DIR}/h/AlgoDispatcher.h
@@ -43,11 +43,12 @@ set(headers
         ${CMAKE_CURRENT_LIST_DIR}/h/Algorithm.h
         ${CMAKE_CURRENT_LIST_DIR}/ifc/Analyzer.h
         ${CMAKE_CURRENT_LIST_DIR}/h/ADXAnalyzer.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/SMAAnalyzer.h)
+        ${CMAKE_CURRENT_LIST_DIR}/h/SMAAnalyzer.h
+        ${CMAKE_CURRENT_LIST_DIR}/h/Interests.h)
 
 set(sources
         ${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/DeepLearning.cpp
+       # ${CMAKE_CURRENT_LIST_DIR}/src/DeepLearning.cpp
         ${CMAKE_CURRENT_LIST_DIR}/ifc/UniBit.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/ADX.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/JsonWriter.cpp
@@ -56,7 +57,9 @@ set(sources
         ${CMAKE_CURRENT_LIST_DIR}/ifc/Subject.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/ProcessHandler.cpp
         ${CMAKE_CURRENT_LIST_DIR}/src/ADXAnalyzer.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/SMAAnalyzer.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/src/SMAAnalyzer.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/Interests.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/src/CSVWriter.cpp)
 
 set(tests
         ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp

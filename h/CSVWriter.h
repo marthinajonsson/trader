@@ -10,16 +10,19 @@
 #include <cstdio>
 #include <cstring>
 #include <utility>
+#include <sstream>
+#include <vector>
+
 
 namespace IO {
     class CSVWriter {
     private:
-        std::string filename;
-        std::string delimeter;
+        const char* filename;
+        char delimeter;
         int lines;
     public:
-        explicit CSVWriter (std::string &filename, std::string delm = ",") :
-                filename(filename), delimeter(std::move(delm)), lines(0) {}
+        explicit CSVWriter (const char* filename, char delm = ',') :
+                filename(filename), delimeter(delm), lines(0) {}
 
         template<typename T>
         void addDatainRow (T first, T last)
@@ -37,22 +40,10 @@ namespace IO {
             file.close();
         }
 
-        char* getDatainRow (int &line)
-        {
-            std::fstream file;
-            file.open(filename, std::ios::in);
-            char *rdBuffer;
-            char buf[100];
-            rdBuffer = buf;
-
-            for (int i = 0; i < line; i++) {
-                file.getline(rdBuffer , 100 , '\n');
-            }
-            memset(buf, 0, 100 * (sizeof buf[0]));
-            file.getline(rdBuffer, 100, '\n');
-            file.close();
-            return rdBuffer;
-        }
+        std::string getRow (int &lineNumber);
+        std::vector<std::string> getRowVector(int &lineNumber);
+        std::vector<std::string> getAllLines();
+        int deleteRow(int &lineNumber);
     };
 }
 

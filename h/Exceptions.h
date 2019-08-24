@@ -9,13 +9,6 @@
 #include <iostream>
 #include <string>
 
-
-enum RETcode{
-    SUCCESS = 0,
-    ERROR = -1
-};
-
-
 class DeepLearningImplException : public std::logic_error
 {
 public:
