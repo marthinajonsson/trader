@@ -9,10 +9,6 @@
 
 class SMAAnalyzer : Analyzer {
 private:
-    static const int WEAK_TREND_MIN = 0;
-    static const int STRONG_TREND_MIN = 25;
-    static const int VERY_STRONG_MIN = 50;
-    static const int EXTREMLY_STRONG_TREND_MIN = 75;
 public:
     void process() override;
 };

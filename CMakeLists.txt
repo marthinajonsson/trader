@@ -7,6 +7,7 @@ set(JsonStreamer_INCLUDE_DIRS ../json_streamer/src/)
 set(LOCAL_LIB_DIRS ${LOCAL_LIB_DIRS} /usr/local/lib)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 
+
 find_package(OpenSSL)
 find_package( Boost 1.69 COMPONENTS REQUIRED filesystem)
 find_package(Threads REQUIRED)
@@ -19,6 +20,7 @@ include_directories(external/gtest/googlemock)
 include_directories( ${Boost_INCLUDE_DIR} )
 include_directories( ${Boost_LIB_DIR} )
 include_directories(${JsonStreamer_INCLUDE_DIRS})
+include_directories(${MYSQL_CONCPP_DIR}/include)
 
 set(headers
         ${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.h
@@ -44,7 +46,7 @@ set(headers
         ${CMAKE_CURRENT_LIST_DIR}/ifc/Analyzer.h
         ${CMAKE_CURRENT_LIST_DIR}/h/ADXAnalyzer.h
         ${CMAKE_CURRENT_LIST_DIR}/h/SMAAnalyzer.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/Interests.h)
+        ${CMAKE_CURRENT_LIST_DIR}/h/Interests.h h/DataStorage.h)
 
 set(sources
         ${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.cpp
@@ -75,3 +77,4 @@ target_link_libraries(trader ${Boost_LIBRARIES})
 target_link_libraries(trader jsoncpp)
 target_link_libraries(trader gmock_main)
 target_link_libraries(trader curl)
+
