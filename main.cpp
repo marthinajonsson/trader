@@ -80,6 +80,7 @@ static std::optional<std::string> search(std::string &param)
     std::string url = "../data/UNIBIT_symbols[";
     url.append(exchange).append("].json");
 
+    boost::to_upper(pattern);
     IO::SearchJson search(url);
     std::vector<std::pair<std::string, std::string>> tmp;
     int findings = search.exists(tmp, pattern, "ticker", {"ticker", "companyName"});
@@ -137,6 +138,9 @@ int main(int argc, char** argv)
 {
     regInit();
 
+    ::testing::InitGoogleMock(&argc, argv);
+    return RUN_ALL_TESTS();
+
     if (argc < 2) {
         std::string cmd = "help";
         std::string tmp;
@@ -160,7 +164,5 @@ int main(int argc, char** argv)
 
     return 0;
 
-//    ::testing::InitGoogleMock(&argc, argv);
-//    return RUN_ALL_TESTS();
 }
 

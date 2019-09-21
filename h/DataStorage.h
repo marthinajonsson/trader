@@ -5,9 +5,9 @@
 #ifndef TRADER_DATASTORAGE_H
 #define TRADER_DATASTORAGE_H
 
-#include <mysql++/mysql++.h>
-#include <string>
 #include <boost/property_tree/json_parser.hpp>
+#include <mysql++.h>
+#include <string>
 
 class DataStorage {
 private:
@@ -16,6 +16,26 @@ private:
     std::string username;
     std::string database;
     int port;
+
+    mysqlpp::Query createTable(mysqlpp::Connection &conn, const std::string &table) {
+        std::string queryStr = "CREATE TABLE IF NOT EXISTS " + table;
+        queryStr.append(" (\n");
+        queryStr.append("rowId INT AUTO_INCREMENT,\n");
+        queryStr.append("stockId INT DEFAULT 0,\n");
+        queryStr.append("date DATE,\n");
+        queryStr.append("price INT DEFAULT 0,\n");
+        queryStr.append("SMA VARCHAR(255),\n");
+        queryStr.append("ADX VARCHAR(255),\n");
+        queryStr.append("PE VARCHAR(255),\n");
+        queryStr.append("PRIMARY KEY(stockId)\n");
+        queryStr.append(") ENGINE=INNODB;");
+        mysqlpp::Query response = conn.query(queryStr);
+
+        const char* err = response.error();
+        int errNo = response.errnum();
+        std::cout << err << " " << errNo << std::endl;
+        return  response;
+    }
 public:
     ~DataStorage() = default;
     DataStorage()
@@ -46,27 +66,6 @@ public:
         tokenObj.clear();
     }
 
-    mysqlpp::Query createTable(mysqlpp::Connection &conn, const std::string &table) {
-        std::string queryStr = "CREATE TABLE IF NOT EXISTS " + table;
-        queryStr.append(" (\n");
-        queryStr.append("rowId INT AUTO_INCREMENT,\n");
-        queryStr.append("stockId INT DEFAULT 0,\n");
-        queryStr.append("date DATE,\n");
-        queryStr.append("price INT DEFAULT 0,\n");
-        queryStr.append("SMA VARCHAR(255),\n");
-        queryStr.append("ADX VARCHAR(255),\n");
-        queryStr.append("PE VARCHAR(255),\n");
-        queryStr.append("PRIMARY KEY(stockId)\n");
-        queryStr.append(") ENGINE=INNODB;");
-        mysqlpp::Query response = conn.query(queryStr);
-
-        const char* err = response.error();
-        int errNo = response.errnum();
-        std::cout << err << " " << errNo << std::endl;
-        return  response;
-    }
-
-    template<typename T>
     int addRow(const std::string& table, const std::string& cols, const std::string& values) {
 
         try {
@@ -88,6 +87,36 @@ public:
             if ("1 row(s) affected" != response.str())
                 std::cerr << response.str();
 
+            conn.disconnect();
+            return 0;
+        }
+        catch (std::exception &ex) {
+            std::cerr << ex.what() << std::endl;
+            return -1;
+        }
+    }
+
+    int selectTable(const std::string& table) {
+
+        try {
+            mysqlpp::Connection conn;
+            auto connected = conn.connect(database.c_str(), server.c_str(),
+                                          username.c_str(), password.c_str(), 3307);
+
+            if (!connected && !conn.ping()) {
+                std::cerr << "Can't connect to server" << std::endl;
+                return -1;
+            }
+
+            mysqlpp::Query result = createTable(conn, table);
+
+            std::string queryStr = "SELECT * FROM " + table;
+            mysqlpp::Query response = conn.query(queryStr);
+            mysqlpp::StoreQueryResult res = response.store();
+            // Get each row in result set, and print its contents
+            for (size_t i = 0; i < res.num_rows(); ++i) {
+                std::cout << res[i] << std::endl;
+            }
             conn.disconnect();
             return 0;
         }

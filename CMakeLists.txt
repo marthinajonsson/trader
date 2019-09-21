@@ -7,7 +7,6 @@ set(JsonStreamer_INCLUDE_DIRS ../json_streamer/src/)
 set(LOCAL_LIB_DIRS ${LOCAL_LIB_DIRS} /usr/local/lib)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 
-
 find_package(OpenSSL)
 find_package( Boost 1.69 COMPONENTS REQUIRED filesystem)
 find_package(Threads REQUIRED)
@@ -20,7 +19,8 @@ include_directories(external/gtest/googlemock)
 include_directories( ${Boost_INCLUDE_DIR} )
 include_directories( ${Boost_LIB_DIR} )
 include_directories(${JsonStreamer_INCLUDE_DIRS})
-include_directories(${MYSQL_CONCPP_DIR}/include)
+include_directories("/usr/include/mysql")
+include_directories("/usr/include/mysql++")
 
 set(headers
         ${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.h
@@ -66,7 +66,8 @@ set(sources
 set(tests
         ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp
         ${CMAKE_CURRENT_LIST_DIR}/unittest/TestStartup.h
-        ${CMAKE_CURRENT_LIST_DIR}/unittest/RequestTest.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/unittest/SearchJsonTest.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/unittest/DataStorageTest.cpp unittest/UniBitApiTest.cpp)
 
 enable_testing()
 add_subdirectory(external/gtest/googlemock)
@@ -77,4 +78,6 @@ target_link_libraries(trader ${Boost_LIBRARIES})
 target_link_libraries(trader jsoncpp)
 target_link_libraries(trader gmock_main)
 target_link_libraries(trader curl)
+target_link_libraries(trader mysqlpp)
+target_link_libraries(trader mysqlclient)
 
