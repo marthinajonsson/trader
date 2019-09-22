@@ -4,6 +4,8 @@
 
 #include "Client.h"
 
+using namespace HTTP;
+
 Client* Client::_instance = nullptr;
 std::mutex Client::_mx;
 std::string Client::buffer = "";
@@ -15,7 +17,7 @@ std::size_t Client::callback(void* in, std::size_t size, std::size_t num, std::s
     return totalBytes;
 }
 
-void Client::sendHttpGetRequest(boost::property_tree::ptree &respData, string &url)
+void Client::sendRequest(boost::property_tree::ptree &respData, string &url)
 {
     CURL* curl = curl_easy_init();
     std::cout << url << std::endl;

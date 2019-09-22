@@ -8,6 +8,7 @@
 #include "Client.h"
 #include "UniBit.h"
 
+using namespace HTTP;
 
 UNIBIT::ptree UNIBIT::fetch(const string &indicator, const string &key)
 {
@@ -56,5 +57,5 @@ void UNIBIT::addToken(string &url)
 void UNIBIT::sendRequest(UNIBIT::ptree &respData, string &url)
 {
     addToken(url);
-    Client::getInstance().sendHttpGetRequest(respData, url);
+    Client::getInstance().sendRequest(respData, url);
 }

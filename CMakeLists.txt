@@ -11,73 +11,86 @@ find_package(OpenSSL)
 find_package( Boost 1.69 COMPONENTS REQUIRED filesystem)
 find_package(Threads REQUIRED)
 
-include_directories(h)
+include_directories(thread_engine)
+include_directories(TA)
+include_directories(TA/TA_unittest)
+include_directories(io)
+include_directories(io_unittest)
+include_directories(comm)
+include_directories(comm_unittest)
+include_directories(utils)
 include_directories(ifc)
-include_directories(src)
-include_directories(unittest)
 include_directories(external/gtest/googlemock)
 include_directories( ${Boost_INCLUDE_DIR} )
 include_directories( ${Boost_LIB_DIR} )
 include_directories(${JsonStreamer_INCLUDE_DIRS})
-include_directories("/usr/include/mysql")
-include_directories("/usr/include/mysql++")
 
-set(headers
-        ${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/Util.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/InputParser.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/ActiveAlgorithm.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/AlgoQueue.h
-       # ${CMAKE_CURRENT_LIST_DIR}/h/DeepLearning.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/Exceptions.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/main.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/AlgoDispatcher.h
+set(utils
+        ${CMAKE_CURRENT_LIST_DIR}/utils/Util.h
+        ${CMAKE_CURRENT_LIST_DIR}/utils/Exceptions.h)
+
+set(thread_engine
+        ${CMAKE_CURRENT_LIST_DIR}/thread_engine/ActiveAlgorithm.h
+        ${CMAKE_CURRENT_LIST_DIR}/thread_engine/AlgoQueue.h
+        ${CMAKE_CURRENT_LIST_DIR}/thread_engine/AlgoDispatcher.h)
+
+set(io
+        ${CMAKE_CURRENT_LIST_DIR}/io_unittest/SearchJsonTest.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/io/SearchJson.h
+        ${CMAKE_CURRENT_LIST_DIR}/io/CSVWriter.h
+        ${CMAKE_CURRENT_LIST_DIR}/io/CSVWriter.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/io/JsonWriter.h
+        ${CMAKE_CURRENT_LIST_DIR}/io/JsonWriter.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/io/Interests.h
+        ${CMAKE_CURRENT_LIST_DIR}/io/Interests.cpp)
+
+set(ifc
         ${CMAKE_CURRENT_LIST_DIR}/ifc/UniBit.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/Client.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/ADX.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/SearchJson.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/CSVWriter.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/JsonWriter.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/SMA.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/ProcessHandler.h
+        ${CMAKE_CURRENT_LIST_DIR}/ifc/UniBit.cpp
         ${CMAKE_CURRENT_LIST_DIR}/ifc/Observer.h
         ${CMAKE_CURRENT_LIST_DIR}/ifc/Subject.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/Algorithm.h
-        ${CMAKE_CURRENT_LIST_DIR}/ifc/Analyzer.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/ADXAnalyzer.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/SMAAnalyzer.h
-        ${CMAKE_CURRENT_LIST_DIR}/h/Interests.h h/DataStorage.h)
-
-set(sources
-        ${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.cpp
-       # ${CMAKE_CURRENT_LIST_DIR}/src/DeepLearning.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/ifc/UniBit.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/ADX.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/JsonWriter.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/Client.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/SMA.cpp
         ${CMAKE_CURRENT_LIST_DIR}/ifc/Subject.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/ProcessHandler.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/ADXAnalyzer.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/SMAAnalyzer.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/Interests.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/src/CSVWriter.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/ifc/Analyzer.h)
+        #${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.h
+        #${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.cpp)
 
-set(tests
+set(comm
+        ${CMAKE_CURRENT_LIST_DIR}/comm_unittest/UniBitApiTest.cpp
+        #${CMAKE_CURRENT_LIST_DIR}/comm/DataStorage.h
+        ${CMAKE_CURRENT_LIST_DIR}/comm/Client.h
+        ${CMAKE_CURRENT_LIST_DIR}/comm/Client.cpp)
+
+set(TA
+        #${CMAKE_CURRENT_LIST_DIR}/TA_unittest/DataStorageTest.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/TA/SMA.h
+        ${CMAKE_CURRENT_LIST_DIR}/TA/SMA.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/TA/ADX.h
+        ${CMAKE_CURRENT_LIST_DIR}/TA/ADX.cpp
+        #${CMAKE_CURRENT_LIST_DIR}/TA/DeepLearning.h
+        # ${CMAKE_CURRENT_LIST_DIR}/TA/DeepLearning.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/TA/ProcessHandler.h
+        ${CMAKE_CURRENT_LIST_DIR}/TA/ProcessHandler.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/TA/Algorithm.h
+        ${CMAKE_CURRENT_LIST_DIR}/TA/ADXAnalyzer.h
+        ${CMAKE_CURRENT_LIST_DIR}/TA/ADXAnalyzer.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/TA/SMAAnalyzer.h
+        ${CMAKE_CURRENT_LIST_DIR}/TA/SMAAnalyzer.cpp)
+
+set(main
+        ${CMAKE_CURRENT_LIST_DIR}/InputParser.h
+        ${CMAKE_CURRENT_LIST_DIR}/main.h
+        ${CMAKE_CURRENT_LIST_DIR}/main.cpp
         ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/unittest/TestStartup.h
-        ${CMAKE_CURRENT_LIST_DIR}/unittest/SearchJsonTest.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/unittest/DataStorageTest.cpp unittest/UniBitApiTest.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/TestStartup.h
+        )
 
 enable_testing()
 add_subdirectory(external/gtest/googlemock)
 
-add_executable(trader main.cpp ${sources} ${headers} ${tests})
+add_executable(trader ${main} ${TA} ${thread_engine} ${io} ${ifc} ${utils} ${comm})
 
 target_link_libraries(trader ${Boost_LIBRARIES})
 target_link_libraries(trader jsoncpp)
 target_link_libraries(trader gmock_main)
 target_link_libraries(trader curl)
-target_link_libraries(trader mysqlpp)
-target_link_libraries(trader mysqlclient)
 

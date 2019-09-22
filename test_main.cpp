@@ -3,7 +3,7 @@
 //
 
 #include <include/gmock/gmock.h>
-#include <InputParser.h>
+#include "InputParser.h"
 
 
 int StartGoogleTest(InputParser &input, int argc, char** argv)

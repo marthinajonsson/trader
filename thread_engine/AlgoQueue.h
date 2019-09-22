@@ -5,7 +5,6 @@
 #ifndef TRADER_ALGOQUEUE_H
 #define TRADER_ALGOQUEUE_H
 
-
 #include "AlgoDispatcher.h"
 
 #include <thread>
