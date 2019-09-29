@@ -5,13 +5,13 @@
 #ifndef TRADER_SQLCLIENT_H
 #define TRADER_SQLCLIENT_H
 
+#ifndef STATIC_CONCPP
+#define STATIC_CONCPP
+#endif
+
 #include <boost/property_tree/json_parser.hpp>
-#include <mysql_driver.h>
-#include <mysql_connection.h>
-#include <cppconn/connection.h>
-#include <cppconn/statement.h>
-#include <cppconn/resultset.h>
-#include <cppconn/exception.h>
+
+#include <mysqlx/xdevapi.h> // mysql connector 8.0
 
 class SqlClient {
 private:
@@ -19,7 +19,18 @@ private:
     std::string password;
     std::string username;
     std::string database;
-    std::string port;
+    int port;
+
+    mysqlx::Schema connectDb() {
+        mysqlx::SessionSettings settings(server, port, username, password, database);
+        mysqlx::Session sess(settings);
+        return sess.getSchema("test");
+    }
+
+    void closeDb(mysqlx::Session &session) {
+        session.close();
+    }
+
 public:
     ~SqlClient() = default;
     SqlClient()
@@ -39,8 +50,8 @@ public:
         if ("-" == database) {
             throw std::logic_error("Unexpected error. Could not find token");
         }
-        port = tokenObj.get<std::string>("port", "-1");
-        if ("-1" == port) {
+        port = tokenObj.get<int>("port", -1);
+        if (-1 == port) {
             throw std::logic_error("Unexpected error. Could not find token");
         }
         server = tokenObj.get<std::string>("server", "-");
@@ -50,56 +61,67 @@ public:
         tokenObj.clear();
     }
 
-    int addRow(const std::string& table, const std::string& cols, const std::string& values) {
+    uint16_t add(const std::string &tableName, const std::vector<std::string> &col, const std::vector<std::string> &value) {
+        mysqlx::Schema db = connectDb();
+        mysqlx::Table table(db, tableName);
+        mysqlx::Row row;
+        auto result = table.insert(col.at(0), col.at(1))
+                .values(1, value.at(0))
+                .values(2, value.at(1))
+                .execute();
 
-        try {
-            sql::mysql::MySQL_Driver *driver;
-            sql::Connection *con;
-            sql::Statement *stmt;
-            sql::ResultSet  *res;
+        uint16_t affected = result.getAffectedItemsCount();
 
-            int attempts = 0;
+        closeDb(db.getSession());
+        return affected;
+    }
 
-            driver = sql::mysql::get_mysql_driver_instance();
-            std::string fullserver = "tcp://";
-            fullserver = fullserver.append(server).append(":").append(port);
-            con = driver->connect("tcp://" + server + ":" + port, username, password);
-            while (!con->isValid() && attempts < 6) {
-                con->reconnect();
-            }
+    void read(std::string &tableName, std::string col = "") {
+        mysqlx::Schema db = connectDb();
+        mysqlx::Table table = db.getTable(tableName);
+        table.select();
 
-            if (!con->isValid()) {
-                delete con;
-                return -1;
-            }
+        std::string filter = col == "" ? "*" : filter;
+        mysqlx::RowResult res = table.select("date", filter)
+                .where("name like :param")
+                .orderBy("name")
+                .bind("param", "m%").execute();
 
-            con->setSchema("test");
-            stmt = con->createStatement();
-            stmt->execute("DROP TABLE IF EXISTS test");
-            stmt->execute("CREATE TABLE test(id INT, label CHAR(1))");
-            res = stmt->executeQuery("SELECT id, label FROM test ORDER BY id ASC");
-            while (res->next()) {
-                // You can use either numeric offsets...
-                std::cout << "id = " << res->getInt(1); // getInt(1) returns the first column
-                // ... or column names for accessing results.
-                // The latter is recommended.
-                std::cout << ", label = '" << res->getString("label") << "'" << std::endl;
-            }
+        mysqlx::Row row;
 
-            delete res;
-            delete stmt;
-            delete con;
-
-            return 0;
+        while ((row = res.fetchOne()))
+        {
+            std::cout << "Name: " << row[0] << std::endl;
+            std::cout << " Age: " << row[1] << std::endl;
+            int age = row[1];
+            // One needs explicit .get<int>() as otherwise operator<() is ambiguous
+            bool youth = row[age].get<int>() < 18;
+            // Alternative formulation
+            bool youth2 = (int)row[age] < 18;
         }
-        catch (sql::SQLException &e) {
-            std::cout << "# ERR: SQLException in " << __FILE__;
-            std::cout << "(" << __FUNCTION__ << ") on line "
-            << __LINE__ << std::endl;
-            std::cout << "# ERR: " << e.what();
-            std::cout << " (MySQL error code: " << e.getErrorCode();
-            std::cout << ", SQLState: " << e.getSQLState() << " )" << std::endl;
-        }
+        closeDb(db.getSession());
+    }
+
+    uint16_t update(const std::string &tableName, std::string col = "") {
+        mysqlx::Schema db = connectDb();
+        mysqlx::Table table = db.getTable(tableName);
+        auto res = table.update()
+            .set(col, "value")
+            .where("colName like :param")
+            .bind("param", "m%").execute();
+
+        uint16_t affected = res.getAffectedItemsCount();
+        closeDb(db.getSession());
+        return affected;
+    }
+
+    uint16_t remove(const std::string &tableName) {
+        mysqlx::Schema db = connectDb();
+        mysqlx::Table table = db.getTable(tableName);
+        auto res = table.remove().execute();
+        uint16_t affected = res.getAffectedItemsCount();
+        closeDb(db.getSession());
+        return affected;
     }
 };
 #endif //TRADER_SQLCLIENT_H

@@ -3,6 +3,9 @@ project(trader)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "../json_streamer/cmake-build-debug")
+set(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "${MYSQL_CONCPP_DIR}/include")
+set(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "${MYSQL_CONCPP_DIR}/lib64/debug")
+
 set(JsonStreamer_INCLUDE_DIRS ../json_streamer/src/)
 set(LOCAL_LIB_DIRS ${LOCAL_LIB_DIRS} /usr/local/lib)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
@@ -55,7 +58,7 @@ set(ifc
         #${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.cpp)
 
 set(comm
-        ${CMAKE_CURRENT_LIST_DIR}/comm_unittest/UniBitApiTest.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/comm_unittest/SqlClientTest.cpp
         #${CMAKE_CURRENT_LIST_DIR}/comm/DataStorage.h
         ${CMAKE_CURRENT_LIST_DIR}/comm/Client.h
         ${CMAKE_CURRENT_LIST_DIR}/comm/Client.cpp
@@ -94,5 +97,7 @@ target_link_libraries(trader ${Boost_LIBRARIES})
 target_link_libraries(trader jsoncpp)
 target_link_libraries(trader gmock_main)
 target_link_libraries(trader curl)
-target_link_libraries(trader mysqlcppconn)
+target_link_libraries(trader libmysqlcppconn8)
+target_link_libraries(trader ssl)
+target_link_libraries(trader pthread)
 
