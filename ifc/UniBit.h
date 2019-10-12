@@ -97,6 +97,16 @@ namespace UNIBIT
                 static const string CALC = "ADX";
             }
         }
+
+        namespace RSI {
+            static const string KEY_REQUEST_FUNC = "&function=RSI";
+
+            namespace KEY_RESPONSE {
+                static const string BASE = "Technical Indicator: RSI";
+                static const string DATE = "date";
+                static const string CALC = "RSI";
+            }
+        }
     }
 
     namespace REALTIME_PRICE {

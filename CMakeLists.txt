@@ -3,9 +3,6 @@ project(trader)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "../json_streamer/cmake-build-debug")
-set(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "${MYSQL_CONCPP_DIR}/include")
-set(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "${MYSQL_CONCPP_DIR}/lib64/debug")
-
 set(JsonStreamer_INCLUDE_DIRS ../json_streamer/src/)
 set(LOCAL_LIB_DIRS ${LOCAL_LIB_DIRS} /usr/local/lib)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
@@ -15,6 +12,8 @@ find_package( Boost 1.69 COMPONENTS REQUIRED filesystem)
 find_package(Threads REQUIRED)
 
 include_directories(thread_engine)
+include_directories(FA)
+include_directories(FA_unittest)
 include_directories(TA)
 include_directories(TA/TA_unittest)
 include_directories(io)
@@ -70,6 +69,8 @@ set(TA
         ${CMAKE_CURRENT_LIST_DIR}/TA/SMA.cpp
         ${CMAKE_CURRENT_LIST_DIR}/TA/ADX.h
         ${CMAKE_CURRENT_LIST_DIR}/TA/ADX.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/TA/RSI.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/TA/RSI.h
         #${CMAKE_CURRENT_LIST_DIR}/TA/DeepLearning.h
         # ${CMAKE_CURRENT_LIST_DIR}/TA/DeepLearning.cpp
         ${CMAKE_CURRENT_LIST_DIR}/TA/ProcessHandler.h
@@ -78,7 +79,11 @@ set(TA
         ${CMAKE_CURRENT_LIST_DIR}/TA/ADXAnalyzer.h
         ${CMAKE_CURRENT_LIST_DIR}/TA/ADXAnalyzer.cpp
         ${CMAKE_CURRENT_LIST_DIR}/TA/SMAAnalyzer.h
-        ${CMAKE_CURRENT_LIST_DIR}/TA/SMAAnalyzer.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/TA/SMAAnalyzer.cpp )
+
+set(FA ${CMAKE_CURRENT_LIST_DIR}/FA/PE.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/FA/PE.h
+        )
 
 set(main
         ${CMAKE_CURRENT_LIST_DIR}/InputParser.h
@@ -91,13 +96,13 @@ set(main
 enable_testing()
 add_subdirectory(external/gtest/googlemock)
 
-add_executable(trader ${main} ${TA} ${thread_engine} ${io} ${ifc} ${utils} ${comm})
+add_executable(trader ${main} ${FA} ${TA} ${thread_engine} ${io} ${ifc} ${utils} ${comm})
 
 target_link_libraries(trader ${Boost_LIBRARIES})
 target_link_libraries(trader jsoncpp)
 target_link_libraries(trader gmock_main)
 target_link_libraries(trader curl)
-target_link_libraries(trader libmysqlcppconn8)
+target_link_libraries(trader /usr/lib64/debug/libmysqlcppconn8.so)
 target_link_libraries(trader ssl)
 target_link_libraries(trader pthread)
 

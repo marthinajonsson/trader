@@ -26,6 +26,8 @@ namespace ALGORITHM{
     static const string MEAN_REVERSION = "mean_reversion"; /* what goes up must come down */
     static const string ADX = "adx";
     static const string SMA = "sma";
+    static const string RSI = "rsi";
+    static const string PE = "pe";
     static const string DEEP_LEARNING = "deeplearning";
 }
 
