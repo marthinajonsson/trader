@@ -18,13 +18,19 @@ private:
     std::string server;
     std::string password;
     std::string username;
-    std::string database;
+    std::string socket;
     int port;
 
-    mysqlx::Schema connectDb() {
-        mysqlx::SessionSettings settings(server, port, username, password, database);
-        mysqlx::Session sess(settings);
-        return sess.getSchema("test");
+    mysqlx::Schema connectDb()
+    {
+        mysqlx::SessionSettings settings(mysqlx::SessionOption::HOST, server,
+                                         mysqlx::SessionOption::PORT, port);
+
+        settings.set(mysqlx::SessionOption::USER, username);
+        settings.set(mysqlx::SessionOption::PWD, password);
+        settings.set(mysqlx::SessionOption::SOCKET, socket);
+        mysqlx::Session mySession(settings);
+        return mySession.getSchema("testDB");
     }
 
     void closeDb(mysqlx::Session &session) {
@@ -46,8 +52,8 @@ public:
         if ("-" == password) {
             throw std::logic_error("Unexpected error. Could not find token");
         }
-        database = tokenObj.get<std::string>("domain", "-");
-        if ("-" == database) {
+        socket = tokenObj.get<std::string>("domain", "-");
+        if ("-" == socket) {
             throw std::logic_error("Unexpected error. Could not find token");
         }
         port = tokenObj.get<int>("port", -1);
