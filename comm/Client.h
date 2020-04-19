@@ -14,7 +14,7 @@
 #include <mutex>
 #include "Util.h"
 
-namespace HTTP {
+namespace Comm {
 
     class Client {
     private:

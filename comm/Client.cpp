@@ -4,7 +4,7 @@
 
 #include "Client.h"
 
-using namespace HTTP;
+using namespace Comm;
 
 Client* Client::_instance = nullptr;
 std::mutex Client::_mx;
