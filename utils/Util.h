@@ -28,7 +28,6 @@ namespace ALGORITHM{
     static const string SMA = "sma";
     static const string RSI = "rsi";
     static const string PE = "pe";
-    static const string DEEP_LEARNING = "deeplearning";
 }
 
 

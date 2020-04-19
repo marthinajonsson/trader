@@ -14,9 +14,6 @@
 #include <mutex>
 #include <future>
 
-namespace Trader {
-
-
 /*! \class ActiveAlgorithm
  *  \implements ActiveObject pattern
  *  \brief Used by all algorithms
@@ -50,8 +47,6 @@ namespace Trader {
             }
         }
     };
-}
-
 
 #endif //TRADER_ACTIVEALGORITHM_H
 

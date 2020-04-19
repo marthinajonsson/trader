@@ -9,17 +9,18 @@
 #include <iostream>
 #include <string>
 
-class DeepLearningImplException : public std::logic_error
+class AlgorithmException : public std::logic_error
 {
 public:
-    DeepLearningImplException(const int error, const char *msg) :  std::logic_error(msg) { };
+    AlgorithmException(const int error, const char *msg) :  std::logic_error(msg) { };
 };
 
-class MeanRevImplException : public std::logic_error
+class ConnectionExceptions : public std::logic_error
 {
 public:
-    MeanRevImplException(const int error, const char* msg) : std::logic_error(msg) { };
+    ConnectionExceptions(const int error, const char* msg) : std::logic_error(msg) { };
 };
+
 class GenericImplException : public std::logic_error
 {
 public:

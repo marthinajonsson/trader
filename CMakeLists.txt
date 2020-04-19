@@ -57,14 +57,11 @@ set(ifc
         #${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.cpp)
 
 set(comm
-        ${CMAKE_CURRENT_LIST_DIR}/comm_unittest/SqlClientTest.cpp
-        #${CMAKE_CURRENT_LIST_DIR}/comm/DataStorage.h
         ${CMAKE_CURRENT_LIST_DIR}/comm/Client.h
         ${CMAKE_CURRENT_LIST_DIR}/comm/Client.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/comm/SqlClient.h)
+        )
 
 set(TA
-        #${CMAKE_CURRENT_LIST_DIR}/TA_unittest/DataStorageTest.cpp
         ${CMAKE_CURRENT_LIST_DIR}/TA/SMA.h
         ${CMAKE_CURRENT_LIST_DIR}/TA/SMA.cpp
         ${CMAKE_CURRENT_LIST_DIR}/TA/ADX.h
@@ -102,7 +99,6 @@ target_link_libraries(trader ${Boost_LIBRARIES})
 target_link_libraries(trader jsoncpp)
 target_link_libraries(trader gmock_main)
 target_link_libraries(trader curl)
-target_link_libraries(trader /usr/lib64/debug/libmysqlcppconn8.so)
 target_link_libraries(trader ssl)
 target_link_libraries(trader pthread)
 

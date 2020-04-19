@@ -3,8 +3,6 @@
 #include "UniBit.h"
 #include "main.h"
 
-using namespace Trader;
-
 template<typename T>
 void pop_front(std::vector<T>& vec)
 {
