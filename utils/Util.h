@@ -19,7 +19,6 @@ using array_b = boost::array<T, S>;
 
 template<typename T>
 using vector = std::vector<T>;
-
 using string = std::string;
 
 namespace ALGORITHM{
@@ -43,5 +42,10 @@ enum ERR_CODE {
     SUCCESS = 0,
     UNEXPECTED_ERROR = 2,
     FAILED = 3
+};
+
+enum HTTP {
+    OK = 200,
+    RATE_LIMIT = 429
 };
 #endif //TRADER_UTIL_H
