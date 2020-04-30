@@ -4,8 +4,6 @@
 
 #include "Client.h"
 
-using namespace Comm;
-
 Client* Client::_instance = nullptr;
 std::mutex Client::_mx;
 std::string Client::buffer = "";

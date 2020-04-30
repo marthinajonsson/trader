@@ -11,12 +11,14 @@ find_package(OpenSSL)
 find_package( Boost 1.69 COMPONENTS REQUIRED filesystem)
 find_package(Threads REQUIRED)
 
+include_directories(api)
 include_directories(thread_engine)
 include_directories(FA)
 include_directories(FA_unittest)
 include_directories(TA)
 include_directories(TA/TA_unittest)
 include_directories(io)
+include_directories(model)
 include_directories(io_unittest)
 include_directories(comm)
 include_directories(comm_unittest)
@@ -26,6 +28,26 @@ include_directories(external/gtest/googlemock)
 include_directories( ${Boost_INCLUDE_DIR} )
 include_directories( ${Boost_LIB_DIR} )
 include_directories(${JsonStreamer_INCLUDE_DIRS})
+
+set(model ${CMAKE_CURRENT_LIST_DIR}/model/BranchesRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/BranchV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/CountryV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/CountriesRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/MarketV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/MarketsRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/SectorV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/SectorsRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/InstrumentV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/InstrumentRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/InstrumentUpdatedV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/InstrumentUpdatedRespV1.h)
+
+
+set(api ${CMAKE_CURRENT_LIST_DIR}/api/IBorsdata.h
+        ${CMAKE_CURRENT_LIST_DIR}/api/InstrumentsApi.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/api/IInstrumentsApi.h
+        ${CMAKE_CURRENT_LIST_DIR}/api/IInstrumentsMetaApi.h
+        ${CMAKE_CURRENT_LIST_DIR}/api/InstrumentsMetaApi.cpp)
 
 set(utils
         ${CMAKE_CURRENT_LIST_DIR}/utils/Util.h
@@ -54,9 +76,7 @@ set(ifc
         ${CMAKE_CURRENT_LIST_DIR}/ifc/Subject.cpp
         ${CMAKE_CURRENT_LIST_DIR}/ifc/Analyzer.h
         ${CMAKE_CURRENT_LIST_DIR}/ifc/Borsdata.h
-        ${CMAKE_CURRENT_LIST_DIR}/ifc/Borsdata.cpp)
-        #${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.h
-        #${CMAKE_CURRENT_LIST_DIR}/ifc/IEX.cpp)
+        )
 
 set(comm
         ${CMAKE_CURRENT_LIST_DIR}/comm/Client.h
@@ -89,13 +109,12 @@ set(main
         ${CMAKE_CURRENT_LIST_DIR}/main.h
         ${CMAKE_CURRENT_LIST_DIR}/main.cpp
         ${CMAKE_CURRENT_LIST_DIR}/test_main.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/TestStartup.h
-        )
+        ${CMAKE_CURRENT_LIST_DIR}/TestStartup.h)
 
 enable_testing()
 add_subdirectory(external/gtest/googlemock)
 
-add_executable(trader ${main} ${FA} ${TA} ${thread_engine} ${io} ${ifc} ${utils} ${comm})
+add_executable(trader ${main} ${FA} ${TA} ${thread_engine} ${io} ${ifc} ${utils} ${comm} ${api} ${model})
 
 target_link_libraries(trader ${Boost_LIBRARIES})
 target_link_libraries(trader jsoncpp)

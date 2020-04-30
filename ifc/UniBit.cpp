@@ -8,8 +8,6 @@
 #include "Client.h"
 #include "UniBit.h"
 
-using namespace Comm;
-
 UNIBIT::ptree UNIBIT::fetch(const string &indicator, const string &key)
 {
     ptree jsonData;

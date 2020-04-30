@@ -11,6 +11,6 @@
 #include "TestStartup.h"
 #include "ActiveAlgorithm.h"
 #include "Exceptions.h"
-#include "IEX.h"
+
 
 #endif //TRADER_MAIN_H
