@@ -17,7 +17,6 @@
 class Client {
 private:
     Client() = default;
-
     ~Client() = default;
 
     static Client *_instance;

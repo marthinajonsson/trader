@@ -17,7 +17,4 @@ public:
         }
         return ss.str();
     }
-   /* string toJson() {
-
-    }*/
 };

@@ -8,20 +8,14 @@
 #include <boost/property_tree/ptree.hpp>
 #include <Util.h>
 #include <boost/property_tree/json_parser.hpp>
+#include <ApiConfiguration.h>
 
 class IBorsdata {
 public:
     typedef boost::property_tree::ptree ptree;
 
     void addToken(string &url) {
-        ptree JSONconfig;
-        string token;
-        boost::property_tree::read_json("../data/config.json", JSONconfig);
-        auto tokenObj = JSONconfig.get_child("BORSDATA");
-        token = tokenObj.get<string>("token", "-");
-        if ("-" == token) {
-            throw std::logic_error("Unexpected error. Could not find token");
-        }
+        string token = ApiConfiguration::getToken();
         url.append(ACCESS_KEY);
         url.append(token);
     }
@@ -30,7 +24,7 @@ public:
         return BASE_URL_ENDPOINT;
     }
 private:
-    const string BASE_URL_ENDPOINT = "https://apiservice.borsdata.se/";
+    const string BASE_URL_ENDPOINT = ApiConfiguration::getBase();
     const string ACCESS_KEY = "?authKey=";
 };
 

@@ -20,9 +20,6 @@ public:
         }
         return ss.str();
     }
-    /* string toJson() {
-
-     }*/
 };
 
 #endif //TRADER_COUNTRIESRESPV1_H

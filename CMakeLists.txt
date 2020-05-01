@@ -12,6 +12,7 @@ find_package( Boost 1.69 COMPONENTS REQUIRED filesystem)
 find_package(Threads REQUIRED)
 
 include_directories(api)
+include_directories(configuration)
 include_directories(thread_engine)
 include_directories(FA)
 include_directories(FA_unittest)
@@ -40,18 +41,43 @@ set(model ${CMAKE_CURRENT_LIST_DIR}/model/BranchesRespV1.h
         ${CMAKE_CURRENT_LIST_DIR}/model/InstrumentV1.h
         ${CMAKE_CURRENT_LIST_DIR}/model/InstrumentRespV1.h
         ${CMAKE_CURRENT_LIST_DIR}/model/InstrumentUpdatedV1.h
-        ${CMAKE_CURRENT_LIST_DIR}/model/InstrumentUpdatedRespV1.h)
+        ${CMAKE_CURRENT_LIST_DIR}/model/InstrumentUpdatedRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/KpiV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/KpisRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/KpisAllCompRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/KpiHistoryV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/KpisHistoryRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/KpisCalcUpdatedRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/ReportV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/ReportsRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/ReportsCompoundRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/StockPriceV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/StockPricesRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/StockPricesLastRespV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/StockSplitV1.h
+        ${CMAKE_CURRENT_LIST_DIR}/model/StockSplitRespV1.h)
 
 
 set(api ${CMAKE_CURRENT_LIST_DIR}/api/IBorsdata.h
         ${CMAKE_CURRENT_LIST_DIR}/api/InstrumentsApi.cpp
         ${CMAKE_CURRENT_LIST_DIR}/api/IInstrumentsApi.h
         ${CMAKE_CURRENT_LIST_DIR}/api/IInstrumentsMetaApi.h
-        ${CMAKE_CURRENT_LIST_DIR}/api/InstrumentsMetaApi.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/api/InstrumentsMetaApi.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/api/IKpisApi.h
+        ${CMAKE_CURRENT_LIST_DIR}/api/KpisApi.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/api/IReportsApi.h
+        ${CMAKE_CURRENT_LIST_DIR}/api/ReportsApi.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/api/IStockPricesApi.h
+        ${CMAKE_CURRENT_LIST_DIR}/api/StockPricesApi.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/api/IStockSplitsApi.h
+        ${CMAKE_CURRENT_LIST_DIR}/api/StockSplitsApi.cpp)
 
 set(utils
         ${CMAKE_CURRENT_LIST_DIR}/utils/Util.h
         ${CMAKE_CURRENT_LIST_DIR}/utils/Exceptions.h)
+
+set(configuration
+        ${CMAKE_CURRENT_LIST_DIR}/configuration/ApiConfiguration.h)
 
 set(thread_engine
         ${CMAKE_CURRENT_LIST_DIR}/thread_engine/ActiveAlgorithm.h
@@ -75,7 +101,6 @@ set(ifc
         ${CMAKE_CURRENT_LIST_DIR}/ifc/Subject.h
         ${CMAKE_CURRENT_LIST_DIR}/ifc/Subject.cpp
         ${CMAKE_CURRENT_LIST_DIR}/ifc/Analyzer.h
-        ${CMAKE_CURRENT_LIST_DIR}/ifc/Borsdata.h
         )
 
 set(comm
@@ -114,7 +139,7 @@ set(main
 enable_testing()
 add_subdirectory(external/gtest/googlemock)
 
-add_executable(trader ${main} ${FA} ${TA} ${thread_engine} ${io} ${ifc} ${utils} ${comm} ${api} ${model})
+add_executable(trader ${main} ${FA} ${TA} ${thread_engine} ${io} ${ifc} ${utils} ${comm} ${api} ${model} ${configuration})
 
 target_link_libraries(trader ${Boost_LIBRARIES})
 target_link_libraries(trader jsoncpp)

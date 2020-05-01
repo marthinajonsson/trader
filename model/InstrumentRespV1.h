@@ -20,9 +20,6 @@ public:
         }
         return ss.str();
     }
-    /* string toJson() {
-
-     }*/
 };
 
 #endif //TRADER_INSTRUMENTRESPV1_H
