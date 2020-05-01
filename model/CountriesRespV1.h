@@ -6,10 +6,14 @@
 #define TRADER_COUNTRIESRESPV1_H
 
 #include <vector>
+#include <boost/property_tree/ptree.hpp>
 #include "CountryV1.h"
 
 class CountriesRespV1 {
+private:
+    typedef boost::property_tree::ptree ptree;
 public:
+    ptree countriesJson;
     std::vector<CountryV1> countries;
 
     string toString()  {

@@ -17,6 +17,7 @@ InstrumentUpdatedRespV1 InstrumentsApi::Instrumentsupdatedv1 ()
     BOOST_ASSERT(!obj.empty());
 
     InstrumentUpdatedRespV1 resultResp;
+    resultResp.jsonData = respData;
     BOOST_FOREACH(boost::property_tree::ptree::value_type &val, obj)
     {
         InstrumentUpdatedV1 result;
@@ -38,6 +39,7 @@ InstrumentRespV1 InstrumentsApi::Instrumentsv1 ()
     BOOST_ASSERT(!obj.empty());
 
     InstrumentRespV1 resultResp;
+    resultResp.jsonData = respData;
     BOOST_FOREACH(boost::property_tree::ptree::value_type &val, obj)
     {
         InstrumentV1 result;

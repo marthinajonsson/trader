@@ -9,8 +9,11 @@
 #include <sstream>
 
 class KpisCalcUpdatedRespV1 {
+private:
+    typedef boost::property_tree::ptree ptree;
 public:
     string kpisCalcUpdated;
+    ptree jsonData;
 
     string toString()  {
         std::stringstream ss;

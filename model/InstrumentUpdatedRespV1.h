@@ -9,8 +9,11 @@
 #include "InstrumentUpdatedV1.h"
 
 class InstrumentUpdatedRespV1 {
+private:
+    typedef boost::property_tree::ptree ptree;
 public:
     std::vector<InstrumentUpdatedV1> instrumentUpdated;
+    ptree jsonData;
 
     string toString()  {
         std::stringstream ss;

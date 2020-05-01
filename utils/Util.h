@@ -22,6 +22,12 @@ using vector = std::vector<T>;
 using string = std::string;
 
 namespace ALGORITHM{
+    static const string INSTRUMENT = "instrument";
+    static const string INSTRUMENT_META = "instrument_meta";
+    static const string STOCKPRICES = "stockprices";
+    static const string STOCKSPLITS = "stocksplits";
+    static const string REPORTS = "reports";
+    static const string KPIS = "kpis";
     static const string MEAN_REVERSION = "mean_reversion"; /* what goes up must come down */
     static const string ADX = "adx";
     static const string SMA = "sma";
@@ -29,12 +35,18 @@ namespace ALGORITHM{
     static const string PE = "pe";
 }
 
-
 template<typename T>
 void vec_emblace_back(vector<T>& vector, const T& element) {
     if(vector.size() < 180) {
         vector.emplace_back(element);
     }
+}
+
+template<typename T>
+void pop_front(std::vector<T>& vec)
+{
+    assert(!vec.empty());
+    vec.erase(vec.begin());
 }
 
 enum ERR_CODE {
@@ -48,4 +60,6 @@ enum HTTP {
     OK = 200,
     RATE_LIMIT = 429
 };
+
+
 #endif //TRADER_UTIL_H

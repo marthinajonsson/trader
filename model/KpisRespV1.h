@@ -8,11 +8,14 @@
 #include "KpiV1.h"
 
 class KpisRespV1 {
+private:
+    typedef boost::property_tree::ptree ptree;
 public:
     int kpiId;
     string group;
     string calculation;
     KpiV1 value;
+    ptree jsonData;
 
     string toString()  {
         std::stringstream ss;

@@ -9,11 +9,14 @@
 #include "ReportV1.h"
 
 class ReportsCompoundRespV1 {
+private:
+    typedef boost::property_tree::ptree ptree;
 public:
     long instrument;
     vector<ReportV1> reportsR12;
     vector<ReportV1> reportsQuarter;
     vector<ReportV1> reportsYear;
+    ptree jsonData;
 
     string toString()  {
         std::stringstream ss;

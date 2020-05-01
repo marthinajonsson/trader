@@ -2,8 +2,8 @@
 // Created by mjonsson on 5/1/20.
 //
 
-#ifndef TRADER_STOCKPRICES_H
-#define TRADER_STOCKPRICES_H
+#ifndef TRADER_STOCKPRICESAPI_H
+#define TRADER_STOCKPRICESAPI_H
 
 #include "IBorsdata.h"
 #include "IStockPricesApi.h"
@@ -37,4 +37,4 @@ public:
     StockPricesRespV1 Stockpricesv1 (int insid, string from, string to) override;
 };
 
-#endif //TRADER_STOCKPRICES_H
+#endif //TRADER_STOCKPRICESAPI_H

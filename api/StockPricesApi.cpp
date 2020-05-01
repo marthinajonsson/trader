@@ -3,7 +3,7 @@
 //
 
 #include <Client.h>
-#include "StockPrices.h"
+#include "StockPricesApi.h"
 #include <boost/foreach.hpp>
 #include "Exceptions.h"
 
@@ -25,6 +25,7 @@ StockPricesLastRespV1 StockPricesApi::Stockpriceslastv1 (string version)
     Client::sendRequest(respData, url);
 
     StockPricesLastRespV1 resultResp;
+    resultResp.jsonData = respData;
     auto obj = respData.get_child("stockPricesList");
     BOOST_ASSERT(!obj.empty());
     BOOST_FOREACH(boost::property_tree::ptree::value_type &val, obj)
@@ -62,6 +63,7 @@ StockPricesRespV1 StockPricesApi::Stockpricesv1 (int insid, string from, string 
     Client::sendRequest(respData, url);
 
     StockPricesRespV1 resultResp;
+    resultResp.jsonData = respData;
     resultResp.instrument = respData.get<long>("instrument");
     auto obj = respData.get_child("stockPricesList");
     BOOST_ASSERT(!obj.empty());

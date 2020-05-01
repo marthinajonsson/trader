@@ -45,6 +45,7 @@ KpisHistoryRespV1 KpisApi::Histkpisv1 (int insid, int kpiId, string reporttype, 
     BOOST_ASSERT(!respData.empty());
 
     KpisHistoryRespV1 resultResp;
+    resultResp.jsonData = respData;
     BOOST_FOREACH(boost::property_tree::ptree::value_type &val, respData)
     {
         KpiHistoryV1 result;
@@ -89,6 +90,7 @@ KpisAllCompRespV1 KpisApi::Kpislistv1 (int kpiId, string calcGroup, string calc)
     BOOST_ASSERT(!respData.empty());
 
     KpisAllCompRespV1 resultResp;
+    resultResp.jsonData = respData;
     BOOST_FOREACH(boost::property_tree::ptree::value_type &val, respData)
     {
         KpiV1 result;
@@ -117,6 +119,7 @@ KpisCalcUpdatedRespV1 KpisApi::Kpisupdatedv1 ()
     BOOST_ASSERT(!respData.empty());
 
     KpisCalcUpdatedRespV1 resultResp;
+    resultResp.jsonData = respData;
     resultResp.kpisCalcUpdated = respData.get<string>("kpisCalcUpdated");
 }
 
@@ -155,6 +158,7 @@ KpisRespV1 KpisApi::Kpisv1 (int insid, int kpiId, string calcGroup, string calc)
     BOOST_ASSERT(!respData.empty());
 
     KpisRespV1 resultResp;
+    resultResp.jsonData = respData;
     auto obj = respData.get_child("value");
     KpiV1 result;
     result.i = obj.get<long>("i");

@@ -9,9 +9,12 @@
 #include "ReportV1.h"
 
 class ReportsRespV1 {
+private:
+    typedef boost::property_tree::ptree ptree;
 public:
     long instrument;
     vector<ReportV1> reports;
+    ptree jsonData;
 
     string toString()  {
         std::stringstream ss;

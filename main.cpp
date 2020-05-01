@@ -3,11 +3,13 @@
 #include "UniBit.h"
 #include "main.h"
 
-template<typename T>
-void pop_front(std::vector<T>& vec)
+void process()
 {
-    assert(!vec.empty());
-    vec.erase(vec.begin());
+    ActiveAlgorithm active;
+    active.registerWork("Instruments");
+    active.registerWork("InstrumentsMeta");
+    active.run();
+    active.endWork();
 }
 
 static std::vector<std::string> split(std::string &input, char delim)
@@ -134,11 +136,13 @@ static void regInit() {
 
 int main(int argc, char** argv)
 {
-    regInit();
+    std::thread processThread (process);
+    processThread.join();
 
     ::testing::InitGoogleMock(&argc, argv);
     return RUN_ALL_TESTS();
 
+    //regInit();
     if (argc < 2) {
         std::string cmd = "help";
         std::string tmp;

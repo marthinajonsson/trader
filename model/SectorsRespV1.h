@@ -9,7 +9,10 @@
 #include "SectorV1.h"
 
 class SectorsRespV1 {
+private:
+    typedef boost::property_tree::ptree ptree;
 public:
+    ptree sectorJson;
     std::vector<SectorV1> sectors;
 
     string toString()  {

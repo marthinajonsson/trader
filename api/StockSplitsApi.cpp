@@ -20,6 +20,7 @@ StockSplitRespV1 StockSplitsApi::StockSplitsv1 () {
     auto obj = respData.get_child("stockSplitList");
     BOOST_ASSERT(!obj.empty());
     StockSplitRespV1 resultResp;
+    resultResp.jsonData = respData;
     BOOST_FOREACH(boost::property_tree::ptree::value_type &val, obj)
     {
         StockSplitV1 result;

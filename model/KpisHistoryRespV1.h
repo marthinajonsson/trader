@@ -5,15 +5,19 @@
 #ifndef TRADER_KPISHISTORYRESPV1_H
 #define TRADER_KPISHISTORYRESPV1_H
 
+#include <boost/property_tree/ptree.hpp>
 #include "KpiHistoryV1.h"
 
 class KpisHistoryRespV1 {
+private:
+    typedef boost::property_tree::ptree ptree;
 public:
     int kpiId;
     string group;
     string priceValue;
     string reportTime;
     vector<KpiHistoryV1> values;
+    ptree jsonData;
 
     string toString()  {
         std::stringstream ss;

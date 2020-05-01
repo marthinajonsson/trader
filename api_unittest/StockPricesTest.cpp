@@ -4,7 +4,7 @@
 
 
 #include <gtest/gtest.h>
-#include <StockPrices.h>
+#include <StockPricesApi.h>
 
 class StockPricesTest : public ::testing::Test
 {

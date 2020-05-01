@@ -12,6 +12,7 @@ find_package( Boost 1.69 COMPONENTS REQUIRED filesystem)
 find_package(Threads REQUIRED)
 
 include_directories(api)
+include_directories(borsdata)
 include_directories(configuration)
 include_directories(thread_engine)
 include_directories(FA)
@@ -29,6 +30,19 @@ include_directories(external/gtest/googlemock)
 include_directories( ${Boost_INCLUDE_DIR} )
 include_directories( ${Boost_LIB_DIR} )
 include_directories(${JsonStreamer_INCLUDE_DIRS})
+
+set(borsdata ${CMAKE_CURRENT_LIST_DIR}/borsdata/Instruments.h
+        ${CMAKE_CURRENT_LIST_DIR}/borsdata/Instruments.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/borsdata/InstrumentsMeta.h
+        ${CMAKE_CURRENT_LIST_DIR}/borsdata/InstrumentsMeta.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/borsdata/StockPrices.h
+        ${CMAKE_CURRENT_LIST_DIR}/borsdata/StockPrices.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/borsdata/StockSplits.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/borsdata/StockSplits.h
+        ${CMAKE_CURRENT_LIST_DIR}/borsdata/Reports.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/borsdata/Reports.h
+        ${CMAKE_CURRENT_LIST_DIR}/borsdata/Kpis.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/borsdata/Kpis.h)
 
 set(model ${CMAKE_CURRENT_LIST_DIR}/model/BranchesRespV1.h
         ${CMAKE_CURRENT_LIST_DIR}/model/BranchV1.h
@@ -78,7 +92,7 @@ set(api ${CMAKE_CURRENT_LIST_DIR}/api/IBorsdata.h
         ${CMAKE_CURRENT_LIST_DIR}/api_unittest/ReportsApiTest.cpp
         ${CMAKE_CURRENT_LIST_DIR}/api_unittest/StockSplitsTest.cpp
         ${CMAKE_CURRENT_LIST_DIR}/api/StockSplitsApi.h
-        ${CMAKE_CURRENT_LIST_DIR}/api/StockPrices.h
+        ${CMAKE_CURRENT_LIST_DIR}/api/StockPricesApi.h
         ${CMAKE_CURRENT_LIST_DIR}/api/KpisApi.h
         ${CMAKE_CURRENT_LIST_DIR}/api_unittest/StockPricesTest.cpp
         ${CMAKE_CURRENT_LIST_DIR}/api_unittest/KpisApiTest.cpp
@@ -151,7 +165,7 @@ set(main
 enable_testing()
 add_subdirectory(external/gtest/googlemock)
 
-add_executable(trader ${main} ${FA} ${TA} ${thread_engine} ${io} ${ifc} ${utils} ${comm} ${api} ${model} ${configuration})
+add_executable(trader ${main} ${FA} ${TA} ${thread_engine} ${io} ${ifc} ${utils} ${comm} ${api} ${model} ${borsdata} ${configuration})
 
 target_link_libraries(trader ${Boost_LIBRARIES})
 target_link_libraries(trader jsoncpp)
