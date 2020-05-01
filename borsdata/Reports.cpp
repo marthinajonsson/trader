@@ -7,12 +7,12 @@
 #include <JsonWriter.h>
 #include <ReportsApi.h>
 
-std::mutex m_instr;
+std::mutex m_report;
 static Reports *instance;
 
 Reports& Reports::getInstance()
 {
-    std::lock_guard<std::mutex> lock(m_instr);
+    std::lock_guard<std::mutex> lock(m_report);
     if(!instance) {
         instance = new Reports();
     }

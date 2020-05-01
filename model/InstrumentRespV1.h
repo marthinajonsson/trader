@@ -10,11 +10,9 @@
 #include "InstrumentV1.h"
 
 class InstrumentRespV1 {
-private:
-    typedef boost::property_tree::ptree ptree;
 public:
     std::vector<InstrumentV1> instruments;
-    ptree jsonData;
+    boost::property_tree::ptree jsonData;
 
     string toString()  {
         std::stringstream ss;

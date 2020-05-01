@@ -23,19 +23,19 @@ void InstrumentsMeta::run()
 {
     InstrumentsMetaApi api;
     auto branches = api.Branchesv1();
-    auto jsonData = branches.branchesJson;
+    auto jsonData = branches.jsonData;
     IO::JsonWriter::getInstance().addPropertyTree("BORSDATA", "InstrumentsMeta", "Branchesv1", jsonData);
 
     auto markets = api.Marketsv1();
-    jsonData = markets.marketsJson;
+    jsonData = markets.jsonData;
     IO::JsonWriter::getInstance().addPropertyTree("BORSDATA", "InstrumentsMeta", "Marketsv1", jsonData);
 
     auto countries = api.Countriesv1();
-    jsonData = countries.countriesJson;
+    jsonData = countries.jsonData;
     IO::JsonWriter::getInstance().addPropertyTree("BORSDATA", "InstrumentsMeta", "Countriesv1", jsonData);
 
     auto sectors = api.Sectorsv1();
-    jsonData = sectors.sectorJson;
+    jsonData = sectors.jsonData;
     IO::JsonWriter::getInstance().addPropertyTree("BORSDATA", "InstrumentsMeta", "Sectorsv1", jsonData);
 
     notifyObservers(ALGORITHM::INSTRUMENT_META);

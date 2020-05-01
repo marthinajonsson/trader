@@ -21,7 +21,7 @@ BranchesRespV1 InstrumentsMetaApi::Branchesv1 ()
     BOOST_ASSERT(!obj.empty());
 
     BranchesRespV1 resultResp;
-    resultResp.branchesJson = respData;
+    resultResp.jsonData = respData;
     BOOST_FOREACH(boost::property_tree::ptree::value_type &val, obj)
     {
         BranchV1 result;
@@ -48,7 +48,7 @@ CountriesRespV1 InstrumentsMetaApi::Countriesv1 ()
     BOOST_ASSERT(!obj.empty());
 
     CountriesRespV1 resultResp;
-    resultResp.countriesJson = respData;
+    resultResp.jsonData = respData;
     BOOST_FOREACH(boost::property_tree::ptree::value_type &val, obj)
     {
         CountryV1 result;
@@ -74,7 +74,7 @@ MarketsRespV1 InstrumentsMetaApi::Marketsv1 ()
     BOOST_ASSERT(!obj.empty());
 
     MarketsRespV1 resultResp;
-    resultResp.marketsJson = respData;
+    resultResp.jsonData = respData;
     BOOST_FOREACH(boost::property_tree::ptree::value_type &val, obj)
     {
         MarketV1 result;
@@ -103,13 +103,13 @@ SectorsRespV1 InstrumentsMetaApi::Sectorsv1 ()
     BOOST_ASSERT(!obj.empty());
 
     SectorsRespV1 resultResp;
-    resultResp.sectorJson = respData;
+    resultResp.jsonData = respData;
     BOOST_FOREACH(boost::property_tree::ptree::value_type &val, obj)
-                {
-                    SectorV1 result;
-                    result.id = val.second.get<long>("id");
-                    result.name = val.second.get<string>("name");
-                    resultResp.sectors.emplace_back(result);
-                }
+    {
+        SectorV1 result;
+        result.id = val.second.get<long>("id");
+        result.name = val.second.get<string>("name");
+        resultResp.sectors.emplace_back(result);
+    }
     return resultResp;
 }

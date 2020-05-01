@@ -7,16 +7,15 @@
 
 #include <Util.h>
 #include "ReportV1.h"
+#include <boost/property_tree/ptree.hpp>
 
 class ReportsCompoundRespV1 {
-private:
-    typedef boost::property_tree::ptree ptree;
 public:
     long instrument;
     vector<ReportV1> reportsR12;
     vector<ReportV1> reportsQuarter;
     vector<ReportV1> reportsYear;
-    ptree jsonData;
+    boost::property_tree::ptree jsonData;
 
     string toString()  {
         std::stringstream ss;

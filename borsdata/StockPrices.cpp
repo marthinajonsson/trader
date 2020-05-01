@@ -8,12 +8,12 @@
 #include <JsonWriter.h>
 #include "StockPrices.h"
 
-std::mutex m_instr;
+std::mutex m_price;
 static StockPrices *instance;
 
 StockPrices& StockPrices::getInstance()
 {
-    std::lock_guard<std::mutex> lock(m_instr);
+    std::lock_guard<std::mutex> lock(m_price);
     if(!instance) {
         instance = new StockPrices();
     }

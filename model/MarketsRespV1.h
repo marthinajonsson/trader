@@ -10,10 +10,8 @@
 #include "MarketV1.h"
 
 class MarketsRespV1 {
-private:
-    typedef boost::property_tree::ptree ptree;
 public:
-    ptree marketsJson;
+    boost::property_tree::ptree jsonData;
     std::vector<MarketV1> markets;
 
     string toString()  {

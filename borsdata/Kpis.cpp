@@ -7,12 +7,12 @@
 #include <KpisApi.h>
 #include <JsonWriter.h>
 
-std::mutex m_instr;
+std::mutex m_kpi;
 static Kpis *instance;
 
 Kpis& Kpis::getInstance()
 {
-    std::lock_guard<std::mutex> lock(m_instr);
+    std::lock_guard<std::mutex> lock(m_kpi);
     if(!instance) {
         instance = new Kpis();
     }

@@ -9,11 +9,9 @@
 #include "SectorV1.h"
 
 class SectorsRespV1 {
-private:
-    typedef boost::property_tree::ptree ptree;
 public:
-    ptree sectorJson;
     std::vector<SectorV1> sectors;
+    boost::property_tree::ptree jsonData;
 
     string toString()  {
         std::stringstream ss;

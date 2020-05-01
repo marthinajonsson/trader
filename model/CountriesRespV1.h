@@ -10,10 +10,8 @@
 #include "CountryV1.h"
 
 class CountriesRespV1 {
-private:
-    typedef boost::property_tree::ptree ptree;
 public:
-    ptree countriesJson;
+    boost::property_tree::ptree jsonData;
     std::vector<CountryV1> countries;
 
     string toString()  {

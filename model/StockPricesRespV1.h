@@ -8,12 +8,10 @@
 #include "StockPriceV1.h"
 
 class StockPricesRespV1 {
-private:
-    typedef boost::property_tree::ptree ptree;
 public:
     long instrument;
     vector<StockPriceV1> stockPricesList;
-    ptree jsonData;
+    boost::property_tree::ptree jsonData;
 
     string toString()  {
         std::stringstream ss;

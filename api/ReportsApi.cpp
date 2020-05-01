@@ -30,6 +30,7 @@ ReportsCompoundRespV1 ReportsApi::Reportscompoundv1 (int id, string version)
     Client::sendRequest(respData, url);
 
     ReportsCompoundRespV1 resultResp;
+    resultResp.jsonData = respData;
     resultResp.instrument = respData.get<int>("instrument");
     auto obj = respData.get_child("reportsYear");
     BOOST_ASSERT(!obj.empty());
@@ -174,6 +175,7 @@ ReportsRespV1 ReportsApi::Reportsv1 (int id, string reporttype)
     Client::sendRequest(respData, url);
 
     ReportsRespV1 resultResp;
+    resultResp.jsonData = respData;
     resultResp.instrument = respData.get<long>("instrument");
     auto obj = respData.get_child("reports");
     BOOST_ASSERT(!obj.empty());

@@ -7,12 +7,12 @@
 #include <StockSplitsApi.h>
 #include <JsonWriter.h>
 
-std::mutex m_instr;
+std::mutex m_split;
 static StockSplits *instance;
 
 StockSplits& StockSplits::getInstance()
 {
-    std::lock_guard<std::mutex> lock(m_instr);
+    std::lock_guard<std::mutex> lock(m_split);
     if(!instance) {
         instance = new StockSplits();
     }
