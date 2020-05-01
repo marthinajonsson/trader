@@ -8,13 +8,12 @@
 #include <StockSplitRespV1.h>
 
 class IStockSplitsApi {
-public:
+protected:
     /// <summary>
     /// Returns Stock Splits for all Instruments. Max 1 Year Returns Stock Splits for all Instruments. Max 1 Year
     /// </summary>
-    /// <param name="authKey">API Authentication Key</param>
     /// <returns>StockSplitRespV1</returns>
-    virtual StockSplitRespV1 StockSplitsv1 (string authKey) = 0;
+    virtual StockSplitRespV1 StockSplitsv1 () = 0;
 };
 
 #endif //TRADER_ISTOCKSPLITSAPI_H

@@ -70,7 +70,19 @@ set(api ${CMAKE_CURRENT_LIST_DIR}/api/IBorsdata.h
         ${CMAKE_CURRENT_LIST_DIR}/api/IStockPricesApi.h
         ${CMAKE_CURRENT_LIST_DIR}/api/StockPricesApi.cpp
         ${CMAKE_CURRENT_LIST_DIR}/api/IStockSplitsApi.h
-        ${CMAKE_CURRENT_LIST_DIR}/api/StockSplitsApi.cpp)
+        ${CMAKE_CURRENT_LIST_DIR}/api/StockSplitsApi.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/api_unittest/InstrumentsApiTest.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/api/InstrumentsMetaApi.h
+        ${CMAKE_CURRENT_LIST_DIR}/api/InstrumentsApi.h
+        ${CMAKE_CURRENT_LIST_DIR}/api/ReportsApi.h
+        ${CMAKE_CURRENT_LIST_DIR}/api_unittest/ReportsApiTest.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/api_unittest/StockSplitsTest.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/api/StockSplitsApi.h
+        ${CMAKE_CURRENT_LIST_DIR}/api/StockPrices.h
+        ${CMAKE_CURRENT_LIST_DIR}/api/KpisApi.h
+        ${CMAKE_CURRENT_LIST_DIR}/api_unittest/StockPricesTest.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/api_unittest/KpisApiTest.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/api_unittest/InstrumentsMetaApiTest.cpp)
 
 set(utils
         ${CMAKE_CURRENT_LIST_DIR}/utils/Util.h

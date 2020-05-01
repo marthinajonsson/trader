@@ -2,31 +2,39 @@
 // Created by mjonsson on 5/1/20.
 //
 
-#ifndef TRADER_IREPORTSAPI_H
-#define TRADER_IREPORTSAPI_H
+#ifndef TRADER_REPORTSAPI_H
+#define TRADER_REPORTSAPI_H
 
 
-#include <ReportsCompoundRespV1.h>
-#include <ReportsRespV1.h>
+#include <Util.h>
+#include "IReportsApi.h"
+#include "IBorsdata.h"
 
-class IReportsApi {
-protected:
+class ReportsApi : IReportsApi, IBorsdata {
+private:
+    bool replace(string &str, const string &from, const string &to) {
+        size_t start_pos = str.find(from);
+        if (start_pos == string::npos)
+            return false;
+        str.replace(start_pos, from.length(), to);
+        return true;
+    }
 
+public:
     /// <summary>
     /// Returns Reports for Instrument. Max 10 reports. All Reports Type included (year, r12, quarter). Returns Reports for Instrument
     /// </summary>
     /// <param name="id">Instrument Id</param>
     /// <param name="version">The requested API version</param>
     /// <returns>ReportsCompoundRespV1</returns>
-    virtual ReportsCompoundRespV1 Reportscompoundv1 (int id, string version) = 0;
+    ReportsCompoundRespV1 Reportscompoundv1 (int id, string version) override;
+
     /// <summary>
     /// Returns Reports for Instrument. Max 10 reports. Report Type (year, r12, quarter). Returns Reports for Instrument
     /// </summary>
     /// <param name="id">Instrument Id</param>
     /// <param name="reporttype">Report Type (year, r12, quarter)</param>
     /// <returns>ReportsRespV1</returns>
-    virtual ReportsRespV1 Reportsv1 (int id, string reporttype) = 0;
+    ReportsRespV1 Reportsv1 (int id, string reporttype) override;
 };
-
-
-#endif //TRADER_IREPORTSAPI_H
+#endif //TRADER_REPORTSAPI_H

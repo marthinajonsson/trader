@@ -1,37 +1,39 @@
 //
-// Created by mjonsson on 4/30/20.
+// Created by mjonsson on 5/1/20.
 //
 
-#ifndef TRADER_IINSTRUMENTSMETAAPI_H
-#define TRADER_IINSTRUMENTSMETAAPI_H
+#ifndef TRADER_INSTRUMENTSMETAAPI_H
+#define TRADER_INSTRUMENTSMETAAPI_H
 
-#include <MarketsRespV1.h>
-#include <CountriesRespV1.h>
-#include <BranchesRespV1.h>
-#include <SectorsRespV1.h>
+#include "IInstrumentsMetaApi.h"
+#include "IBorsdata.h"
 
-class IInstrumentsMetaApi {
-protected:
+class InstrumentsMetaApi : IInstrumentsMetaApi, IBorsdata {
+public:
+
     /// <summary>
     /// Returns all Branches Returns all Branches
     /// </summary>
     /// <returns>BranchesRespV1</returns>
-    virtual BranchesRespV1 Branchesv1 () = 0;
+    BranchesRespV1 Branchesv1 () override;
+
     /// <summary>
     /// Returns all Countries Returns all Countries
     /// </summary>
     /// <returns>CountriesRespV1</returns>
-    virtual CountriesRespV1 Countriesv1 () = 0;
+    CountriesRespV1 Countriesv1 () override;
+
     /// <summary>
     /// Returns all Markets Returns all Markets
     /// </summary>
     /// <returns>MarketsRespV1</returns>
-    virtual MarketsRespV1 Marketsv1 () = 0;
+    MarketsRespV1 Marketsv1 () override;
+
     /// <summary>
     /// Returns all Sectors Returns all Sectors
     /// </summary>
     /// <returns>SectorsRespV1</returns>
-    virtual SectorsRespV1 Sectorsv1 () = 0;
+    SectorsRespV1 Sectorsv1 () override;
 };
 
-#endif //TRADER_IINSTRUMENTSMETAAPI_H
+#endif //TRADER_INSTRUMENTSMETAAPI_H

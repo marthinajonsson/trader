@@ -11,7 +11,7 @@
 #include <ApiConfiguration.h>
 
 class IBorsdata {
-public:
+protected:
     typedef boost::property_tree::ptree ptree;
 
     void addToken(string &url) {

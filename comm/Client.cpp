@@ -3,6 +3,7 @@
 //
 
 #include "Client.h"
+#include "Exceptions.h"
 
 Client* Client::_instance = nullptr;
 std::mutex Client::_mx;
@@ -34,6 +35,8 @@ void Client::sendRequest(boost::property_tree::ptree &respData, string &url)
 
     if (httpCode != HTML_OK) {
         std::cerr << "HTTP response code: " << httpCode << std::endl;
+        buffer = "";
+        throw ConnectionExceptions(httpCode, curl_easy_strerror((CURLcode)httpCode));
     }
 
     std::stringstream response(buffer);

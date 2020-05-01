@@ -10,20 +10,18 @@
 #include <InstrumentUpdatedRespV1.h>
 
 class IInstrumentsApi {
-public:
+protected:
     /// <summary>
     /// Returns all Updated Instruments Returns all Updated Instruments
     /// </summary>
-    /// <param name="authKey">API Authentication Key</param>
     /// <returns>InstrumentUpdatedRespV1</returns>
-    virtual InstrumentUpdatedRespV1 Instrumentsupdatedv1 (string authKey) = 0;
+    virtual InstrumentUpdatedRespV1 Instrumentsupdatedv1 () = 0;
 
     /// <summary>
     /// Returns all Instruments Returns all Instruments
     /// </summary>
-    /// <param name="authKey">API Authentication Key</param>
     /// <returns>InstrumentRespV1</returns>
-    virtual InstrumentRespV1 Instrumentsv1 (string authKey) = 0;
+    virtual InstrumentRespV1 Instrumentsv1 () = 0;
 };
 
 #endif //TRADER_IINSTRUMENTSAPI_H
