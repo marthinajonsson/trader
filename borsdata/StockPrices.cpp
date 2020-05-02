@@ -26,10 +26,16 @@ void StockPrices::run()
     auto result = api.Stockpricesv1(1, "X", "Y");
     auto jsonData = result.jsonData;
     IO::JsonWriter::getInstance().addPropertyTree("BORSDATA", "StockPrices", "Stockpricesv1", jsonData);
+    save(result.stockPricesList, "Stockpricesv1.csv");
+    result.stockPricesList.clear();
+    result.jsonData.clear();
 
     auto result2 = api.Stockpriceslastv1("1");
     jsonData = result2.jsonData;
     IO::JsonWriter::getInstance().addPropertyTree("BORSDATA", "StockPrices", "Stockpriceslastv1", jsonData);
+    save(result.stockPricesList, "Stockpriceslastv1.csv");
+    result.stockPricesList.clear();
+    result.jsonData.clear();
 
     notifyObservers(ALGORITHM::STOCKPRICES);
 }

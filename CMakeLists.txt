@@ -12,6 +12,7 @@ find_package( Boost 1.69 COMPONENTS REQUIRED filesystem)
 find_package(Threads REQUIRED)
 
 include_directories(api)
+include_directories(analysis)
 include_directories(borsdata)
 include_directories(configuration)
 include_directories(thread_engine)
@@ -30,6 +31,23 @@ include_directories(external/gtest/googlemock)
 include_directories( ${Boost_INCLUDE_DIR} )
 include_directories( ${Boost_LIB_DIR} )
 include_directories(${JsonStreamer_INCLUDE_DIRS})
+
+set(analysis ${CMAKE_CURRENT_LIST_DIR}/analysis/ADXAnalyzer.h
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/ADXAnalyzer.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/SMAAnalyzer.h
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/SMAAnalyzer.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/InstrumentMetaAnalyzer.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/InstrumentMetaAnalyzer.h
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/InstrumentAnalyzer.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/InstrumentAnalyzer.h
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/ReportAnalyzer.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/ReportAnalyzer.h
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/KpisAnalyzer.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/KpisAnalyzer.h
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/StockPriceAnalyzer.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/StockPriceAnalyzer.h
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/StockSplitAnalyzer.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/analysis/StockSplitAnalyzer.h)
 
 set(borsdata ${CMAKE_CURRENT_LIST_DIR}/borsdata/Instruments.h
         ${CMAKE_CURRENT_LIST_DIR}/borsdata/Instruments.cpp
@@ -134,7 +152,7 @@ set(comm
         ${CMAKE_CURRENT_LIST_DIR}/comm/Client.cpp
         )
 
-set(TA
+set(algo
         ${CMAKE_CURRENT_LIST_DIR}/TA/SMA.h
         ${CMAKE_CURRENT_LIST_DIR}/TA/SMA.cpp
         ${CMAKE_CURRENT_LIST_DIR}/TA/ADX.h
@@ -146,14 +164,8 @@ set(TA
         ${CMAKE_CURRENT_LIST_DIR}/TA/ProcessHandler.h
         ${CMAKE_CURRENT_LIST_DIR}/TA/ProcessHandler.cpp
         ${CMAKE_CURRENT_LIST_DIR}/TA/Algorithm.h
-        ${CMAKE_CURRENT_LIST_DIR}/TA/ADXAnalyzer.h
-        ${CMAKE_CURRENT_LIST_DIR}/TA/ADXAnalyzer.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/TA/SMAAnalyzer.h
-        ${CMAKE_CURRENT_LIST_DIR}/TA/SMAAnalyzer.cpp )
-
-set(FA ${CMAKE_CURRENT_LIST_DIR}/FA/PE.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/FA/PE.h
-        )
+        ${CMAKE_CURRENT_LIST_DIR}/FA/PE.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/FA/PE.h)
 
 set(main
         ${CMAKE_CURRENT_LIST_DIR}/InputParser.h
@@ -165,7 +177,7 @@ set(main
 enable_testing()
 add_subdirectory(external/gtest/googlemock)
 
-add_executable(trader ${main} ${FA} ${TA} ${thread_engine} ${io} ${ifc} ${utils} ${comm} ${api} ${model} ${borsdata} ${configuration})
+add_executable(trader ${main} ${algo} ${thread_engine} ${io} ${ifc} ${utils} ${comm} ${api} ${model} ${borsdata} ${configuration} ${analysis})
 
 target_link_libraries(trader ${Boost_LIBRARIES})
 target_link_libraries(trader jsoncpp)

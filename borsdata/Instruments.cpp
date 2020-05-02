@@ -26,10 +26,16 @@ void Instruments::run()
     auto result = api.Instrumentsv1();
     auto jsonData = result.jsonData;
     IO::JsonWriter::getInstance().addPropertyTree("BORSDATA", "Instruments", "Instrumentsv1", jsonData);
+    save(result.instruments, "Instrumentsv1.csv");
+    result.instruments.clear();
+    result.jsonData.clear();
 
     auto result2 = api.Instrumentsupdatedv1();
     jsonData = result2.jsonData;
     IO::JsonWriter::getInstance().addPropertyTree("BORSDATA", "Instruments", "Instrumentsupdatedv1", jsonData);
+    save(result.instruments, "Instrumentsupdatedv1.csv");
+    result.instruments.clear();
+    result.jsonData.clear();
 
     notifyObservers(ALGORITHM::INSTRUMENT);
 }

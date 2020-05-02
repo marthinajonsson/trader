@@ -10,8 +10,11 @@
 
 void ProcessHandler::update(string event, Subject *subject) {
     std::cout << "Registered " << event << std::endl;
-
-    if (event == ALGORITHM::ADX) {
+    if (event == ALGORITHM::INSTRUMENT) {
+        ADXAnalyzer analyzer;
+        analyzer.process();
+    }
+    else if (event == ALGORITHM::ADX) {
         ADXAnalyzer analyzer;
         analyzer.process();
     }

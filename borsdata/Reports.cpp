@@ -25,10 +25,16 @@ void Reports::run()
     auto result = api.Reportsv1(1, "json");
     auto jsonData = result.jsonData;
     IO::JsonWriter::getInstance().addPropertyTree("BORSDATA", "Reports", "Reportsv1", jsonData);
+    save(result.reports, "Reportsv1.csv");
+    result.reports.clear();
+    result.jsonData.clear();
 
     auto result2 = api.Reportscompoundv1(1, "1");
     jsonData = result2.jsonData;
     IO::JsonWriter::getInstance().addPropertyTree("BORSDATA", "Reports", "Reportscompoundv1", jsonData);
+    save(result.reports, "Reportscompoundv1.csv");
+    result.reports.clear();
+    result.jsonData.clear();
 
     notifyObservers(ALGORITHM::REPORTS);
 }

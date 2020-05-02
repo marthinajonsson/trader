@@ -2,7 +2,7 @@
 // Created by mjonsson on 5/1/20.
 //
 
-#ifndef TRADER_STOCKSPLITS_H
+#ifndef TRADER_STOCKSPLITANALYZER_H
 #define TRADER_STOCKSPLITS_H
 
 
@@ -21,4 +21,4 @@ public:
 };
 
 
-#endif //TRADER_STOCKSPLITS_H
+#endif //TRADER_STOCKSPLITANALYZER_H

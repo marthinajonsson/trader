@@ -24,7 +24,10 @@ void StockSplits::run()
     StockSplitsApi api;
     auto result = api.StockSplitsv1();
     auto jsonData = result.jsonData;
-    IO::JsonWriter::getInstance().addPropertyTree("BORSDATA", "StockSplits", "StockSplitsv1", jsonData);
+    IO::JsonWriter::getInstance().addPropertyTree("BORSDATA", "StockSplitAnalyzer", "StockSplitsv1", jsonData);
+    save(result.stockSplitList, "StockSplitsv1.csv");
+    result.stockSplitList.clear();
+    result.jsonData.clear();
 
     notifyObservers(ALGORITHM::STOCKSPLITS);
 }
