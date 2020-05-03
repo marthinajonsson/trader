@@ -7,6 +7,10 @@
 
 #include <Util.h>
 #include <sstream>
+#include "BranchV1.h"
+#include "SectorV1.h"
+#include "CountryV1.h"
+#include "MarketV1.h"
 
 class InstrumentV1 {
 public:
@@ -16,11 +20,17 @@ public:
     int instrument;
     string isin;
     string ticker;
+    string yahoo;
     long sectorId;
     long marketId;
     long branchId;
     long countryId;
     string date;
+
+    SectorV1 SectorModel;
+    MarketV1 MarketModel;
+    CountryV1 CountryModel;
+    BranchV1 BranchModel;
 
     string toString()  {
         std::stringstream ss;

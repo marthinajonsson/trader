@@ -6,8 +6,8 @@
 void process()
 {
     ActiveAlgorithm active;
-    active.registerWork("Instruments");
     active.registerWork("InstrumentsMeta");
+    active.registerWork("Instruments");
     active.run();
     active.endWork();
 }
